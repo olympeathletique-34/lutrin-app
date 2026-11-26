@@ -1,0 +1,3648 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0D6A58"><link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKmElEQVR4nO2d+3NV1RXH/QeWU+rUadVOWzvttHU6rZ06fdhOX1N/6A902o7tBpQKFaq8BAKkiFyQtwFEqbxEBMSCPIzhVR4FA+IIlAmPwmBQKCDPDG+CCSSQ1VlnJk6wuUnuzT1373v47JnvT8ndZ+/v+qx119nnBG6TXk4RHkhCPLjN9wIQHghAAwGFwFGhgcAl3gNajgCCgBxAAwGJIFRoIJCEe0DLEUAQkANoICARhAoNBJJwD2g5AggCcgANBCSCUKGBQBLuAS1HAEFADqCBgEQQKjQQSMI9oOUIIAjIATQQkAhChQYCSbgHtBwBBAE5gAYCEkGo0EAgCfeAliOAICAH0EBAIggVGggk4R7QcgQQBOQAGghIBKFCA4Ek3ANajgCCgBxAAwGJIFRoIJCEe0DLEUAQkANoICARhAoNBJJwD2g5AggCcgANBCSCUKGBQBLuAS1HAEFADqCBgEQQKjQQSMI9oOUIIAjIATQQkAhChQYCSbgHtBwBBAE5gAYCEkGo0EAgCfeAliOAICAH0EBAIggVGggk4R7QcgQQBOQAGghIBKFCA4Ek3ANajgCCgBxAAwGJILdKhb63uKc+NudFLV46X6esX6ELt23W9ft26a6j/4104PQJPXym6hPt/uiwllfu1bd2btO5727U59aU6hOvzdCflwzTu4u6e99Po2wtvyh5Rp9cMFNL1pRGa7U1b6rcF+3hcJM92R4b92t7/8fWzfr8uuWRJ+aNeeR7P3EocUD3Wzhba+vqNJfj5MXzumH/bn12+Rv6q4nDtUOfLrHvw65h17Jrbty/R09dvJDTPdXW1UVe+Y4XQLdgglXUGw0NGveorq3Rdft2adHiV/VLgx/PWVC+PKSHFi2eG1XUK1drY9/HjYaGyDPfEOZSiarQM8vXar7Htfp6Xbl7h3aaNUnv6PdIxmu2z3SeNVlX7dkRzZXvMbN8rfe4AXQaE0ortqrPcbb6so5asVi/MLBbq0G6a2A3Hb1icfQZn6O0Yqt3CAE6UKAbx/kr1Tpu9TK9p5kbys8PeEyHLJ2vVZcvagijFKD9Z2HoQDeOc1eqdcCiOXp7706RBr4xJ4I9pFEK0IUJ9Ird/9Zur07Vh6eXaMepY29S11deiO74R5Qt0qkbVunyXdu18tRxrbt+PSfQ2LGaKRfD+uz3Tx7Tsp3b9cV/rYzWbGt/dPaU/9uX7dX2bHtPNwC6QIFOlS3M6ujs/pEDtMe8afrae+V65GyV5nvYmbJd+/F5L0VryebIMFW2MO38AH0LAd2c7hveVwctmas7jx6KCWHViiMHo+O7bz3TJydrTgG0fzhDBbqpHhg9KHr6Zr1ye4eddkxeV6bfH1WU83WmANo/nIUAdKPsmM6e6GUDtoFsfbCdfsS1vhRA+4ezkIBuCva4VUv1an1dmx49j1m5JFaQBaD9Q1nIQDdtRaoupT9nPlN9WX88tjhv60lRof3DWchAm2a08BjefpbPtaQA2j+chQ709Lf/mXYt9jOAdrF4kKiXkwDaNesLFToAOAE6d76kaDn8wwnQAC1ZeEDLEVNy0UM7L0UNoAFafX+zAnQaE7gpdM36Qg9doAJoB9C+IQTo+H1JccrhH04qNEBLFh5QoWNKLk45nJeiBtAArb6/WQE6jQncFLpmfaGHLlABtANo3xACdPy+pDjl8A8nFRqgJQsPqNAxJRenHM5LUQNogFbf36wAncYEbgpds77QQxeoANoBtG8IATp+X1KccviHkwoN0JKFB1TomJKLUw7npagBNECr729WgE5jAjeFrllf6KELVADtANo3hAAdvy8pTjn8w0mFBmjJwgMqdEzJxSmH81LUABqg1fc3K0CnMYGbQtesL/TQBSqAdgDtG0KAjt+XFKcc/uGkQgO0ZOEBFTqm5OKUw3kpagAN0Or7mxWg05jATaFr1hd66AIVQDuAvpWAvruou35x0F8ifX3ok/rtVL/o/+6+a2C3gu+hbQ/3De8b7cn21rhP2zMVOoFAtzau37gR/TfFH1ad1G2HDujrWzdFILiZk/S7I/trhz5dvAFt175/5IBoLbYmW5ut0dZqa7a1ZztKK+ihEwl0a6Pm2lXdeqgy+s/qO04dq3f0eyQ2oD/Tp7P+dMLQCN41eyv0cm1NbPsqBehbE+hPj+raGn1r5zb944wS/WzfLu0G2ub408yJ0Zw2d75GKUD7BzcEoJuOM9WXdEb5Gv3J+KEZA22fsc/aHD5GKUCHqzlbNqjv8fb7/9FfTxrRKtAPTR6h5ZV71feYs2WD97jlUok65bDeNpRx7PyZrH6W79Fx6ljvcQPoFkyYtLZMGxoafHMS/GhoaIi88g0gQLfBhAfHFevTby7QoW8u0B7zpulv/z5OfzhmsH61+K/R2eyd/f9805HYV4b01O89O1B/OXG4/mHaBB28ZJ7Ofme9bj6wT09fuqChjFMXL+imyn3R2ooWz9XfT5sQrdmO9GwPHZocLdoeba+2Z9u7eWBemCfmjXnkGz6A9mTSN4f11p7zp0fnvx+dy1+7cORslS54rzwC8RtP9/IOixSAEtVD50sPjB6k41YviwVuq8J26vHg+L9536cUoAC6HebZAxD72t+4f0+7Qd6wf7f+7qXx0Zy+oZACFkDnyMiHJo/UD06fyBhk+4wd8/kGQRIigM6BiT8YM1h3HP4w6+q859iRmx7KIAfQPiCwx9X2vsW1+npt76i/cT16T+RzTz0K0L0AOu8Q2JO+A1m0GK0Nm9Pmpko7Wo58QGDvHb+8eb3eyODhjb3emckrnja3XSOO97Ql4aKHzsAse+hyLMOjur3Hj+rPnhumPxo7RCuOHMz4CK/Ly897h0QKSADdBpPuLe6pi7a/kxGMNXXXorPqpu9N25O8IUvn68fXrmY0l70TbX+F4hsWKQABdCsGdX3lBT13pTojAO2R+XdG9E87p/3MfieTYWuwtfgGRgIXQLdgjj3oyKRXvljzsfZ5fZbe3rtTq8bb79jv2mfaOmwttibf0EjAAugWzNnywf42w7Z813b92tAnMg6AfcY+29Zha/INjQQsgG7BnBMXzrXpxq3zrMntDoTNYXO1NmxNvqGRgAXQLZjTUp9r7xPPfXej3lPUPWfBsLlszpbe57Y1+YZGAhZAt2CO/TVHc+fHB6tO6W+mjIotKDa3XePTw9aStL8wEYDOr0EPTy/RylPHPzlpGL96md75VNfYr2vXsGs1nrDYGmwtvoGRwEWFbqNRrf07HEm9thSYADqAICAH0EBAIggVGggk4R7QcgQQBOQAGghIBKFCA4Ek3ANajgCCgBxAAwGJIFRoIJCEe0DLEUAQkANoICARhAoNBJJwD2g5AggCcgANBCSCUKGBQBLuAS1HAEFADqCBgEQQKjQQSMI9oOUIIAjIATQQkAhChQYCSbgHtBwBBAE5gAYCEkGo0EAgCfeAliOAICAH0EBAIggVGggk4R7QcgQQBOQAGghIBKFCA4Ek3ANajgCCgBxAAwGJIFRoIJCEe0DLEUAQkANoICARhAoNBJJwD2g5AggCcgANBCSCUKGBQBLuAS1HAEFADqCBgEQQKjQQSMI9oOUIIAjIATQQkAhChQYCSbgHtBwBBAG5nHnwPz58pnIt1wcxAAAAAElFTkSuQmCC"><link rel="icon" href="icons/icon.svg" type="image/svg+xml"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<title>Lutrin</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Concept: a reading-room shelf. Book covers carry the page, the interface stays quiet.
+   The reader is a neutral stage where white pages float. */
+:root{
+  --bg:#F1F3F0; --surface:#FFFFFF; --surface-2:#E6EAE6; --ink:#16201C; --muted:#5B6862; --line:#D3DAD5;
+  --accent:#0D6A58; --accent-ink:#FFFFFF; --accent-soft:#D5ECE5; --danger:#B3261E;
+  --stage:#CDD3CE; --scrim:rgba(10,15,13,.5);
+  --wood-1:#5A3C28; --wood-2:#7B5236; --wood-3:#A27549; --back:#241B15; --cap-ink:#F6EBDD; --cap-muted:#D4BFA4;
+  --shadow:0 1px 2px rgba(22,32,28,.10),0 8px 24px rgba(22,32,28,.10);
+  --hl-yellow:#FFE45E; --hl-green:#8FE5A4; --hl-blue:#8FC8FF; --hl-pink:#FFA6C6;
+  --font-display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --font-body:"Instrument Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1412; --surface:#17201D; --surface-2:#222D29; --ink:#E6EEEA; --muted:#93A39B; --line:#2B3833;
+    --accent:#4CC2A6; --accent-ink:#05211B; --accent-soft:#1B3A33; --danger:#FF8F86;
+    --stage:#0A0F0D; --scrim:rgba(0,0,0,.6);
+  --wood-1:#46301F; --wood-2:#62412B; --wood-3:#855B38; --back:#17110D; --cap-ink:#F1E4D2; --cap-muted:#C9B397;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.4);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1412; --surface:#17201D; --surface-2:#222D29; --ink:#E6EEEA; --muted:#93A39B; --line:#2B3833;
+  --accent:#4CC2A6; --accent-ink:#05211B; --accent-soft:#1B3A33; --danger:#FF8F86;
+  --stage:#0A0F0D; --scrim:rgba(0,0,0,.6);
+  --wood-1:#46301F; --wood-2:#62412B; --wood-3:#855B38; --back:#17110D; --cap-ink:#F1E4D2; --cap-muted:#C9B397;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.4);
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:15px/1.45 var(--font-body);-webkit-text-size-adjust:100%}
+body.noscroll{overflow:hidden}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3,p{margin:0}
+.ic{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.sprite{position:absolute;width:0;height:0;overflow:hidden}
+
+/* shared controls */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);font-weight:600;font-size:14px;line-height:1.2}
+.btn:hover{background:var(--surface-2)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn.danger{color:var(--danger)}
+.btn.sm{padding:6px 10px;font-size:13px}
+.ibtn{width:40px;height:40px;border-radius:10px;border:0;background:transparent;display:inline-grid;place-items:center;flex:none}
+.ibtn:hover{background:var(--surface-2)}
+.ibtn.sm{width:34px;height:34px}
+.inp{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface)}
+textarea.inp{resize:vertical;min-height:96px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-block:4px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips.wrap{flex-wrap:wrap;overflow:visible}
+.chip{flex:none;border:1px solid var(--line);background:var(--surface);padding:7px 13px;border-radius:999px;font-weight:500;font-size:13.5px}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.chip small{opacity:.7;margin-left:6px;font-size:12px;font-variant-numeric:tabular-nums}
+.chip.ghost{border-style:dashed;background:transparent;color:var(--muted)}
+
+/* library */
+.wrap{max-width:1100px;margin-inline:auto;padding-inline:16px}
+.lib-top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:14px 8px}
+.bar{display:flex;align-items:center;gap:8px}
+.brand{flex:1;min-width:0}
+.brand h1{font:700 28px/1 var(--font-display);letter-spacing:-.02em}
+.brand p{color:var(--muted);font-size:13px;margin-top:4px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.search{position:relative;flex:1 1 200px;min-width:0}
+.search .ic{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--muted);width:19px;height:19px}
+.search .inp{padding-left:38px}
+.tools select.inp{flex:0 1 auto;width:auto;max-width:100%}
+.catbar{display:flex;align-items:center;gap:6px;margin-top:8px}
+.catbar .chips{flex:1;min-width:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(136px,1fr));gap:24px 16px;padding-block:14px 96px}
+.card{position:relative;min-width:0}
+.cover{position:relative;display:block;width:100%;aspect-ratio:3/4;padding:0;border:0;border-radius:3px 8px 8px 3px;overflow:hidden;background:var(--surface-2);box-shadow:var(--shadow)}
+.cover img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.cover::after{content:"";position:absolute;inset:0 auto 0 0;width:7%;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,.30),rgba(0,0,0,.06) 55%,rgba(255,255,255,.20) 78%,transparent)}
+.cover .ph{display:grid;place-items:center;width:100%;height:100%;font:700 44px var(--font-display);color:rgba(255,255,255,.9)}
+.prog{position:absolute;left:0;right:0;bottom:0;height:5px;background:rgba(0,0,0,.28)}
+.prog i{display:block;height:100%;background:var(--accent)}
+.more{position:absolute;top:6px;right:6px;width:32px;height:32px;border-radius:50%;border:0;background:rgba(255,255,255,.88);color:#16201C;display:grid;place-items:center;box-shadow:0 1px 4px rgba(0,0,0,.25)}
+.more .ic{width:18px;height:18px}
+.ctitle{margin-top:10px;font-weight:600;font-size:14px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.cmeta{margin-top:2px;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.empty{margin-top:22px;border:1.5px dashed var(--line);border-radius:16px;padding:34px 20px;text-align:center;display:grid;gap:14px;justify-items:center}
+.empty h2{font:700 22px/1.2 var(--font-display);text-wrap:balance}
+.empty p{color:var(--muted);max-width:44ch}
+.empty ul{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.empty li{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px}
+.note-banner{margin-top:10px;background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-size:13px}
+
+/* sheets, toast, drop */
+.sheet{position:fixed;inset:0;z-index:80;display:flex;align-items:flex-end;justify-content:center;background:var(--scrim)}
+.sheet-card{width:min(560px,100%);max-height:90%;overflow:auto;background:var(--surface);border-radius:18px 18px 0 0;padding:16px 16px calc(18px + env(safe-area-inset-bottom,0px));box-shadow:var(--shadow)}
+.sheet-head{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.sheet-head h2{flex:1;font:700 19px/1.2 var(--font-display);min-width:0;overflow-wrap:anywhere}
+@media (min-width:700px){.sheet{align-items:center}.sheet-card{border-radius:18px}}
+.form{display:grid;gap:14px}
+.lbl{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;display:block}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.row .inp{flex:1 1 140px;min-width:0}
+.quote{margin:0;padding:10px 12px;border-left:3px solid var(--accent);background:var(--surface-2);border-radius:0 8px 8px 0;font-size:14px;max-height:9em;overflow:auto;overflow-wrap:anywhere}
+.fine{font-size:13px;color:var(--muted)}
+.ghsec{border-top:1px solid var(--line);padding-top:14px;margin-top:6px}
+.ghname{flex:1;min-width:0;font-size:14px;overflow-wrap:anywhere}
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;margin:6px 0 0;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);font-size:13px}
+.facts dt{color:var(--muted)}
+.facts dd{margin:0;overflow-wrap:anywhere;user-select:text;-webkit-user-select:text}
+@media (max-width:420px){.facts{grid-template-columns:1fr;gap:0}.facts dd{margin-bottom:8px}}
+.catrow{display:flex;gap:8px;align-items:center}
+.catrow .inp{flex:1;min-width:0}
+.swrow{display:flex;gap:10px}
+.swb{width:34px;height:34px;border-radius:50%;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--line);padding:0;-webkit-user-select:none;user-select:none}
+.swb[aria-pressed="true"]{box-shadow:0 0 0 2px var(--ink)}
+[data-c="yellow"]{--c:var(--hl-yellow)} [data-c="green"]{--c:var(--hl-green)} [data-c="blue"]{--c:var(--hl-blue)} [data-c="pink"]{--c:var(--hl-pink)} [data-c="pin"]{--c:var(--accent)}
+.swb,.sw{background:var(--c)}
+#toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:95;background:var(--ink);color:var(--bg);padding:11px 16px;border-radius:12px;font-size:14px;max-width:calc(100% - 32px);box-shadow:var(--shadow);overflow-wrap:anywhere}
+#drop{position:fixed;inset:0;z-index:90;display:grid;place-items:center;background:var(--scrim);color:#fff;font:700 24px var(--font-display);text-align:center;padding:24px}
+#drop div{border:3px dashed #fff;border-radius:20px;padding:40px 28px}
+
+/* reader */
+.reader{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;background:var(--stage)}
+.rbar,.rfoot{flex:none;display:flex;align-items:center;gap:4px;padding-inline:10px;background:var(--surface)}
+.rbar{padding-top:env(safe-area-inset-top,0px);min-height:calc(54px + env(safe-area-inset-top,0px));border-bottom:1px solid var(--line)}
+.rtitle{flex:1;min-width:0;font:600 15px/1.2 var(--font-body);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-inline:4px}
+.rfoot{padding-bottom:env(safe-area-inset-bottom,0px);min-height:calc(56px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);justify-content:space-between}
+.grp{display:flex;align-items:center;gap:2px}
+.pgin{width:54px;text-align:center;padding:7px 4px;border-radius:8px;border:1px solid var(--line);background:var(--bg);font-variant-numeric:tabular-nums;font-weight:600}
+.pgtot{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:3.2em;padding-left:4px}
+.zlab{min-width:58px;height:40px;border:0;background:transparent;border-radius:10px;font-weight:600;font-size:13.5px;font-variant-numeric:tabular-nums}
+.zlab:hover{background:var(--surface-2)}
+.rbody{position:relative;flex:1;min-height:0}
+.scroller{position:absolute;inset:0;overflow:auto;touch-action:pan-x pan-y;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.pages{position:relative;display:flex;flex-direction:column;align-items:center;width:max-content;min-width:100%;padding:8px}
+.page{position:relative;flex:none;width:calc(var(--pw)*var(--k)*1px);height:calc(var(--ph)*var(--k)*1px);margin-bottom:8px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.28);isolation:isolate}
+.page::before{content:attr(data-n);position:absolute;inset:0;display:grid;place-items:center;font:600 28px var(--font-display);color:#C6CCC8}
+.page.ready::before{display:none}
+.layer{position:absolute;inset:0}
+.layer-cv{z-index:1}
+.layer-cv canvas{display:block;width:100%;height:100%}
+.layer-ann{z-index:2;pointer-events:none;mix-blend-mode:multiply}
+.layer-tl{z-index:3}
+.layer-pins{z-index:4;pointer-events:none}
+.hl{position:absolute;display:block;background:var(--c);border-radius:2px;opacity:.85}
+.pin,.hbadge{position:absolute;pointer-events:auto;display:grid;place-items:center;border:2px solid #fff;border-radius:50%;background:var(--accent);color:var(--accent-ink);padding:0;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.pin{width:30px;height:30px;transform:translate(-50%,-50%)}
+.hbadge{width:22px;height:22px;transform:translate(-30%,-60%)}
+.pin .ic{width:16px;height:16px}
+.hbadge .ic{width:12px;height:12px}
+.flash{animation:flash 1.4s ease-out 1}
+@keyframes flash{0%,55%{box-shadow:0 0 0 4px rgba(255,120,0,.85)}100%{box-shadow:0 0 0 0 rgba(255,120,0,0)}}
+.textLayer{position:absolute;inset:0;overflow:hidden;line-height:1;text-align:initial;-webkit-user-select:text;user-select:text}
+.textLayer span,.textLayer br{color:transparent;position:absolute;white-space:pre;cursor:text;transform-origin:0 0}
+.textLayer ::selection{background:rgba(40,110,255,.32)}
+.textLayer span.hit{background:rgba(255,190,0,.55);border-radius:2px}
+.textLayer span.hit.cur{background:rgba(255,120,0,.65);outline:2px solid rgba(255,120,0,.95)}
+.pinmode .layer-tl{cursor:crosshair}
+.rload{position:absolute;inset:0;z-index:20;background:var(--stage);display:grid;place-items:center;color:var(--ink);font-weight:600;padding:24px;text-align:center}
+.floater{position:absolute;left:50%;transform:translateX(-50%);z-index:8;background:var(--surface);border:1px solid var(--line);border-radius:999px;box-shadow:var(--shadow);display:flex;align-items:center;gap:6px;padding:6px 8px;max-width:calc(100% - 24px)}
+.selbar{bottom:12px;-webkit-user-select:none;user-select:none}
+.hitbar{top:10px}
+.hint{bottom:12px;padding:6px 8px 6px 16px;font-size:14px}
+.hitcount{font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;min-width:4.5em;text-align:center}
+.panel{position:absolute;z-index:6;background:var(--surface);display:flex;flex-direction:column;box-shadow:var(--shadow)}
+@media (max-width:899px){.panel{left:0;right:0;bottom:0;height:64%;border-radius:16px 16px 0 0}}
+@media (min-width:900px){.panel{top:0;right:0;bottom:0;width:380px;border-left:1px solid var(--line)}.reader.has-panel .scroller{right:380px}}
+.ptabs{display:flex;align-items:center;gap:2px;padding:6px 8px;border-bottom:1px solid var(--line);flex:none}
+.ptab{flex:1;padding:8px 6px;border:0;border-radius:8px;background:transparent;font-weight:600;font-size:13.5px;color:var(--muted)}
+.ptab[aria-selected="true"]{background:var(--accent-soft);color:var(--ink)}
+.pbody{flex:1;min-height:0;overflow:auto;padding:12px 16px}
+.pane{display:grid;gap:12px;align-content:start}
+.sform{display:flex;gap:8px}
+.sform .inp{flex:1;min-width:0}
+.stat{font-size:13px;color:var(--muted)}
+.list{display:grid;gap:6px}
+.res,.arow .ago,.toc{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:9px 11px}
+.res:hover,.arow .ago:hover,.toc:hover{background:var(--surface-2)}
+.res.on{border-color:var(--accent);background:var(--accent-soft)}
+.res b{display:block;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;margin-bottom:2px}
+.res span{font-size:14px;overflow-wrap:anywhere}
+.res mark{background:rgba(255,190,0,.5);color:inherit;border-radius:2px;padding:0 1px}
+.toc{border:0;background:transparent;padding:8px 6px;border-radius:8px;font-size:14px;overflow-wrap:anywhere}
+.arow{display:flex;gap:6px;align-items:stretch;min-width:0}
+.arow .ago{display:flex;gap:10px;align-items:flex-start;min-width:0;flex:1}
+.sw{flex:none;width:6px;align-self:stretch;border-radius:3px;min-height:34px}
+.abody{display:grid;gap:3px;min-width:0}
+.apage{font-size:12px;color:var(--muted);font-weight:600}
+.aq{font-size:14px;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.an{font-size:13.5px;color:var(--accent);font-weight:500;overflow-wrap:anywhere}
+.atools{display:flex;gap:8px;flex-wrap:wrap}
+
+/* bookcase: books stand on oak planks, captions sit on the plank front */
+main.wrap{padding-bottom:96px}
+.plaque-row{display:flex;align-items:center;gap:12px;margin:20px 0 10px}
+.plaque{margin:0;font:700 12px/1 var(--font-display);letter-spacing:.1em;text-transform:uppercase;color:#2B1D08;padding:8px 14px;border-radius:4px;background:linear-gradient(#EBD08A,#BC923F);box-shadow:inset 0 1px 0 rgba(255,255,255,.5),0 1px 3px rgba(0,0,0,.35)}
+.bookcase{background-color:var(--back);background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.018) 0 3px,transparent 3px 9px);border:12px solid var(--wood-1);border-top-width:14px;border-radius:8px;overflow:hidden;box-shadow:0 12px 30px rgba(40,24,10,.35),inset 0 0 40px rgba(0,0,0,.55)}
+@media (max-width:520px){.bookcase{border-width:8px;border-top-width:10px}}
+.shelf{position:relative;padding:26px 12px 0}
+.shelf::before{content:"";position:absolute;left:0;right:0;top:0;height:22px;background:linear-gradient(rgba(0,0,0,.5),transparent);pointer-events:none}
+.shelf::after{content:"";position:absolute;left:0;right:0;bottom:0;height:78px;z-index:0;background:linear-gradient(var(--wood-3),var(--wood-3)) top/100% 12px no-repeat,repeating-linear-gradient(0deg,rgba(0,0,0,.08) 0 1px,transparent 1px 6px),linear-gradient(var(--wood-2),var(--wood-1));box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 4px 10px rgba(0,0,0,.5)}
+.books{position:relative;z-index:1;display:grid;grid-template-columns:repeat(var(--cols,3),minmax(0,1fr));gap:0 14px;align-items:end}
+.card{align-self:end}
+.shelf .cover{margin-bottom:-2px;aspect-ratio:3/4;border-radius:2px 6px 6px 2px;box-shadow:2px 6px 10px -2px rgba(0,0,0,.7),0 0 0 1px rgba(0,0,0,.35)}
+.cap{height:66px;margin-top:12px;padding:6px 2px 0;overflow:hidden}
+.shelf .ctitle{margin:0;color:var(--cap-ink);font-size:13px;line-height:1.25;font-weight:600;-webkit-line-clamp:2}
+.shelf .cmeta{margin:2px 0 0;color:var(--cap-muted);font-size:11.5px;-webkit-line-clamp:1}
+.shelf.vacant{min-height:150px;padding-bottom:78px}
+.vacant .empty-shelf{position:relative;z-index:1;margin:0 auto;max-width:34ch;padding:30px 12px;text-align:center;font-size:14px;color:var(--cap-muted)}
+.mark{position:absolute;top:6px;left:6px;width:32px;height:32px;border-radius:50%;border:0;background:rgba(255,255,255,.88);color:#16201C;display:grid;place-items:center;box-shadow:0 1px 4px rgba(0,0,0,.25)}
+.mark .ic{width:18px;height:18px}
+.mark[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.mark[aria-pressed="true"] .ic{fill:currentColor}
+.selmode .mark{display:none}
+#rMark[aria-pressed="true"]{color:var(--accent)}
+#rMark[aria-pressed="true"] .ic{fill:currentColor}
+.resume{bottom:12px;flex-wrap:wrap;justify-content:center;border-radius:18px;padding:8px 12px;font-size:14px}
+
+/* search inside books */
+.rlist{display:grid;gap:12px}
+.rgroup{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;display:grid;gap:10px;min-width:0}
+.rhead{display:flex;gap:12px;align-items:center;min-width:0}
+.rthumb{flex:none;width:38px;height:52px;border-radius:2px 5px 5px 2px;object-fit:cover;object-position:top;box-shadow:0 1px 4px rgba(0,0,0,.35);background:var(--surface-2)}
+.rthumb.ph{display:grid;place-items:center;font:700 18px var(--font-display);color:#fff}
+.rinfo{flex:1;min-width:0;display:grid;gap:2px}
+.rinfo strong{overflow-wrap:anywhere;line-height:1.25}
+.passages{display:grid;gap:6px}
+.pass{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:9px 11px}
+.pass:hover{background:var(--surface-2)}
+.pass b{display:block;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;margin-bottom:2px}
+.pass span{font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+.pass mark{background:rgba(255,190,0,.5);color:inherit;border-radius:2px;padding:0 1px}
+
+/* category tree, filters */
+.chiprows{flex:1;min-width:0;display:grid;gap:2px}
+.catbar{align-items:flex-start}
+.chips.sub{padding-left:14px}
+.chips.sub .chip{font-size:12.5px;padding:5px 11px}
+.tree{display:grid;gap:2px;max-height:38vh;overflow:auto;border:1px solid var(--line);border-radius:10px;padding:4px;background:var(--bg)}
+.trow{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;background:transparent;padding:9px 10px;border-radius:8px;font-size:14.5px;overflow-wrap:anywhere}
+.trow:hover{background:var(--surface-2)}
+.box{flex:none;width:20px;height:20px;border-radius:6px;border:1.5px solid var(--muted);display:grid;place-items:center}
+.box[data-s="true"],.box[data-s="mixed"]{background:var(--accent);border-color:var(--accent)}
+.box[data-s="true"]::after{content:"";width:9px;height:5px;border-left:2px solid var(--accent-ink);border-bottom:2px solid var(--accent-ink);transform:rotate(-45deg) translate(1px,-1px)}
+.box[data-s="mixed"]::after{content:"";width:10px;height:2px;background:var(--accent-ink)}
+.cblock{display:grid;gap:8px;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.cblock select.inp{padding:7px 10px;font-size:13.5px}
+#selBtn[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
+
+/* multi-select */
+.cover,.cover img{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+.chk{position:absolute;top:8px;left:14px;width:24px;height:24px;border-radius:50%;border:2px solid #fff;background:rgba(0,0,0,.35);color:#fff;display:none;place-items:center;pointer-events:none;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.chk .ic{opacity:0}
+.selmode .chk{display:grid}
+.card.sel .chk{background:var(--accent);color:var(--accent-ink)}
+.card.sel .chk .ic{opacity:1}
+.card.sel .cover{outline:3px solid var(--accent);outline-offset:2px}
+.selmode .more{display:none}
+.actbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;align-items:center;gap:8px;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:var(--surface);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(0,0,0,.10)}
+.actbar span{flex:1;min-width:0;font-weight:600;font-size:14px}
+.selmode #toast{bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+
+@media (prefers-reduced-motion:reduce){.flash{animation:none}}
+
+/* html documents */
+.is-html .scroller{overflow:hidden}
+.is-html .pages{position:absolute;inset:0;padding:0;width:auto;min-width:0;display:block}
+.page.hpage{position:absolute;inset:0;width:auto;height:auto;margin:0;background:transparent;box-shadow:none}
+.hframe{position:absolute;left:0;top:0;display:block;border:0;background:#fff;transform-origin:0 0;max-width:none;touch-action:pan-x pan-y}
+.is-html #aPin,.is-html #pageIn{display:none}
+.is-html .pgtot{min-width:4em;text-align:center;padding:0 6px}
+.scriptbar{top:10px;font-size:13.5px;padding:6px 8px 6px 14px;border-radius:18px}
+</style>
+
+<div class="sprite" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-prev" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-next" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-dots" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.4"/><circle cx="12" cy="12" r="1.4"/><circle cx="19" cy="12" r="1.4"/></symbol>
+<symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14a1 1 0 011 1v10l-5 5H5a1 1 0 01-1-1V5a1 1 0 011-1z"/><path d="M15 20v-4a1 1 0 011-1h5"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 12a1 1 0 001 1h8a1 1 0 001-1l1-12M9 7V4h6v3"/></symbol>
+<symbol id="i-folder" viewBox="0 0 24 24"><path d="M4 7a1 1 0 011-1h5l2 2h7a1 1 0 011 1v9a1 1 0 01-1 1H5a1 1 0 01-1-1V7z"/></symbol>
+<symbol id="i-save" viewBox="0 0 24 24"><path d="M12 4v11M8 11l4 4 4-4M5 20h14"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24"><path d="M5 4h10a3 3 0 013 3v13H8a3 3 0 01-3-3V4z"/><path d="M5 17a3 3 0 013-3h10"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M7 4h10a1 1 0 011 1v15l-6-4-6 4V5a1 1 0 011-1z"/></symbol>
+</defs></svg>
+</div>
+
+<div id="app">
+  <header class="lib-top">
+    <div class="wrap">
+      <div class="bar">
+        <div class="brand">
+          <h1>Lutrin</h1>
+          <p>Votre bibliothèque de PDF et de pages web</p>
+        </div>
+        <button class="ibtn" id="backupBtn" type="button" aria-label="Sauvegarde et espace utilisé"><svg class="ic"><use href="#i-save"/></svg></button>
+        <button class="btn primary" id="addBtn" type="button"><svg class="ic" style="width:18px;height:18px"><use href="#i-plus"/></svg>Ajouter</button>
+      </div>
+      <div class="tools" id="tools" hidden>
+        <label class="search"><svg class="ic"><use href="#i-search"/></svg><input class="inp" id="libQ" type="search" placeholder="Chercher un titre" aria-label="Chercher un titre" autocomplete="off"></label>
+        <select class="inp" id="sort" aria-label="Trier"><option value="recent">Dernière lecture</option><option value="title">Titre A → Z</option><option value="added">Ajout récent</option></select>
+        <button class="btn" id="selBtn" type="button" aria-pressed="false">Sélectionner</button>
+      </div>
+      <div class="catbar" id="catbar" hidden>
+        <div class="chiprows" id="chips"></div>
+        <button class="ibtn sm" id="catMgr" type="button" aria-label="Gérer les catégories"><svg class="ic" style="width:20px;height:20px"><use href="#i-folder"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="note-banner" id="memBanner" hidden>Le stockage du navigateur n’est pas disponible ici. Vos livres restent ouverts tant que cette page l’est, puis ils sont perdus.</div>
+    <div class="note-banner" id="idxBanner" hidden></div>
+    <section class="reading" id="readingSec" hidden>
+      <div class="plaque-row"><h2 class="plaque">En cours de lecture</h2><span class="fine" id="readCount"></span></div>
+      <div class="bookcase" id="reading"></div>
+    </section>
+    <div class="plaque-row" id="libLabel" hidden><h2 class="plaque" id="libLabelText">Bibliothèque</h2><span class="fine" id="libCount"></span></div>
+    <section class="empty" id="empty" hidden>
+      <svg class="ic" style="width:40px;height:40px;color:var(--accent)"><use href="#i-book"/></svg>
+      <h2 id="emptyTitle">Votre étagère est vide</h2>
+      <p id="emptyText">Ajoutez des PDF ou des fichiers HTML depuis votre appareil, ou glissez-les ici. Chaque livre apparaît avec sa couverture et s’ouvre là où vous vous étiez arrêté.</p>
+      <button class="btn primary" id="addBtn2" type="button"><svg class="ic" style="width:18px;height:18px"><use href="#i-plus"/></svg>Ajouter des PDF ou HTML</button>
+      <ul id="emptyFeat"><li>Reprise là où vous étiez</li><li>Recherche dans le texte</li><li>Surlignage et notes</li><li>Vos catégories</li></ul>
+    </section>
+    <div class="bookcase" id="grid"></div>
+    <section id="sres" hidden>
+      <div class="plaque-row"><h2 class="plaque">Dans les livres</h2><span class="fine" id="sresStat"></span></div>
+      <div class="rlist" id="sresList"></div>
+    </section>
+  </main>
+</div>
+
+<section class="reader" id="reader" hidden aria-label="Lecteur">
+  <header class="rbar">
+    <button class="ibtn" id="rBack" type="button" aria-label="Retour à la bibliothèque"><svg class="ic"><use href="#i-back"/></svg></button>
+    <h2 class="rtitle" id="rTitle"></h2>
+    <button class="ibtn" id="rMark" type="button" aria-pressed="false" aria-label="Mettre en cours de lecture"><svg class="ic"><use href="#i-bookmark"/></svg></button>
+    <button class="ibtn" id="rSearch" type="button" aria-label="Rechercher dans le document"><svg class="ic"><use href="#i-search"/></svg></button>
+    <button class="ibtn" id="rMenu" type="button" aria-label="Annotations et sommaire"><svg class="ic"><use href="#i-list"/></svg></button>
+  </header>
+  <div class="rbody">
+    <div class="scroller" id="scroller"><div class="pages" id="pages"></div></div>
+    <aside class="panel" id="panel" hidden>
+      <div class="ptabs">
+        <button class="ptab" type="button" data-tab="search" aria-selected="false">Recherche</button>
+        <button class="ptab" type="button" data-tab="ann" aria-selected="true">Annotations</button>
+        <button class="ptab" type="button" data-tab="toc" aria-selected="false">Sommaire</button>
+        <button class="ibtn sm" id="pClose" type="button" aria-label="Fermer le panneau"><svg class="ic" style="width:20px;height:20px"><use href="#i-x"/></svg></button>
+      </div>
+      <div class="pbody">
+        <div class="pane" data-pane="search" hidden>
+          <form class="sform" id="sForm">
+            <input class="inp" id="sQ" type="search" placeholder="Mot ou expression" aria-label="Rechercher dans le document" enterkeyhint="search" autocomplete="off">
+            <button class="btn primary" type="submit">Chercher</button>
+          </form>
+          <p class="stat" id="sStat"></p>
+          <div class="list" id="sList"></div>
+        </div>
+        <div class="pane" data-pane="ann">
+          <div class="atools">
+            <button class="btn sm" id="aPin" type="button"><svg class="ic" style="width:16px;height:16px"><use href="#i-note"/></svg>Note libre</button>
+            <button class="btn sm" id="aCopy" type="button" hidden>Copier</button>
+            <button class="btn sm" id="aSave" type="button" hidden>Enregistrer .md</button>
+          </div>
+          <p class="stat" id="annEmpty">Sélectionnez du texte dans le document (appui long sur mobile) pour le surligner ou y ajouter une note.</p>
+          <div class="list" id="annList"></div>
+        </div>
+        <div class="pane" data-pane="toc" hidden>
+          <div class="list" id="tocList"></div>
+        </div>
+      </div>
+    </aside>
+    <div class="floater hitbar" id="hitbar" hidden>
+      <button class="ibtn sm" id="hPrev" type="button" aria-label="Résultat précédent"><svg class="ic" style="width:20px;height:20px"><use href="#i-prev"/></svg></button>
+      <span class="hitcount" id="hitCount"></span>
+      <button class="ibtn sm" id="hNext" type="button" aria-label="Résultat suivant"><svg class="ic" style="width:20px;height:20px"><use href="#i-next"/></svg></button>
+      <button class="ibtn sm" id="hClose" type="button" aria-label="Effacer la recherche"><svg class="ic" style="width:18px;height:18px"><use href="#i-x"/></svg></button>
+    </div>
+    <div class="floater selbar" id="selbar" hidden>
+      <button class="swb" type="button" data-c="yellow" data-hl="yellow" aria-label="Surligner en jaune"></button>
+      <button class="swb" type="button" data-c="green" data-hl="green" aria-label="Surligner en vert"></button>
+      <button class="swb" type="button" data-c="blue" data-hl="blue" aria-label="Surligner en bleu"></button>
+      <button class="swb" type="button" data-c="pink" data-hl="pink" aria-label="Surligner en rose"></button>
+      <button class="btn sm" id="selNote" type="button"><svg class="ic" style="width:16px;height:16px"><use href="#i-note"/></svg>Note</button>
+    </div>
+    <div class="floater hint" id="hint" hidden><span>Touchez la page pour poser la note</span><button class="btn sm" id="hintCancel" type="button">Annuler</button></div>
+    <div class="floater scriptbar" id="scriptBar" hidden><span>Cette page contient des scripts (boutons…), désactivés.</span><button class="btn sm" id="scriptOn" type="button">Activer…</button><button class="ibtn sm" id="scriptX" type="button" aria-label="Ne plus proposer"><svg class="ic" style="width:18px;height:18px"><use href="#i-x"/></svg></button></div>
+    <div class="floater resume" id="resume" hidden><span id="resumeTxt"></span><button class="btn sm" id="resumeGo" type="button">Y retourner</button><button class="btn sm" id="resumeStay" type="button">Rester ici</button></div>
+    <div class="rload" id="rLoad"><span id="rLoadTxt">Ouverture…</span></div>
+  </div>
+  <footer class="rfoot">
+    <div class="grp">
+      <button class="ibtn" id="pPrev" type="button" aria-label="Page précédente"><svg class="ic"><use href="#i-prev"/></svg></button>
+      <input class="pgin" id="pageIn" type="text" inputmode="numeric" pattern="[0-9]*" aria-label="Numéro de page" value="1">
+      <span class="pgtot" id="pageTot">/ 1</span>
+      <button class="ibtn" id="pNext" type="button" aria-label="Page suivante"><svg class="ic"><use href="#i-next"/></svg></button>
+    </div>
+    <div class="grp">
+      <button class="ibtn" id="zOut" type="button" aria-label="Zoom arrière"><svg class="ic"><use href="#i-minus"/></svg></button>
+      <button class="zlab" id="zLab" type="button" aria-label="Ajuster à la largeur">100%</button>
+      <button class="ibtn" id="zIn" type="button" aria-label="Zoom avant"><svg class="ic"><use href="#i-plus"/></svg></button>
+    </div>
+  </footer>
+</section>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="sheet-card" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+    <div class="sheet-head"><h2 id="sheetTitle"></h2><button class="ibtn sm" id="sheetClose" type="button" aria-label="Fermer"><svg class="ic" style="width:20px;height:20px"><use href="#i-x"/></svg></button></div>
+    <div id="sheetBody"></div>
+  </div>
+</div>
+<div class="actbar" id="actbar" hidden>
+  <span id="actCount"></span>
+  <button class="btn sm" id="actAll" type="button">Tout</button>
+  <button class="btn primary sm" id="actCats" type="button"><svg class="ic" style="width:16px;height:16px"><use href="#i-folder"/></svg>Classer</button>
+  <button class="btn sm" id="actCancel" type="button">Annuler</button>
+</div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<div id="drop" hidden><div>Déposez vos PDF ou HTML pour les ajouter</div></div>
+<input type="file" id="fileIn" accept=".pdf,application/pdf,.html,.htm,.xhtml,text/html,application/xhtml+xml" multiple hidden>
+<input type="file" id="importIn" accept=".json,application/json" hidden>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+(() => {
+'use strict';
+
+/* ================= helpers ================= */
+const VER = '3.11.174';
+const $ = (s, r = document) => r.querySelector(s);
+const pdfjs = () => window.pdfjsLib || window['pdfjs-dist/build/pdf'];
+const uid = () => Math.random().toString(36).slice(2, 8) + Date.now().toString(36).slice(-4);
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const norm = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const tick = () => new Promise(r => setTimeout(r, 0));
+const fmtSize = b => b >= 1048576
+  ? (b / 1048576).toFixed(b >= 1.05e7 ? 0 : 1).replace('.', ',') + ' Mo'
+  : Math.max(1, Math.round(b / 1024)) + ' Ko';
+
+function h(tag, props, ...kids) {
+  const n = document.createElement(tag);
+  if (props) for (const [k, v] of Object.entries(props)) {
+    if (v == null || v === false) continue;
+    if (k === 'class') n.className = v;
+    else if (k === 'text') n.textContent = v;
+    else if (k === 'style') n.style.cssText = v;
+    else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+    else if (k in n && k !== 'list') n[k] = v;
+    else n.setAttribute(k, v === true ? '' : v);
+  }
+  for (const c of kids.flat()) {
+    if (c == null || c === false) continue;
+    n.append(c.nodeType ? c : document.createTextNode(c));
+  }
+  return n;
+}
+function ic(name, size) {
+  const t = document.createElement('template');
+  t.innerHTML = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"' + (size ? ' style="width:' + size + 'px;height:' + size + 'px"' : '') + '><use href="#i-' + name + '"/></svg>';
+  return t.content.firstChild;
+}
+let toastT = 0;
+function toast(msg, sticky) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.hidden = false;
+  clearTimeout(toastT);
+  if (!sticky) toastT = setTimeout(() => { t.hidden = true; }, 3800);
+}
+function confirmBtn(label, confirmLabel, action, cls) {
+  let armed = false, timer = 0;
+  const b = h('button', { class: 'btn ' + (cls || 'danger'), type: 'button', text: label });
+  b.addEventListener('click', () => {
+    if (!armed) {
+      armed = true; b.textContent = confirmLabel;
+      timer = setTimeout(() => { armed = false; b.textContent = label; }, 3500);
+    } else { clearTimeout(timer); action(); }
+  });
+  return b;
+}
+
+/* ================= storage (IndexedDB, memory fallback) ================= */
+const STORES = ['books', 'files', 'covers', 'notes', 'meta', 'pending', 'texts'];
+let idb = null;
+const mem = {};
+STORES.forEach(s => { mem[s] = new Map(); });
+
+function openDB() {
+  return new Promise(res => {
+    try {
+      const rq = indexedDB.open('lutrin', 2);
+      rq.onupgradeneeded = () => {
+        const d = rq.result;
+        STORES.forEach(s => { if (!d.objectStoreNames.contains(s)) d.createObjectStore(s, { keyPath: 'id' }); });
+      };
+      rq.onsuccess = () => { const d = rq.result; d.onversionchange = () => d.close(); res(d); };
+      rq.onerror = () => res(null);
+      rq.onblocked = () => toast('Fermez les autres onglets Lutrin pour terminer la mise à jour.', true);
+    } catch (e) { res(null); }
+  });
+}
+function tx(store, mode, fn) {
+  return new Promise((res, rej) => {
+    let t;
+    try { t = idb.transaction(store, mode); } catch (e) { rej(e); return; }
+    let out;
+    const r = fn(t.objectStore(store));
+    if (r) r.onsuccess = () => { out = r.result; };
+    t.oncomplete = () => res(out);
+    t.onerror = () => rej(t.error);
+    t.onabort = () => rej(t.error);
+  });
+}
+const store = {
+  get: (s, id) => idb ? tx(s, 'readonly', o => o.get(id)) : Promise.resolve(mem[s].get(id)),
+  put: (s, v) => idb ? tx(s, 'readwrite', o => o.put(v)).then(() => v) : (mem[s].set(v.id, v), Promise.resolve(v)),
+  del: (s, id) => idb ? tx(s, 'readwrite', o => o.delete(id)) : (mem[s].delete(id), Promise.resolve()),
+  all: s => idb ? tx(s, 'readonly', o => o.getAll()).then(r => r || []) : Promise.resolve([...mem[s].values()])
+};
+
+/* ================= library state ================= */
+const S = { books: [], cats: [], filterCat: 'all', q: '', sort: 'recent', sel: null };
+const coverURLs = {};
+/* metadata change stamps, used by the GitHub sync to know which side is newer */
+const metaSig = b => JSON.stringify([b.title, [...(b.cats || [])].sort(), !!b.reading]);
+const saveBook = b => {
+  const sg = metaSig(b);
+  if (b._sig !== undefined && b._sig !== sg) b.mt = Date.now();
+  b._sig = sg;
+  return store.put('books', b).catch(console.error);
+};
+let catIdsSeen = null;
+const saveCats = () => {
+  const now = Date.now();
+  S.cats.forEach(c => { const sg = c.name + '\u0001' + (c.parent || ''); if (c._sig !== undefined && c._sig !== sg) c.mt = now; if (c._sig === undefined && !c.mt) c.mt = now; c._sig = sg; });
+  if (catIdsSeen) {
+    const cur = new Set(S.cats.map(c => c.id));
+    let gone = false;
+    catIdsSeen.forEach(id => { if (!cur.has(id)) { ghCfg.catTomb[id] = now; gone = true; } });
+    if (gone) saveGh();
+    catIdsSeen = cur;
+  }
+  return store.put('meta', { id: 'cats', list: S.cats }).catch(console.error);
+};
+const saveSettings = () => store.put('meta', { id: 'settings', sort: S.sort }).catch(console.error);
+const catName = id => (S.cats.find(c => c.id === id) || {}).name || '';
+
+/* categories form a tree: { id, name, parent } */
+const childrenOf = pid => S.cats.filter(c => (c.parent || null) === pid);
+function descendants(id) {
+  const out = [id];
+  for (const c of childrenOf(id)) out.push(...descendants(c.id));
+  return out;
+}
+function pathOf(id) {
+  const p = [], seen = new Set();
+  let c = S.cats.find(x => x.id === id);
+  while (c && !seen.has(c.id)) {
+    seen.add(c.id); p.unshift(c);
+    c = c.parent ? S.cats.find(x => x.id === c.parent) : null;
+  }
+  return p;
+}
+const catLabel = id => pathOf(id).map(c => c.name).join(' › ');
+function flatTree() {
+  const out = [];
+  (function walk(pid, d) {
+    if (d > 8) return;
+    for (const c of childrenOf(pid)) { out.push({ c, d }); walk(c.id, d + 1); }
+  })(null, 0);
+  return out;
+}
+function ensureCat(name, parent) {
+  name = String(name).trim();
+  if (!name) return null;
+  parent = parent || null;
+  let c = S.cats.find(x => (x.parent || null) === parent && norm(x.name) === norm(name));
+  if (!c) { c = { id: uid(), name, parent }; S.cats.push(c); saveCats(); }
+  return c;
+}
+function ensurePath(names) {
+  let parent = null, c = null;
+  for (const n of names) {
+    c = ensureCat(n, parent);
+    if (!c) return null;
+    parent = c.id;
+  }
+  return c;
+}
+const indentLabel = (d, name) => '  '.repeat(d) + (d ? '↳ ' : '') + name;
+
+/* checkbox tree shared by the single-book sheet and the bulk sheet.
+   getState(id) -> 'true' | 'false' | 'mixed'; onToggle(id, state) applies the change */
+function catTree(getState, onToggle) {
+  const wrap = h('div', { class: 'tree' });
+  const draw = () => {
+    const rows = flatTree();
+    wrap.replaceChildren(...(rows.length ? rows.map(({ c, d }) => {
+      const st = getState(c.id);
+      return h('button', {
+        class: 'trow', type: 'button', role: 'checkbox', 'aria-checked': st, style: 'padding-left:' + (10 + Math.min(d, 5) * 20) + 'px',
+        onclick: () => { onToggle(c.id, st); draw(); }
+      }, h('span', { class: 'box', 'data-s': st }), h('span', { text: c.name }));
+    }) : [h('p', { class: 'fine', style: 'padding:8px 10px', text: 'Aucune catégorie pour le moment. Créez-en une ci-dessous.' })]));
+  };
+  draw();
+  wrap.redraw = draw;
+  return wrap;
+}
+/* name + parent + create button; onCreated(cat) runs after creation */
+function newCatRow(onCreated) {
+  const name = h('input', { class: 'inp', type: 'text', placeholder: 'Nom de la catégorie', 'aria-label': 'Nom de la nouvelle catégorie' });
+  const parent = h('select', { class: 'inp', 'aria-label': 'Placer dans' });
+  const fill = sel => {
+    parent.replaceChildren(h('option', { value: '', text: 'À la racine' }),
+      ...flatTree().map(x => h('option', { value: x.c.id, text: indentLabel(x.d, x.c.name) })));
+    parent.value = sel || '';
+  };
+  fill('');
+  const go = () => {
+    const c = ensureCat(name.value, parent.value || null);
+    if (!c) return;
+    name.value = '';
+    fill(parent.value);
+    onCreated(c);
+  };
+  name.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
+  const row = h('div', { class: 'row' }, name, parent, h('button', { class: 'btn primary', type: 'button', onclick: go, text: 'Créer' }));
+  row.setParent = id => { fill(id); name.focus(); };
+  row.refresh = () => fill(parent.value);
+  return row;
+}
+
+function listBooks() {
+  const q = norm(S.q.trim());
+  const catSet = (S.filterCat === 'all' || S.filterCat === 'none') ? null : new Set(descendants(S.filterCat));
+  const list = S.books.filter(b =>
+    (S.filterCat === 'all' || (S.filterCat === 'none' ? !b.cats.length : b.cats.some(x => catSet.has(x)))) &&
+    (!q || norm(b.title).includes(q)));
+  if (S.sort === 'title') list.sort((a, b) => a.title.localeCompare(b.title, 'fr', { sensitivity: 'base', numeric: true }));
+  else if (S.sort === 'added') list.sort((a, b) => b.added - a.added);
+  else list.sort((a, b) => (b.opened || b.added) - (a.opened || a.added));
+  return list;
+}
+
+function renderChips() {
+  const holder = $('#chips');
+  const path = (S.filterCat === 'all' || S.filterCat === 'none') ? [] : pathOf(S.filterCat);
+  const cnt = id => { const set = new Set(descendants(id)); return S.books.filter(b => b.cats.some(x => set.has(x))).length; };
+  const chip = (label, n, on, fn, cls) => h('button', {
+    class: 'chip' + (cls ? ' ' + cls : ''), type: 'button', 'aria-pressed': String(!!on), onclick: fn
+  }, label, n == null ? null : h('small', { text: String(n) }));
+  const pick = (L, c) => {
+    const isLast = path.length === L + 1 && path[L].id === c.id;
+    S.filterCat = isLast ? (L === 0 ? 'all' : path[L - 1].id) : c.id;
+    renderLibrary();
+  };
+  const first = [chip('Tous', S.books.length, S.filterCat === 'all', () => { S.filterCat = 'all'; renderLibrary(); })];
+  childrenOf(null).forEach(c => first.push(chip(c.name, cnt(c.id), path[0] && path[0].id === c.id, () => pick(0, c))));
+  const none = S.books.filter(b => !b.cats.length).length;
+  if (S.cats.length && none) first.push(chip('Sans catégorie', none, S.filterCat === 'none', () => { S.filterCat = 'none'; renderLibrary(); }));
+  if (!S.cats.length) first.push(chip('+ Créer une catégorie', null, false, openCatManager, 'ghost'));
+  const rows = [h('div', { class: 'chips' }, first)];
+  for (let L = 1; L <= path.length; L++) {
+    const kids = childrenOf(path[L - 1].id);
+    if (!kids.length) break;
+    rows.push(h('div', { class: 'chips sub' }, kids.map(c => chip(c.name, cnt(c.id), path[L] && path[L].id === c.id, () => pick(L, c)))));
+  }
+  holder.replaceChildren(...rows);
+}
+
+function hueOf(id) { let n = 0; for (const ch of id) n = (n * 31 + ch.charCodeAt(0)) % 360; return n; }
+
+function cardFor(b) {
+  const url = coverURLs[b.id];
+  const isH = b.kind === 'html';
+  const pct = isH ? Math.round(clamp((b.pos && b.pos.off) || 0, 0, 1) * 100) : (b.pages > 1 ? Math.round((b.pos.page + 1) / b.pages * 100) : 0);
+  const started = b.opened > 0;
+  const cover = h('button', { class: 'cover', type: 'button', 'aria-label': 'Ouvrir ' + b.title, style: b.ar ? 'aspect-ratio:' + b.ar : null },
+    url ? h('img', {
+      src: url, alt: '', loading: 'lazy', draggable: false,
+      onload: e => {
+        const r = e.target.naturalWidth / e.target.naturalHeight;
+        if (!r || b.ar) return;
+        b.ar = +clamp(r, 0.55, 1.2).toFixed(3);
+        cover.style.aspectRatio = String(b.ar);
+        saveBook(b);
+      }
+    })
+        : h('div', { class: 'ph', style: 'background:hsl(' + hueOf(b.id) + ' 38% 36%)', text: (b.title.trim()[0] || '•').toUpperCase() }),
+    started ? h('span', { class: 'prog' }, h('i', { style: 'width:' + pct + '%' })) : null);
+  const names = (b.cats || []).map(catLabel).filter(Boolean);
+  const meta = (isH ? (started ? 'Page web · ' + pct + ' %' : 'Page web · ' + fmtSize(b.size || 0)) : (started ? 'p. ' + (b.pos.page + 1) + ' / ' + b.pages : b.pages + ' pages')) + (names.length ? ' · ' + names.join(', ') : '');
+  let lt = 0, fired = false;
+  cover.addEventListener('pointerdown', () => {
+    fired = false; clearTimeout(lt);
+    if (S.sel) return;
+    lt = setTimeout(() => { fired = true; startSelect(b.id); }, 520);
+  });
+  ['pointerup', 'pointerleave', 'pointercancel'].forEach(t => cover.addEventListener(t, () => clearTimeout(lt)));
+  cover.addEventListener('contextmenu', e => { if (fired) e.preventDefault(); });
+  cover.addEventListener('click', () => {
+    if (fired) { fired = false; return; }
+    if (S.sel) toggleSel(b.id); else openBook(b.id);
+  });
+  return h('article', { class: 'card' + (S.sel && S.sel.has(b.id) ? ' sel' : ''), 'data-id': b.id },
+    cover,
+    h('span', { class: 'chk', 'aria-hidden': 'true' }, ic('check', 16)),
+    h('button', {
+      class: 'mark', type: 'button', 'aria-pressed': String(!!b.reading),
+      'aria-label': (b.reading ? 'Retirer de « En cours de lecture » : ' : 'Mettre en cours de lecture : ') + b.title,
+      onclick: () => toggleReading(b)
+    }, ic('bookmark')),
+    h('button', { class: 'more', type: 'button', 'aria-label': 'Options de ' + b.title, onclick: () => openBookMenu(b) }, ic('dots')),
+    h('div', { class: 'cap' },
+      h('div', { class: 'ctitle', text: b.title }),
+      h('div', { class: 'cmeta', text: meta })));
+}
+
+function renderLibrary() {
+  const has = S.books.length > 0;
+  $('#tools').hidden = !has;
+  $('#catbar').hidden = !has && !S.cats.length;
+  renderChips();
+  const searching = S.q.trim().length >= 2;
+  const list = listBooks();
+  $('#grid').hidden = !list.length;
+  renderShelves($('#grid'), list);
+  renderReading(has && !searching);
+  $('#libLabel').hidden = !has || !list.length;
+  $('#libLabelText').textContent = searching ? 'Titres' : 'Bibliothèque';
+  $('#libCount').textContent = list.length + (list.length > 1 ? ' livres' : ' livre');
+  renderActBar();
+  syncSearchScope();
+  const empty = $('#empty');
+  empty.hidden = list.length > 0 || (searching && has);
+  if (!list.length && !(searching && has)) {
+    if (!has) {
+      $('#emptyTitle').textContent = 'Votre étagère est vide';
+      $('#emptyText').textContent = 'Ajoutez des PDF depuis votre appareil, ou glissez-les ici. Chaque livre apparaît avec sa couverture et s’ouvre à la dernière page lue.';
+      $('#addBtn2').hidden = false; $('#emptyFeat').hidden = false;
+    } else {
+      $('#emptyTitle').textContent = 'Aucun livre ici';
+      $('#emptyText').textContent = S.q ? 'Aucun titre ne correspond à votre recherche.' : 'Cette catégorie est vide. Utilisez « Sélectionner » ou les options d’un livre pour l’y classer.';
+      $('#addBtn2').hidden = true; $('#emptyFeat').hidden = true;
+    }
+  }
+}
+
+/* ================= sheets ================= */
+const sh = { root: $('#sheet'), title: $('#sheetTitle'), body: $('#sheetBody') };
+let sheetOnClose = null;
+function openSheet(title, ...nodes) {
+  sh.title.textContent = title;
+  sh.body.replaceChildren(...nodes);
+  sh.root.hidden = false;
+}
+function closeSheet() {
+  if (sh.root.hidden) return;
+  sh.root.hidden = true;
+  const f = sheetOnClose; sheetOnClose = null;
+  if (f) f();
+}
+$('#sheetClose').addEventListener('click', closeSheet);
+sh.root.addEventListener('click', e => { if (e.target === sh.root) closeSheet(); });
+
+/* ---- original file: download + details ---- */
+const fmtDate = t => t ? new Date(t).toLocaleString('fr-FR', { dateStyle: 'long', timeStyle: 'short' }) : '—';
+function dlName(b, rec) {
+  const ext = b.kind === 'html' ? 'html' : 'pdf';
+  const orig = (b.fname || (rec && rec.blob && rec.blob.name) || '').replace(/[\\/:*?"<>|\u0000-\u001f]+/g, '-').trim();
+  const base = orig.replace(/\.(pdf|x?html?)$/i, '').trim()
+    || b.title.replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '').slice(0, 80) || 'livre';
+  return base + '.' + ext;
+}
+async function downloadBook(b) {
+  let rec = null;
+  try { rec = await store.get('files', b.id); } catch (e) { console.warn(e); }
+  if (!rec || !rec.blob || !rec.blob.size) { toast('Le fichier original est introuvable dans le navigateur.'); return; }
+  if (await saveFile(dlName(b, rec), rec.blob)) toast('Fichier enregistré.');
+}
+function bookFacts(b) {
+  const dl = h('dl', { class: 'facts' });
+  const rows = [];
+  const add = (k, v) => {
+    const dd = h('dd', { text: v == null ? '…' : v });
+    rows.push([k, dd]); dl.append(h('dt', { text: k }), dd);
+    return dd;
+  };
+  const isH = b.kind === 'html';
+  const nameDd = add('Nom du fichier', b.fname || null);
+  add('Type', isH ? 'Page web HTML' : 'PDF');
+  add('Taille', fmtSize(b.size || 0));
+  if (!isH) add('Pages', String(b.pages));
+  add('Dossier d’origine', b.fdir || 'non communiqué (le navigateur ne donne jamais le chemin d’un fichier ajouté)');
+  const modDd = add('Fichier modifié le', b.fmod ? fmtDate(b.fmod) : null);
+  add('Ajouté le', fmtDate(b.added));
+  add('Dernière lecture', b.opened ? fmtDate(b.opened) : 'jamais ouvert');
+  if (b.opened) add('Où j’en suis', isH ? Math.round(clamp((b.pos && b.pos.off) || 0, 0, 1) * 100) + ' %' : 'page ' + ((b.pos && b.pos.page) + 1) + ' sur ' + b.pages);
+  const cats = b.cats.map(catLabel).filter(Boolean);
+  add('Catégories', cats.length ? cats.join(' · ') : 'aucune');
+  const annDd = add('Annotations', null);
+  add('Recherche', b.noText ? (isH ? 'page sans texte : introuvable par la recherche' : 'scan sans texte reconnu : introuvable par la recherche') : b.idx ? 'texte indexé' : 'indexation en attente');
+  add('Stockage', 'dans le navigateur, pour cette application. Aucun dossier visible : utilisez « Télécharger le fichier » pour le récupérer.');
+  Promise.all([store.get('files', b.id).catch(() => null), store.get('notes', b.id).catch(() => null)]).then(([rec, notes]) => {
+    const blob = rec && rec.blob;
+    if (!b.fname) nameDd.textContent = (blob && blob.name) || 'inconnu';
+    if (!b.fmod) modDd.textContent = blob && blob.lastModified ? fmtDate(blob.lastModified) : 'inconnu';
+    const n = notes && notes.items ? notes.items.length : 0;
+    annDd.textContent = n ? String(n) : 'aucune';
+    if (!blob) nameDd.textContent += ' · fichier introuvable dans le navigateur';
+  });
+  dl.copyText = () => b.title + '\n' + rows.map(([k, dd]) => k + ' : ' + dd.textContent).join('\n');
+  return dl;
+}
+
+function openBookMenu(b) {
+  const facts = bookFacts(b);
+  const dlBtn = h('button', { class: 'btn', type: 'button', onclick: () => downloadBook(b) }, ic('save', 18), 'Télécharger le fichier');
+  const copyBtn = h('button', { class: 'btn', type: 'button', onclick: () => {
+    const t = facts.copyText();
+    const ok = () => toast('Détails copiés.');
+    const ko = () => toast('Copie refusée par le navigateur.');
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(ok, ko); else ko();
+  } }, 'Copier les détails');
+  const syncBtn = h('button', { class: 'btn', type: 'button' });
+  const syncNote = h('p', { class: 'fine' });
+  const drawSync = () => {
+    const big = (b.size || 0) > GH_MAX;
+    syncBtn.replaceChildren(b.nosync ? 'Ne pas synchroniser · Réactiver' : 'Synchronisé sur GitHub · Exclure');
+    syncNote.textContent = b.nosync ? 'Ce livre reste seulement sur cet appareil. Il sera retiré de GitHub à la prochaine synchronisation.'
+      : big ? 'Fichier trop lourd pour GitHub (plus de ' + fmtSize(GH_MAX) + ') : seuls la position, les catégories et les annotations seront synchronisées.'
+      : 'Le fichier, la position, les catégories et les annotations sont envoyés à chaque synchronisation.';
+  };
+  syncBtn.addEventListener('click', () => {
+    b.nosync = !b.nosync;
+    if (b.nosync) b.nosyncAt = Date.now(); else b.syncOnAt = Date.now();
+    saveBook(b); drawSync();
+  });
+  drawSync();
+  const titleIn = h('input', { class: 'inp', id: 'bkTitle', type: 'text', value: b.title, 'aria-label': 'Titre' });
+  titleIn.addEventListener('change', () => {
+    const v = titleIn.value.trim();
+    if (v) { b.title = v; saveBook(b); renderLibrary(); }
+  });
+  const readBtn = h('button', { class: 'btn', type: 'button' });
+  const drawRead = () => {
+    readBtn.replaceChildren(ic('bookmark', 18), b.reading ? 'Dans « En cours de lecture » · Retirer' : 'Mettre dans « En cours de lecture »');
+    readBtn.classList.toggle('primary', !!b.reading);
+  };
+  readBtn.addEventListener('click', () => { toggleReading(b, true); drawRead(); });
+  drawRead();
+  let scriptRow = null;
+  if (b.kind === 'html') {
+    const drawS = () => {
+      scriptRow.replaceChildren(
+        h('span', { class: 'lbl', text: 'Scripts de cette page' }),
+        h('p', { class: 'fine', text: b.scripts ? 'Autorisés : les boutons et les calculs de la page fonctionnent.' : 'Désactivés : la page s’affiche, mais ses boutons ne font rien.' }),
+        b.scripts
+          ? h('button', { class: 'btn', type: 'button', text: 'Désactiver les scripts', onclick: () => { b.scripts = false; saveBook(b); drawS(); } })
+          : h('button', { class: 'btn', type: 'button', text: 'Autoriser les scripts…', onclick: () => { b.noScriptAsk = false; askEnableScripts(b); } }));
+    };
+    scriptRow = h('div');
+    drawS();
+  }
+  const tree = catTree(id => b.cats.includes(id) ? 'true' : 'false', (id, st) => {
+    b.cats = st === 'true' ? b.cats.filter(x => x !== id) : [...b.cats, id];
+    saveBook(b); renderLibrary();
+  });
+  const newRow = newCatRow(c => {
+    if (!b.cats.includes(c.id)) b.cats.push(c.id);
+    saveBook(b); renderLibrary(); tree.redraw();
+  });
+  const del = confirmBtn('Supprimer ce livre', 'Confirmer la suppression', async () => {
+    await Promise.all([store.del('books', b.id), store.del('files', b.id), store.del('covers', b.id), store.del('notes', b.id), store.del('texts', b.id)]).catch(console.error);
+    dropTexts(b.id);
+    if (coverURLs[b.id]) { URL.revokeObjectURL(coverURLs[b.id]); delete coverURLs[b.id]; }
+    S.books = S.books.filter(x => x.id !== b.id);
+    closeSheet(); renderLibrary(); toast('Livre supprimé de la bibliothèque.');
+  });
+  openSheet('Options du livre', h('div', { class: 'form' },
+    h('div', {}, h('label', { class: 'lbl', for: 'bkTitle', text: 'Titre' }), titleIn),
+    h('div', { class: 'row' }, readBtn, dlBtn),
+    b.kind === 'html' ? h('div', {}, scriptRow) : null,
+    h('div', {}, h('span', { class: 'lbl', text: 'Catégories (plusieurs possibles)' }), tree),
+    h('div', {}, h('span', { class: 'lbl', text: 'Nouvelle catégorie ou sous-catégorie' }), newRow),
+    h('div', {}, h('span', { class: 'lbl', text: 'Fichier' }), facts, h('div', { class: 'row', style: 'margin-top:10px' }, copyBtn)),
+    h('div', {}, h('span', { class: 'lbl', text: 'GitHub' }), syncBtn, syncNote),
+    h('div', { class: 'row' }, del)));
+}
+
+function openCatManager() {
+  const list = h('div', { class: 'form' });
+  const newRow = newCatRow(() => { renderLibrary(); draw(); });
+  function draw() {
+    const rows = flatTree().map(({ c, d }) => {
+      const inp = h('input', { class: 'inp', type: 'text', value: c.name, 'aria-label': 'Nom de la catégorie' });
+      inp.addEventListener('change', () => {
+        const v = inp.value.trim();
+        if (v) { c.name = v; saveCats(); renderLibrary(); draw(); } else inp.value = c.name;
+      });
+      const banned = new Set(descendants(c.id));
+      const par = h('select', { class: 'inp', 'aria-label': 'Placer ' + c.name + ' dans' },
+        h('option', { value: '', text: 'À la racine' }),
+        ...flatTree().filter(x => !banned.has(x.c.id)).map(x => h('option', { value: x.c.id, text: indentLabel(x.d, x.c.name) })));
+      par.value = c.parent || '';
+      par.addEventListener('change', () => { c.parent = par.value || null; saveCats(); renderLibrary(); draw(); });
+      const sub = h('button', { class: 'ibtn sm', type: 'button', 'aria-label': 'Ajouter une sous-catégorie à ' + c.name, onclick: () => newRow.setParent(c.id) }, ic('plus', 20));
+      const del = confirmBtn('Supprimer', 'Confirmer', () => {
+        S.books.forEach(b => { if (b.cats.includes(c.id)) { b.cats = b.cats.filter(x => x !== c.id); saveBook(b); } });
+        S.cats.forEach(x => { if (x.parent === c.id) x.parent = c.parent || null; });
+        S.cats = S.cats.filter(x => x.id !== c.id);
+        if (S.filterCat === c.id) S.filterCat = c.parent || 'all';
+        saveCats(); renderLibrary(); draw();
+      });
+      del.classList.add('sm');
+      return h('div', { class: 'cblock', style: 'margin-left:' + Math.min(d, 4) * 16 + 'px' },
+        h('div', { class: 'catrow' }, inp, sub, del), par);
+    });
+    newRow.refresh();
+    list.replaceChildren(
+      ...(rows.length ? rows : [h('p', { class: 'fine', text: 'Aucune catégorie pour le moment. Créez par exemple « Sport », puis une sous-catégorie « OCR » dedans.' })]),
+      h('div', {}, h('span', { class: 'lbl', text: 'Nouvelle catégorie ou sous-catégorie' }), newRow),
+      h('p', { class: 'fine', text: 'Le bouton + d’une catégorie prépare une sous-catégorie à l’intérieur. Un livre peut appartenir à plusieurs catégories. Supprimer une catégorie ne supprime ni les livres ni ses sous-catégories, qui remontent d’un niveau.' }));
+  }
+  draw();
+  openSheet('Catégories', list);
+}
+
+/* ================= adding PDFs ================= */
+function ensurePdfJs() {
+  const lib = pdfjs();
+  if (!lib) throw new Error('Le moteur PDF n’a pas pu se charger. Vérifiez votre connexion puis rechargez la page.');
+  if (!lib.GlobalWorkerOptions.workerSrc) lib.GlobalWorkerOptions.workerSrc = (navigator.serviceWorker && navigator.serviceWorker.controller ? new URL('vendor/pdfjs/pdf.worker.min.js', location.href).href : 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/' + VER + '/pdf.worker.min.js');
+  return lib;
+}
+function openError(e) {
+  if (e && e.name === 'PasswordException') return 'Ce PDF est protégé par un mot de passe. Retirez la protection puis ajoutez-le de nouveau.';
+  if (e && e.name === 'QuotaExceededError') return 'Espace de stockage insuffisant sur cet appareil.';
+  return (e && e.message) || 'Impossible de lire ce fichier.';
+}
+
+async function makeCover(doc) {
+  const page = await doc.getPage(1);
+  const v0 = page.getViewport({ scale: 1 });
+  const vp = page.getViewport({ scale: Math.min(2, 440 / v0.width) });
+  const c = document.createElement('canvas');
+  c.width = Math.floor(vp.width); c.height = Math.floor(vp.height);
+  const ctx = c.getContext('2d', { alpha: false });
+  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, c.width, c.height);
+  await page.render({ canvasContext: ctx, viewport: vp }).promise;
+  const blob = await new Promise(r => c.toBlob(r, 'image/jpeg', 0.84));
+  c.width = c.height = 0;
+  return blob;
+}
+
+async function registerBook(book, cover) {
+  const id = book.id;
+  if (ghCfg.autoNew === false) { book.nosync = true; book.nosyncAt = 1; }
+  const pend = await store.get('pending', id);
+  if (pend) {
+    if (pend.title) book.title = pend.title;
+    const paths = pend.categories || (pend.category ? [[pend.category]] : []);
+    paths.forEach(p => { const c = ensurePath(Array.isArray(p) ? p : [p]); if (c && !book.cats.includes(c.id)) book.cats.push(c.id); });
+    if (pend.reading) { book.reading = true; book.readingAt = Date.now(); }
+    if (pend.pos) book.pos = pend.pos;
+    if (pend.zoom) book.zoom = pend.zoom;
+    if (pend.opened) book.opened = pend.opened;
+    store.del('pending', id).catch(() => {});
+  }
+  await store.put('books', book);
+  if (cover) coverURLs[id] = URL.createObjectURL(cover);
+  S.books.push(book);
+  queueIndex(book.id);
+}
+
+async function addOne(file) {
+  if (isHtmlFile(file)) return addOneHtml(file);
+  const lib = ensurePdfJs();
+  const buf = new Uint8Array(await file.arrayBuffer());
+  const doc = await lib.getDocument({ data: buf, isEvalSupported: false }).promise;
+  try {
+    const fp = (doc.fingerprints && doc.fingerprints[0]) || ('b' + uid());
+    const id = fp + '-' + file.size;
+    if (S.books.some(b => b.id === id)) return 'dup';
+    let title = '';
+    try { const m = await doc.getMetadata(); title = ((m.info && m.info.Title) || '').trim(); } catch (e) { /* no metadata */ }
+    if (title.length < 3 || /^(untitled|microsoft word|sans titre)/i.test(title)) {
+      title = file.name.replace(/\.pdf$/i, '').replace(/[_]+/g, ' ').trim() || 'Sans titre';
+    }
+    let cover = null;
+    try { cover = await makeCover(doc); } catch (e) { console.warn('cover', e); }
+    await store.put('files', { id, blob: file });
+    if (cover) await store.put('covers', { id, blob: cover });
+    const book = {
+      id, title, cats: (S.filterCat !== 'all' && S.filterCat !== 'none') ? [S.filterCat] : [],
+      pages: doc.numPages, added: Date.now(), opened: 0, pos: { page: 0, off: 0 }, zoom: 1, size: file.size,
+      fname: file.name, fmod: file.lastModified || 0, fdir: (file.webkitRelativePath || '').replace(/[^/]*$/, '')
+    };
+    await registerBook(book, cover);
+    return 'ok';
+  } finally { try { doc.destroy(); } catch (e) { /* ignore */ } }
+}
+
+let adding = false;
+async function addFiles(files) {
+  const list = [...files].filter(f => /\.pdf$/i.test(f.name) || f.type === 'application/pdf' || isHtmlFile(f));
+  if (!list.length) { toast('Aucun PDF ou HTML dans cette sélection.'); return; }
+  if (adding) { toast('Un ajout est déjà en cours.'); return; }
+  adding = true;
+  let ok = 0, dup = 0, fail = 0, lastErr = '';
+  for (let i = 0; i < list.length; i++) {
+    toast('Ajout ' + (i + 1) + '/' + list.length + ' : ' + list[i].name, true);
+    try {
+      const r = await addOne(list[i]);
+      if (r === 'dup') dup++; else ok++;
+      renderLibrary();
+    } catch (e) { console.error(e); fail++; lastErr = openError(e); }
+  }
+  adding = false;
+  const parts = [];
+  if (ok) parts.push(ok + (ok > 1 ? ' livres ajoutés' : ' livre ajouté'));
+  if (dup) parts.push(dup + (dup > 1 ? ' déjà présents' : ' déjà présent'));
+  if (fail) parts.push(fail + ' en échec');
+  toast(parts.join(' · ') + (fail && lastErr ? '. ' + lastErr : '.'));
+}
+
+/* ================= reader ================= */
+const rd = {
+  root: $('#reader'), title: $('#rTitle'), scroller: $('#scroller'), pages: $('#pages'), panel: $('#panel'),
+  pageIn: $('#pageIn'), pageTot: $('#pageTot'), zlab: $('#zLab'), load: $('#rLoad'), loadTxt: $('#rLoadTxt'),
+  q: $('#sQ'), sStat: $('#sStat'), sList: $('#sList'), annList: $('#annList'), annEmpty: $('#annEmpty'),
+  aCopy: $('#aCopy'), aSave: $('#aSave'), tocList: $('#tocList'),
+  hint: $('#hint'), hitbar: $('#hitbar'), hitCount: $('#hitCount'), selbar: $('#selbar')
+};
+const wide = () => window.matchMedia('(min-width:900px)').matches;
+let R = null;
+let openSeq = 0;
+
+async function openBook(id, opts) {
+  const book = S.books.find(b => b.id === id);
+  if (!book) return;
+  const tk = ++openSeq;
+  rd.root.hidden = false;
+  document.body.classList.add('noscroll');
+  rd.title.textContent = book.title;
+  updateMark(book);
+  rd.load.hidden = false;
+  rd.loadTxt.textContent = 'Ouverture…';
+  let doc = null;
+  try {
+    if (book.kind === 'html') { await openHtml(book, opts, tk); return; }
+    const lib = ensurePdfJs();
+    const rec = await store.get('files', id);
+    if (!rec) throw new Error('Le fichier de ce livre est introuvable. Supprimez-le de la bibliothèque puis ajoutez-le de nouveau.');
+    const buf = new Uint8Array(await rec.blob.arrayBuffer());
+    doc = await lib.getDocument({ data: buf, isEvalSupported: false }).promise;
+    if (tk !== openSeq) { doc.destroy(); return; }
+    const n = doc.numPages;
+    const sizes = new Array(n);
+    for (let i = 0; i < n; i += 40) {
+      const idx = [];
+      for (let j = i; j < Math.min(n, i + 40); j++) idx.push(j);
+      await Promise.all(idx.map(async j => {
+        const p = await doc.getPage(j + 1);
+        const v = p.getViewport({ scale: 1 });
+        sizes[j] = [v.width, v.height];
+      }));
+      if (tk !== openSeq) { doc.destroy(); return; }
+      if (n > 80) rd.loadTxt.textContent = 'Préparation… ' + Math.min(n, i + 40) + ' / ' + n + ' pages';
+    }
+    const noteRec = await store.get('notes', id);
+    if (tk !== openSeq) { doc.destroy(); return; }
+    R = {
+      book, doc, n, sizes, notes: (noteRec && noteRec.items) || [], noteDel: (noteRec && noteRec.del) || {}, nids: new Set(((noteRec && noteRec.items) || []).map(a => a.id)), pages: [], tops: [], zoom: clamp(book.zoom || 1, 0.4, 5),
+      fit: 1, k: 1, visible: new Set(), queue: new Set(), active: 0, text: [], ntext: [], results: [], shown: 0, cur: -1,
+      nq: '', query: '', searchId: 0, panelTab: 'ann', panelOpen: false, pinMode: false, zooming: false, io: null,
+      sel: null, outline: null, curPage: 0, raf: 0, saveT: 0, zoomT: 0
+    };
+    buildPages();
+    R.fit = computeFit();
+    applyK();
+    recomputeTops();
+    const hitMode = !!(opts && opts.query && Number.isInteger(opts.page));
+    const p0 = clamp(hitMode ? opts.page : (book.pos.page || 0), 0, n - 1);
+    R.curPage = p0;
+    if (hitMode) {
+      const back = { page: clamp(book.pos.page || 0, 0, n - 1), off: book.pos.off || 0 };
+      if (back.page !== p0 && book.opened > 0) R.returnPos = back;
+      rd.scroller.scrollTop = Math.max(0, R.tops[p0] - 6);
+    } else {
+      rd.scroller.scrollTop = R.tops[p0] + (book.pos.off || 0) * R.sizes[p0][1] * R.k;
+    }
+    if (R.zoom > 1.02) rd.scroller.scrollLeft = (rd.scroller.scrollWidth - rd.scroller.clientWidth) / 2;
+    rd.pageTot.textContent = '/ ' + n;
+    rd.zlab.textContent = Math.round(R.zoom * 100) + '%';
+    updateIndicator();
+    for (let i = 0; i < n; i++) drawAnn(i);
+    R.io = new IntersectionObserver(onIntersect, { root: rd.scroller, rootMargin: '120% 0px 120% 0px' });
+    R.pages.forEach(p => R.io.observe(p.el));
+    if (hitMode) {
+      const q = opts.query;
+      rd.q.value = q;
+      R.nq = norm(q).trim().replace(/\s+/g, ' ');
+      const pg = R.pages[p0];
+      (pg.after || (pg.after = [])).push(() => { applyHits(p0); focusHit(p0, 0); });
+      runSearch(q).then(() => {
+        if (!R || R.book !== book) return;
+        const i = R.results.findIndex(r => r.page === p0);
+        if (i >= 0) { R.cur = i; updateHitbar(); }
+      });
+      if (R.returnPos) showResume();
+    }
+    rd.load.hidden = true;
+    book.opened = Date.now();
+    saveBook(book);
+  } catch (e) {
+    console.error(e);
+    try { if (doc) doc.destroy(); } catch (x) { /* ignore */ }
+    toast(openError(e));
+    closeReader();
+  }
+}
+
+function closeReader() {
+  openSeq++;
+  if (R) {
+    savePos();
+    if (R.io) R.io.disconnect();
+    R.queue.clear();
+    R.pages.forEach(p => { try { if (p.task) p.task.cancel(); } catch (e) { /* ignore */ } });
+    try { if (R.doc) R.doc.destroy(); } catch (e) { /* ignore */ }
+    if (R.kind === 'html') htmlTeardown();
+  }
+  R = null;
+  closeSheet();
+  $('#resume').hidden = true;
+  $('#scriptBar').hidden = true;
+  rd.root.hidden = true;
+  rd.root.classList.remove('has-panel', 'pinmode', 'is-html');
+  rd.pageIn.hidden = false;
+  rd.panel.hidden = true; rd.hint.hidden = true; rd.hitbar.hidden = true; rd.selbar.hidden = true;
+  rd.pages.replaceChildren();
+  rd.q.value = ''; rd.sStat.textContent = ''; rd.sList.replaceChildren();
+  document.body.classList.remove('noscroll');
+  renderLibrary();
+}
+
+function buildPages() {
+  const frag = document.createDocumentFragment();
+  for (let i = 0; i < R.n; i++) {
+    const [w, hh] = R.sizes[i];
+    const cv = h('div', { class: 'layer layer-cv' });
+    const ann = h('div', { class: 'layer layer-ann' });
+    const tl = h('div', { class: 'layer layer-tl' });
+    const pins = h('div', { class: 'layer layer-pins' });
+    const el = h('div', { class: 'page', 'data-i': String(i), 'data-n': String(i + 1), style: '--pw:' + w + ';--ph:' + hh }, cv, ann, tl, pins);
+    R.pages.push({ el, cv, ann, tl, pins, k: null, token: 0, task: null, after: null });
+    frag.append(el);
+  }
+  rd.pages.replaceChildren(frag);
+}
+function computeFit() {
+  const cw = rd.scroller.clientWidth || 360;
+  return Math.max(0.1, Math.min(cw - 16, 1000) / R.sizes[0][0]);
+}
+function applyK() {
+  R.k = R.fit * R.zoom;
+  rd.pages.style.setProperty('--k', String(R.k));
+}
+function recomputeTops() {
+  for (let i = 0; i < R.n; i++) R.tops[i] = R.pages[i].el.offsetTop;
+}
+const pageH = i => R.sizes[i][1] * R.k;
+function pageAt(y) {
+  let lo = 0, hi = R.n - 1;
+  while (lo < hi) {
+    const mid = (lo + hi + 1) >> 1;
+    if (R.tops[mid] <= y) lo = mid; else hi = mid - 1;
+  }
+  return lo;
+}
+function scrollToPage(i, off) {
+  i = clamp(i, 0, R.n - 1);
+  rd.scroller.scrollTop = Math.max(0, R.tops[i] + (off || 0) * pageH(i) - (off ? 0 : 6));
+}
+function goPage(i) {
+  if (!R) return;
+  if (R.kind === 'html') {
+    const c = curCont();
+    c.scrollBy({ top: (i > R.curPage ? 1 : -1) * c.clientHeight * 0.85, behavior: 'smooth' });
+    return;
+  }
+  scrollToPage(i);
+  if (!wide() && R.panelOpen) closePanel();
+}
+
+/* ---- scroll position, indicator, saving ---- */
+function updateIndicator() {
+  if (!R) return;
+  if (R.kind === 'html') return updateIndicatorHtml();
+  const sc = rd.scroller;
+  const i = pageAt(sc.scrollTop + sc.clientHeight * 0.35);
+  R.curPage = i;
+  if (document.activeElement !== rd.pageIn) rd.pageIn.value = String(i + 1);
+}
+function savePos() {
+  if (!R || R.returnPos) return;
+  if (R.kind === 'html') return savePosHtml();
+  const y = rd.scroller.scrollTop;
+  const i = pageAt(y);
+  const off = clamp((y - R.tops[i]) / pageH(i), 0, 1);
+  const b = R.book;
+  b.pos = { page: i, off: +off.toFixed(4) };
+  b.zoom = +R.zoom.toFixed(3);
+  b.opened = Date.now();
+  saveBook(b);
+}
+function scheduleSave() {
+  if (!R) return;
+  clearTimeout(R.saveT);
+  R.saveT = setTimeout(savePos, 700);
+}
+rd.scroller.addEventListener('scroll', () => {
+  if (!R || R.raf) return;
+  R.raf = requestAnimationFrame(() => { if (!R) return; R.raf = 0; updateIndicator(); scheduleSave() });
+}, { passive: true });
+document.addEventListener('visibilitychange', () => { if (document.hidden) savePos(); });
+window.addEventListener('pagehide', savePos);
+
+/* ---- rendering ---- */
+function onIntersect(entries) {
+  if (!R) return;
+  for (const e of entries) {
+    const i = +e.target.dataset.i;
+    if (e.isIntersecting) { R.visible.add(i); enqueue(i); }
+    else { R.visible.delete(i); unload(i); }
+  }
+}
+function enqueue(i) {
+  if (!R || R.zooming) return;
+  if (R.pages[i].k === R.k) return;
+  R.queue.add(i);
+  pump();
+}
+function pump() {
+  while (R && R.active < 2 && R.queue.size) {
+    let best = -1, bd = 1e9;
+    for (const i of R.queue) { const d = Math.abs(i - R.curPage); if (d < bd) { bd = d; best = i; } }
+    R.queue.delete(best);
+    if (!R.visible.has(best)) continue;
+    R.active++;
+    const RR = R;
+    renderPage(best).catch(e => { if (!e || e.name !== 'RenderingCancelledException') console.warn(e); })
+      .finally(() => { RR.active--; if (R === RR) pump(); });
+  }
+}
+function cancelRender(p) {
+  p.token++;
+  try { if (p.task) p.task.cancel(); } catch (e) { /* ignore */ }
+  p.task = null;
+}
+function unload(i) {
+  const p = R.pages[i];
+  cancelRender(p);
+  R.queue.delete(i);
+  if (p.k !== null) {
+    const c = p.cv.firstChild;
+    if (c) { c.width = 0; c.height = 0; }
+    p.cv.replaceChildren(); p.tl.replaceChildren();
+    p.k = null; p.el.classList.remove('ready');
+  }
+}
+async function renderPage(i) {
+  const RR = R;
+  const p = R.pages[i];
+  const k = R.k;
+  if (p.k === k) return;
+  const token = ++p.token;
+  const page = await R.doc.getPage(i + 1);
+  if (R !== RR || token !== p.token) return;
+  const [w, hh] = R.sizes[i];
+  let dpr = Math.min(window.devicePixelRatio || 1, 2.5);
+  dpr = Math.max(0.5, Math.min(dpr, Math.sqrt(14e6 / (w * k * hh * k))));
+  const canvas = document.createElement('canvas');
+  const vp = page.getViewport({ scale: k * dpr });
+  canvas.width = Math.max(1, Math.floor(vp.width));
+  canvas.height = Math.max(1, Math.floor(vp.height));
+  const task = page.render({ canvasContext: canvas.getContext('2d', { alpha: false }), viewport: vp });
+  p.task = task;
+  await task.promise;
+  if (R !== RR || token !== p.token) return;
+  const tc = await page.getTextContent();
+  if (R !== RR || token !== p.token) return;
+  const holder = document.createElement('div');
+  holder.className = 'textLayer';
+  holder.style.setProperty('--scale-factor', String(k));
+  try {
+    const rt = pdfjs().renderTextLayer({ textContentSource: tc, container: holder, viewport: page.getViewport({ scale: k }), textDivs: [] });
+    await rt.promise;
+  } catch (e) { if (!e || e.name !== 'AbortException') console.warn('textLayer', e); }
+  if (R !== RR || token !== p.token) return;
+  p.cv.replaceChildren(canvas);
+  p.tl.replaceChildren(holder);
+  p.k = k; p.task = null;
+  p.el.classList.add('ready');
+  if (R.nq) applyHits(i);
+  const cbs = p.after; p.after = null;
+  if (cbs) cbs.forEach(f => f());
+}
+
+/* ---- zoom ---- */
+function setZoom(z, cx, cy) {
+  if (!R) return;
+  if (R.kind === 'html') return setZoomHtml(z);
+  z = clamp(z, 0.4, 5);
+  if (Math.abs(z - R.zoom) < 0.001) return;
+  const sc = rd.scroller;
+  if (cx == null) cx = sc.clientWidth / 2;
+  if (cy == null) cy = sc.clientHeight / 2;
+  const y = sc.scrollTop + cy;
+  const i = pageAt(y);
+  const f = (y - R.tops[i]) / pageH(i);
+  const ratio = z / R.zoom;
+  R.zoom = z;
+  applyK();
+  recomputeTops();
+  sc.scrollTop = R.tops[i] + f * pageH(i) - cy;
+  sc.scrollLeft = (sc.scrollLeft + cx) * ratio - cx;
+  R.zooming = true;
+  rd.zlab.textContent = Math.round(z * 100) + '%';
+  clearTimeout(R.zoomT);
+  R.zoomT = setTimeout(settleZoom, 240);
+  scheduleSave();
+}
+function settleZoom() {
+  if (!R) return;
+  R.zooming = false;
+  for (const i of R.visible) {
+    const p = R.pages[i];
+    if (p.k !== R.k) { cancelRender(p); R.queue.add(i); }
+  }
+  pump();
+}
+let resizeT = 0;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeT);
+  resizeT = setTimeout(() => {
+    if (!R) return;
+    if (R.kind === 'html') { htmlRefit(); return; }
+    const sc = rd.scroller;
+    const y = sc.scrollTop;
+    const i = pageAt(y);
+    const f = (y - R.tops[i]) / pageH(i);
+    R.fit = computeFit(); applyK(); recomputeTops();
+    sc.scrollTop = R.tops[i] + f * pageH(i);
+    R.zooming = true; clearTimeout(R.zoomT); R.zoomT = setTimeout(settleZoom, 120);
+  }, 200);
+});
+let pinch = null;
+const tdist = t => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
+rd.scroller.addEventListener('touchstart', e => {
+  if (R && e.touches.length === 2) pinch = { d: tdist(e.touches) || 1, z: R.zoom };
+}, { passive: true });
+rd.scroller.addEventListener('touchmove', e => {
+  if (!R || !pinch || e.touches.length !== 2) return;
+  e.preventDefault();
+  const rect = rd.scroller.getBoundingClientRect();
+  const cx = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
+  const cy = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+  setZoom(pinch.z * tdist(e.touches) / pinch.d, cx, cy);
+}, { passive: false });
+rd.scroller.addEventListener('touchend', e => { if (e.touches.length < 2) pinch = null; }, { passive: true });
+rd.scroller.addEventListener('wheel', e => {
+  if (!R || !(e.ctrlKey || e.metaKey)) return;
+  e.preventDefault();
+  const rect = rd.scroller.getBoundingClientRect();
+  setZoom(R.zoom * (e.deltaY < 0 ? 1.1 : 1 / 1.1), e.clientX - rect.left, e.clientY - rect.top);
+}, { passive: false });
+
+$('#zIn').addEventListener('click', () => R && setZoom(R.zoom * 1.25));
+$('#zOut').addEventListener('click', () => R && setZoom(R.zoom / 1.25));
+rd.zlab.addEventListener('click', () => R && setZoom(1));
+$('#pPrev').addEventListener('click', () => R && goPage(R.curPage - 1));
+$('#pNext').addEventListener('click', () => R && goPage(R.curPage + 1));
+rd.pageIn.addEventListener('focus', () => rd.pageIn.select());
+rd.pageIn.addEventListener('keydown', e => { if (e.key === 'Enter') rd.pageIn.blur(); });
+rd.pageIn.addEventListener('change', () => {
+  if (!R) return;
+  const v = parseInt(rd.pageIn.value, 10);
+  if (v) scrollToPage(clamp(v, 1, R.n) - 1);
+  updateIndicator();
+});
+rd.pageIn.addEventListener('blur', () => { if (R) updateIndicator(); });
+$('#rBack').addEventListener('click', closeReader);
+
+/* ---- annotations ---- */
+const saveNotes = () => {
+  if (!R) return;
+  const cur = new Set(R.notes.map(a => a.id)), now = Date.now();
+  (R.nids || new Set()).forEach(id => { if (!cur.has(id)) R.noteDel[id] = now; });
+  R.nids = cur;
+  store.put('notes', { id: R.book.id, items: R.notes, del: R.noteDel }).catch(console.error);
+};
+const COLORS = ['yellow', 'green', 'blue', 'pink'];
+const COLOR_NAMES = { yellow: 'jaune', green: 'vert', blue: 'bleu', pink: 'rose' };
+
+function drawAnn(i) {
+  if (R.kind === 'html') return paintHtml();
+  const p = R.pages[i];
+  p.ann.replaceChildren(); p.pins.replaceChildren();
+  for (const a of R.notes) {
+    if (a.page !== i) continue;
+    if (a.type === 'hl') {
+      for (const r of a.rects) {
+        p.ann.append(h('i', { class: 'hl', 'data-c': a.color, 'data-aid': a.id,
+          style: 'left:' + r[0] * 100 + '%;top:' + r[1] * 100 + '%;width:' + r[2] * 100 + '%;height:' + r[3] * 100 + '%' }));
+      }
+      if (a.note) {
+        const last = a.rects[a.rects.length - 1];
+        p.pins.append(h('button', { class: 'hbadge', type: 'button', 'aria-label': 'Voir la note', 'data-aid': a.id,
+          style: 'left:' + (last[0] + last[2]) * 100 + '%;top:' + last[1] * 100 + '%',
+          onclick: ev => { ev.stopPropagation(); openAnnEditor(a); } }, ic('note')));
+      }
+    } else {
+      p.pins.append(h('button', { class: 'pin', type: 'button', 'aria-label': 'Note', 'data-aid': a.id,
+        style: 'left:' + a.x * 100 + '%;top:' + a.y * 100 + '%',
+        onclick: ev => { ev.stopPropagation(); openAnnEditor(a); } }, ic('note')));
+    }
+  }
+}
+function afterAnnChange(a) {
+  saveNotes();
+  drawAnn(a.page);
+  if (R.panelOpen && R.panelTab === 'ann') renderAnnList();
+}
+const annY = a => a.type === 'hl' ? (Number.isFinite(a.s) ? (a.pos || 0) : a.rects[0][1]) : a.y;
+const sortedNotes = () => [...R.notes].sort((a, b) => a.page - b.page || annY(a) - annY(b));
+
+function swatches(current, onPick) {
+  const row = h('div', { class: 'swrow' });
+  const draw = cur => row.replaceChildren(...COLORS.map(c => h('button', {
+    class: 'swb', type: 'button', 'data-c': c, 'aria-label': 'Couleur ' + COLOR_NAMES[c], 'aria-pressed': String(c === cur),
+    onclick: () => { onPick(c); draw(c); }
+  })));
+  draw(current);
+  return row;
+}
+
+function openAnnEditor(a) {
+  let t = 0;
+  const ta = h('textarea', { class: 'inp', id: 'annNote', rows: 4, placeholder: 'Ajouter une note…', value: a.note || '' });
+  ta.addEventListener('input', () => { a.note = ta.value; clearTimeout(t); t = setTimeout(() => afterAnnChange(a), 400); });
+  const remove = () => {
+    R.notes = R.notes.filter(x => x.id !== a.id);
+    sheetOnClose = null; closeSheet();
+    saveNotes(); drawAnn(a.page);
+    if (R.panelOpen && R.panelTab === 'ann') renderAnnList();
+  };
+  sheetOnClose = () => {
+    clearTimeout(t);
+    if (!R) return;
+    if (a.type === 'pin' && !(a.note || '').trim()) { R.notes = R.notes.filter(x => x.id !== a.id); saveNotes(); drawAnn(a.page); }
+    else { a.note = ta.value; afterAnnChange(a); }
+    if (R.panelOpen && R.panelTab === 'ann') renderAnnList();
+  };
+  const body = h('div', { class: 'form' },
+    a.type === 'hl' ? h('blockquote', { class: 'quote', text: a.text || '' }) : null,
+    a.type === 'hl' ? h('div', {}, h('span', { class: 'lbl', text: 'Couleur' }), swatches(a.color, c => { a.color = c; afterAnnChange(a); })) : null,
+    h('div', {}, h('label', { class: 'lbl', for: 'annNote', text: 'Note' }), ta),
+    h('div', { class: 'row' },
+      h('button', { class: 'btn primary', type: 'button', onclick: closeSheet, text: 'Terminé' }),
+      h('button', { class: 'btn', type: 'button', text: R.kind === 'html' ? 'Aller au passage' : 'Aller à la page', onclick: () => { closeSheet(); goAnn(a); } }),
+      confirmBtn('Supprimer', 'Confirmer', remove)));
+  openSheet(a.type === 'hl' ? 'Surlignage · ' + annWhere(a) : 'Note · ' + annWhere(a), body);
+}
+function goAnn(a) {
+  if (!R) return;
+  if (R.kind === 'html') { scrollToAt(a.s, 0.3); flashHtml(a); if (!wide() && R.panelOpen) closePanel(); return; }
+  scrollToPage(a.page, Math.max(0.0001, annY(a) - 0.06));
+  if (!wide() && R.panelOpen) closePanel();
+  const p = R.pages[a.page];
+  [p.ann, p.pins].forEach(layer => layer.querySelectorAll('[data-aid="' + a.id + '"]').forEach(n => {
+    n.classList.remove('flash'); void n.offsetWidth; n.classList.add('flash');
+  }));
+}
+
+/* selection toolbar */
+function mergeRects(rs) {
+  const a = rs.map(r => ({ l: r.left, t: r.top, r: r.right, b: r.bottom })).sort((x, y) => x.t - y.t || x.l - y.l);
+  const out = [];
+  for (const r of a) {
+    const c = out[out.length - 1];
+    if (c) {
+      const hh = Math.min(c.b - c.t, r.b - r.t);
+      const same = Math.abs((c.t + c.b) / 2 - (r.t + r.b) / 2) < hh * 0.6;
+      if (same && r.l <= c.r + 4) {
+        c.l = Math.min(c.l, r.l); c.r = Math.max(c.r, r.r); c.t = Math.min(c.t, r.t); c.b = Math.max(c.b, r.b);
+        continue;
+      }
+    }
+    out.push({ ...r });
+  }
+  return out.map(r => ({ left: r.l, top: r.t, width: r.r - r.l, height: r.b - r.t }));
+}
+let selT = 0, selHideT = 0;
+const hideSelBar = () => { rd.selbar.hidden = true; if (R) R.sel = null; };
+document.addEventListener('selectionchange', () => {
+  if (!R) return;
+  clearTimeout(selT);
+  selT = setTimeout(onSel, 140);
+});
+function onSel() {
+  if (!R) return;
+  if (R.kind === 'html') return onSelHtml();
+  const sel = window.getSelection();
+  if (!sel || sel.isCollapsed || !sel.rangeCount) {
+    clearTimeout(selHideT);
+    selHideT = setTimeout(() => { if (R) hideSelBar(); }, 450);
+    return;
+  }
+  const an = sel.anchorNode;
+  const ae = an && (an.nodeType === 1 ? an : an.parentElement);
+  const pageEl = ae && ae.closest && ae.closest('.page');
+  if (!pageEl || !rd.pages.contains(pageEl)) return;
+  const i = +pageEl.dataset.i;
+  const pr = pageEl.getBoundingClientRect();
+  let rects = [...sel.getRangeAt(0).getClientRects()]
+    .filter(r => r.width > 1 && r.height > 2 && r.height < pr.height * 0.2)
+    .filter(r => { const cx = r.left + r.width / 2, cy = r.top + r.height / 2; return cx >= pr.left && cx <= pr.right && cy >= pr.top && cy <= pr.bottom; });
+  rects = mergeRects(rects);
+  if (!rects.length) return;
+  clearTimeout(selHideT);
+  const f4 = v => +v.toFixed(4);
+  R.sel = {
+    page: i,
+    rects: rects.map(r => [f4((r.left - pr.left) / pr.width), f4((r.top - pr.top) / pr.height), f4(r.width / pr.width), f4(r.height / pr.height)]),
+    text: sel.toString().replace(/\s+/g, ' ').trim().slice(0, 2000)
+  };
+  rd.selbar.hidden = false;
+}
+function addHighlight(color) {
+  const s = R && R.sel;
+  if (!s) return null;
+  const a = { id: uid(), type: 'hl', page: s.page, color, rects: s.rects, text: s.text, note: '', created: Date.now() };
+  if (s.html) { a.s = s.s; a.e = s.e; a.pos = s.pos; }
+  R.notes.push(a);
+  saveNotes(); drawAnn(a.page);
+  if (R.panelOpen && R.panelTab === 'ann') renderAnnList();
+  try { window.getSelection().removeAllRanges(); } catch (e) { /* ignore */ }
+  try { if (R.fdoc) R.fdoc.defaultView.getSelection().removeAllRanges(); } catch (e) { /* ignore */ }
+  hideSelBar();
+  return a;
+}
+rd.selbar.querySelectorAll('[data-hl]').forEach(b => b.addEventListener('click', () => addHighlight(b.dataset.hl)));
+$('#selNote').addEventListener('click', () => { const a = addHighlight('yellow'); if (a) openAnnEditor(a); });
+
+/* pins and tapping a highlight */
+function setPinMode(on) {
+  if (!R) return;
+  R.pinMode = on;
+  rd.hint.hidden = !on;
+  rd.root.classList.toggle('pinmode', on);
+}
+$('#hintCancel').addEventListener('click', () => setPinMode(false));
+$('#aPin').addEventListener('click', () => {
+  if (!R) return;
+  if (!wide()) closePanel();
+  setPinMode(true);
+});
+rd.pages.addEventListener('click', e => {
+  if (!R) return;
+  const pageEl = e.target.closest('.page');
+  if (!pageEl || e.target.closest('.pin,.hbadge')) return;
+  const sel = window.getSelection();
+  if (sel && !sel.isCollapsed) return;
+  const i = +pageEl.dataset.i;
+  const r = pageEl.getBoundingClientRect();
+  const x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+  if (R.pinMode) {
+    const a = { id: uid(), type: 'pin', page: i, x: +x.toFixed(4), y: +y.toFixed(4), note: '', created: Date.now() };
+    R.notes.push(a);
+    setPinMode(false);
+    drawAnn(i);
+    openAnnEditor(a);
+    return;
+  }
+  const hit = R.notes.find(a => a.page === i && a.type === 'hl' &&
+    a.rects.some(q => x >= q[0] - 0.004 && x <= q[0] + q[2] + 0.004 && y >= q[1] - 0.004 && y <= q[1] + q[3] + 0.004));
+  if (hit) openAnnEditor(hit);
+});
+
+/* ---- panel ---- */
+function openPanel(tab) {
+  if (!R) return;
+  R.panelOpen = true;
+  rd.panel.hidden = false;
+  rd.root.classList.add('has-panel');
+  setTab(tab);
+  updateHitbar();
+  if (tab === 'search' && !wide()) setTimeout(() => rd.q.focus(), 60);
+  else if (tab === 'search') rd.q.focus();
+}
+function closePanel() {
+  if (!R) return;
+  R.panelOpen = false;
+  rd.panel.hidden = true;
+  rd.root.classList.remove('has-panel');
+  updateHitbar();
+}
+function setTab(t) {
+  R.panelTab = t;
+  document.querySelectorAll('.ptab').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === t)));
+  document.querySelectorAll('.pane').forEach(p => { p.hidden = p.dataset.pane !== t; });
+  if (t === 'ann') renderAnnList();
+  if (t === 'toc') loadOutline();
+}
+document.querySelectorAll('.ptab').forEach(b => b.addEventListener('click', () => R && setTab(b.dataset.tab)));
+$('#pClose').addEventListener('click', closePanel);
+$('#rSearch').addEventListener('click', () => { if (R) { if (R.panelOpen && R.panelTab === 'search') closePanel(); else openPanel('search'); } });
+$('#rMenu').addEventListener('click', () => { if (R) { if (R.panelOpen && R.panelTab !== 'search') closePanel(); else openPanel('ann'); } });
+
+function renderAnnList() {
+  const items = sortedNotes();
+  rd.annEmpty.hidden = items.length > 0;
+  rd.aCopy.hidden = rd.aSave.hidden = !items.length;
+  rd.annList.replaceChildren(...items.map(a => h('div', { class: 'arow' },
+    h('button', { class: 'ago', type: 'button', onclick: () => goAnn(a) },
+      h('span', { class: 'sw', 'data-c': a.type === 'hl' ? a.color : 'pin' }),
+      h('span', { class: 'abody' },
+        h('span', { class: 'apage', text: annWhere(a) + (a.type === 'pin' ? ' · note libre' : '') }),
+        a.type === 'hl' ? h('span', { class: 'aq', text: a.text }) : null,
+        a.note ? h('span', { class: 'an', text: a.note }) : null)),
+    h('button', { class: 'ibtn sm', type: 'button', 'aria-label': 'Modifier', onclick: () => openAnnEditor(a) }, ic('dots', 20)))));
+}
+function annMarkdown() {
+  let md = '# ' + R.book.title + '\n\n';
+  let last = -1;
+  for (const a of sortedNotes()) {
+    if (a.type === 'pin' && !(a.note || '').trim()) continue;
+    if (R.kind !== 'html' && a.page !== last) { md += '## Page ' + (a.page + 1) + '\n\n'; last = a.page; }
+    if (a.type === 'hl') md += '> ' + a.text + '\n\n';
+    if (a.note) md += (a.type === 'hl' ? '' : 'Note : ') + a.note + '\n\n';
+  }
+  return md.trim() + '\n';
+}
+rd.aCopy.addEventListener('click', () => {
+  if (!R) return;
+  const md = annMarkdown();
+  const done = () => toast('Annotations copiées.');
+  const fail = () => toast('Copie refusée par le navigateur. Utilisez « Enregistrer .md ».');
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(md).then(done, fail); else fail();
+});
+async function saveFile(filename, data) {
+  let dl = null;
+  try { dl = window.claude && window.claude.use ? await window.claude.use('downloads') : null; } catch (e) { dl = null; }
+  if (!dl && !IN_CLAUDE) {
+    try {
+      const blob = data instanceof Blob ? data : new Blob([data]);
+      const u = URL.createObjectURL(blob), a = document.createElement('a');
+      a.href = u; a.download = filename; document.body.append(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(u), 60000);
+      return true;
+    } catch (e) { toast('Impossible d’enregistrer le fichier.'); return false; }
+  }
+  if (!dl) { toast('L’enregistrement de fichier n’est pas disponible dans cet affichage.'); return false; }
+  try { await dl.save({ filename, data }); return true; }
+  catch (e) { if (!e || e.code !== 'declined') toast('Impossible d’enregistrer le fichier.'); return false; }
+}
+rd.aSave.addEventListener('click', () => {
+  if (!R) return;
+  const safe = R.book.title.replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 'livre';
+  saveFile(safe + '-annotations.md', annMarkdown());
+});
+
+/* ---- table of contents ---- */
+async function destPage(dest) {
+  let d = dest;
+  if (typeof d === 'string') d = await R.doc.getDestination(d);
+  if (!d || !d.length) return null;
+  const ref = d[0];
+  if (ref && typeof ref === 'object') return await R.doc.getPageIndex(ref);
+  if (Number.isInteger(ref)) return ref;
+  return null;
+}
+async function loadOutline() {
+  if (!R) return;
+  if (R.kind === 'html') return loadOutlineHtml();
+  const RR = R;
+  if (!R.outline) {
+    rd.tocList.replaceChildren(h('p', { class: 'fine', text: 'Chargement…' }));
+    let o = null;
+    try { o = await RR.doc.getOutline(); } catch (e) { /* none */ }
+    const flat = [];
+    (function walk(items, d) {
+      for (const it of items || []) {
+        if (flat.length > 400) return;
+        if (it.dest) flat.push({ title: it.title || '(sans titre)', dest: it.dest, depth: d });
+        if (it.items && it.items.length) walk(it.items, d + 1);
+      }
+    })(o, 0);
+    RR.outline = flat;
+  }
+  if (R !== RR) return;
+  if (!R.outline.length) { rd.tocList.replaceChildren(h('p', { class: 'fine', text: 'Ce PDF n’a pas de sommaire intégré. Utilisez la recherche ou le numéro de page.' })); return; }
+  rd.tocList.replaceChildren(...R.outline.map(it => h('button', {
+    class: 'toc', type: 'button', style: 'padding-left:' + (6 + Math.min(it.depth, 4) * 16) + 'px', text: it.title,
+    onclick: async () => { try { const p = await destPage(it.dest); if (p != null) goPage(p); } catch (e) { toast('Ce lien du sommaire est inutilisable.'); } }
+  })));
+}
+
+/* ---- search ---- */
+async function pageText(i) {
+  if (R.text[i] != null) return R.text[i];
+  const page = await R.doc.getPage(i + 1);
+  const tc = await page.getTextContent();
+  let s = '';
+  for (const it of tc.items) { s += it.str; if (it.hasEOL) s += ' '; }
+  s = s.replace(/\s+/g, ' ').trim();
+  R.text[i] = s; R.ntext[i] = norm(s);
+  return s;
+}
+function snippet(t, nt, j, len) {
+  const src = t.length === nt.length ? t : nt;
+  const a = Math.max(0, j - 36);
+  return { b: (a > 0 ? '…' : '') + src.slice(a, j), m: src.slice(j, j + len), a: src.slice(j + len, j + len + 60) + (j + len + 60 < src.length ? '…' : '') };
+}
+function appendResults() {
+  const frag = [];
+  for (let n = R.shown; n < R.results.length; n++) {
+    const r = R.results[n], idx = n;
+    frag.push(h('button', { class: 'res', type: 'button', 'data-idx': String(idx), onclick: () => { goToResult(idx); if (!wide()) closePanel(); } },
+      h('b', { text: r.lbl || 'Page ' + (r.page + 1) }),
+      h('span', {}, r.sn.b, h('mark', { text: r.sn.m }), r.sn.a)));
+  }
+  R.shown = R.results.length;
+  rd.sList.append(...frag);
+}
+function clearHits() {
+  if (!R) return;
+  if (R.kind === 'html') { paintHtml(); return; }
+  R.pages.forEach(p => { p.tl.querySelectorAll('.hit').forEach(s => s.classList.remove('hit', 'cur')); if (p.hits) p.hits.replaceChildren(); });
+}
+function applyHits(i) {
+  const p = R.pages[i];
+  const spans = [...p.tl.querySelectorAll('.textLayer span')];
+  if (!spans.length) return;
+  const q = R.nq;
+  const flags = spans.map(s => !!q && norm(s.textContent).includes(q));
+  let word = '';
+  if (q && !flags.some(Boolean)) {
+    word = q.split(' ').sort((a, b) => b.length - a.length)[0];
+    if (word.length < 3) word = '';
+  }
+  spans.forEach((s, idx) => {
+    const f = flags[idx] || (!!word && norm(s.textContent).includes(word));
+    s.classList.toggle('hit', f);
+    s.classList.remove('cur');
+  });
+}
+function focusHit(i, occ) {
+  const p = R.pages[i];
+  const hits = [...p.tl.querySelectorAll('.hit')];
+  if (!hits.length) return;
+  const s = hits[Math.min(occ || 0, hits.length - 1)];
+  hits.forEach(x => x.classList.remove('cur'));
+  s.classList.add('cur');
+  const sc = rd.scroller;
+  const sr = s.getBoundingClientRect(), cr = sc.getBoundingClientRect();
+  sc.scrollTop += (sr.top - cr.top) - sc.clientHeight * 0.35;
+  if (sr.left < cr.left || sr.right > cr.right) sc.scrollLeft += (sr.left - cr.left) - sc.clientWidth / 2;
+}
+function updateHitbar() {
+  if (!R) return;
+  const has = R.results.length > 0;
+  rd.hitbar.hidden = !(has && !R.panelOpen);
+  rd.hitCount.textContent = has ? (R.cur >= 0 ? R.cur + 1 : '–') + ' / ' + R.results.length : '';
+  rd.sList.querySelectorAll('.res').forEach(b => b.classList.toggle('on', +b.dataset.idx === R.cur));
+}
+function goToResult(idx) {
+  if (!R || !R.results.length) return;
+  idx = (idx + R.results.length) % R.results.length;
+  R.cur = idx;
+  const r = R.results[idx];
+  if (R.kind === 'html') { gotoHitHtml(idx); updateHitbar(); return; }
+  scrollToPage(r.page);
+  const p = R.pages[r.page];
+  const run = () => { applyHits(r.page); focusHit(r.page, r.occ); };
+  if (p.k === R.k && p.tl.firstChild) run(); else (p.after || (p.after = [])).push(run);
+  updateHitbar();
+}
+async function runSearch(raw) {
+  if (!R) return;
+  if (R.kind === 'html') return runSearchHtml(raw);
+  const RR = R;
+  const my = ++R.searchId;
+  const q = raw.trim();
+  R.results = []; R.shown = 0; R.cur = -1; R.query = q;
+  rd.sList.replaceChildren();
+  const nq = norm(q).replace(/\s+/g, ' ');
+  R.nq = nq.length >= 2 ? nq : '';
+  clearHits(); updateHitbar();
+  if (nq.length < 2) { rd.sStat.textContent = q ? 'Saisissez au moins 2 caractères.' : ''; return; }
+  let chars = 0, matches = 0, withHits = 0;
+  for (let i = 0; i < RR.n; i++) {
+    if (R !== RR || my !== RR.searchId) return;
+    const t = await pageText(i);
+    if (R !== RR || my !== RR.searchId) return;
+    chars += t.length;
+    const nt = RR.ntext[i];
+    let from = 0, occ = 0, found = 0;
+    for (;;) {
+      const j = nt.indexOf(nq, from);
+      if (j < 0) break;
+      found++;
+      if (occ < 6 && RR.results.length < 400) { RR.results.push({ page: i, occ, sn: snippet(t, nt, j, nq.length) }); occ++; }
+      from = j + nq.length;
+    }
+    if (found) { matches += found; withHits++; }
+    if (i % 6 === 5 || i === RR.n - 1) {
+      rd.sStat.textContent = 'Recherche… ' + (i + 1) + ' / ' + RR.n + ' pages';
+      appendResults(); updateHitbar();
+      await tick();
+    }
+  }
+  if (R !== RR || my !== RR.searchId) return;
+  if (chars < 20) rd.sStat.textContent = 'Ce PDF ne contient pas de texte sélectionnable (document scanné). La recherche ne peut pas y fonctionner.';
+  else if (!matches) rd.sStat.textContent = 'Aucun résultat pour « ' + q + ' ».';
+  else rd.sStat.textContent = matches + (matches > 1 ? ' occurrences' : ' occurrence') + ' sur ' + withHits + (withHits > 1 ? ' pages' : ' page') + '.';
+  appendResults(); updateHitbar();
+  for (let i = 0; i < RR.n; i++) if (RR.pages[i].k !== null) applyHits(i);
+}
+let sT = 0;
+rd.q.addEventListener('input', () => { clearTimeout(sT); sT = setTimeout(() => runSearch(rd.q.value), 500); });
+$('#sForm').addEventListener('submit', e => { e.preventDefault(); clearTimeout(sT); runSearch(rd.q.value); rd.q.blur(); });
+$('#hPrev').addEventListener('click', () => R && goToResult(R.cur < 0 ? R.results.length - 1 : R.cur - 1));
+$('#hNext').addEventListener('click', () => R && goToResult(R.cur + 1));
+$('#hClose').addEventListener('click', () => {
+  if (!R) return;
+  R.searchId++; R.results = []; R.shown = 0; R.cur = -1; R.nq = ''; R.query = '';
+  rd.q.value = ''; rd.sStat.textContent = ''; rd.sList.replaceChildren();
+  clearHits(); updateHitbar();
+});
+
+/* ---- keyboard ---- */
+function onKeydown(e) {
+  if (e.key === 'Escape') {
+    if (!sh.root.hidden) { closeSheet(); return; }
+    if (!R) { if (S.sel) exitSelect(); return; }
+    if (R.pinMode) { setPinMode(false); return; }
+    if (R.panelOpen) { closePanel(); return; }
+    closeReader();
+    return;
+  }
+  if (!R || !sh.root.hidden) return;
+  const tag = (document.activeElement && document.activeElement.tagName) || '';
+  if (/INPUT|TEXTAREA|SELECT/.test(tag)) return;
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'f') { e.preventDefault(); openPanel('search'); return; }
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.key === 'ArrowRight') { e.preventDefault(); goPage(R.curPage + 1); }
+  else if (e.key === 'ArrowLeft') { e.preventDefault(); goPage(R.curPage - 1); }
+  else if (e.key === '+' || e.key === '=') setZoom(R.zoom * 1.25);
+  else if (e.key === '-') setZoom(R.zoom / 1.25);
+  else if (e.key === '0') setZoom(1);
+}
+document.addEventListener('keydown', onKeydown);
+
+/* ================= GitHub sync =================
+   Inside Claude: through the viewer's GitHub connector (no token).
+   As an installed app: straight to the GitHub API with a token kept on this device. */
+const IN_CLAUDE = !!(window.claude && window.claude.use);
+const GH = 'github';
+const GH_PART = 600 * 1024;          // base64 characters per part file
+const GH_MAX = 12 * 1048576;         // larger books sync their data, not their file
+const GH_IMPORT = 'a-importer';      // drop PDF/HTML files here on github.com
+const ghCfg = { repo: 'lutrin-sauvegarde', branch: 'main', owner: '', last: 0, catTomb: {}, remote: null, autoNew: true, token: '', importList: [], imported: {} };
+const saveGh = () => store.put('meta', { id: 'gh', ...ghCfg }).catch(console.error);
+let mcpP = null;
+const getMcp = () => mcpP || (mcpP = (async () => {
+  try { return IN_CLAUDE ? await window.claude.use('mcp') : null; } catch (e) { return null; }
+})());
+
+function ghErrText(e) {
+  if (!e) return '';
+  let t = String(e.message || '');
+  try { for (const b of (e.result && e.result.content) || []) if (b && typeof b.text === 'string') t += ' ' + b.text; } catch (x) { /* ignore */ }
+  return t;
+}
+const repoMissing = owner => ({ lutrin: 'Le dépôt « ' + ghCfg.repo + ' » est introuvable sur votre compte GitHub (' + owner + '). Créez-le en privé (avec un README)' + (IN_CLAUDE ? ', donnez-y accès à l’application Claude' : '') + ', puis relancez.' });
+function ghErr(e) {
+  const c = e && e.code;
+  if (e && e.lutrin) return e.lutrin;
+  if (c === 'server_not_connected') return 'GitHub n’est pas connecté à votre compte Claude. Ajoutez-le dans les réglages de Claude, rubrique Connecteurs, puis relancez.';
+  if (c === 'needs_reauth') return 'La connexion à GitHub a expiré. Reconnectez GitHub dans les réglages de Claude, rubrique Connecteurs.';
+  if (c === 'selection_required') return 'Choisissez quel compte GitHub utiliser dans la fenêtre de Claude, puis relancez.';
+  if (c === 'not_in_manifest' || c === 'not_granted' || c === 'approval_required') return 'Lutrin n’a pas reçu l’autorisation d’utiliser GitHub. Relancez et acceptez la demande.';
+  if (c === 'blocked_by_policy') return 'GitHub est bloqué pour ce compte.';
+  if (c === 'capability_disabled' || c === 'capability_removed' || c === 'no_mcp') return 'La connexion GitHub de Claude n’est pas disponible ici.';
+  if (c === 'server_unavailable' || c === 'upstream_error' || c === 'rate_limited' || c === 'network') return 'GitHub ne répond pas pour le moment. Vérifiez la connexion internet et réessayez.';
+  const t = ghErrText(e);
+  if (/resource not accessible|403/i.test(t)) return 'GitHub refuse l’accès au dépôt « ' + ghCfg.repo + ' ». ' + (IN_CLAUDE ? 'Vérifiez que l’application Claude a bien accès à ce dépôt dans vos réglages GitHub.' : 'Vérifiez que le token a le droit « Contents : Read and write » sur ce dépôt.');
+  return (e && e.message) ? 'GitHub : ' + String(e.message).slice(0, 200) : 'La synchronisation a échoué.';
+}
+const blobToB64 = blob => new Promise((res, rej) => {
+  const fr = new FileReader();
+  fr.onload = () => res(String(fr.result).replace(/^data:[^,]*,/, ''));
+  fr.onerror = () => rej(fr.error);
+  fr.readAsDataURL(blob);
+});
+function b64ToBytes(b64) {
+  const bin = atob(String(b64).replace(/\s+/g, ''));
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+function bytesToB64(u8) {
+  let s = '';
+  for (let i = 0; i < u8.length; i += 0x8000) s += String.fromCharCode.apply(null, u8.subarray(i, i + 0x8000));
+  return btoa(s);
+}
+
+/* ---- backend 1: Claude's GitHub connector ---- */
+async function ghCall(tool, input) {
+  const m = await getMcp();
+  if (!m) throw { code: 'no_mcp', message: 'mcp unavailable' };
+  return m.callTool(GH, tool, input, { cache: false });
+}
+function ghResource(res) {
+  for (const b of (res && res.content) || []) {
+    const r = b && b.type === 'resource' && b.resource;
+    if (r && (typeof r.text === 'string' || typeof r.blob === 'string')) return r;
+  }
+  return null;
+}
+const connector = {
+  async me() {
+    const r = await ghCall('get_me', {});
+    return r && r.payload && r.payload.login;
+  },
+  async get(owner, path) {      // resource, or null when missing
+    try {
+      const res = await ghCall('get_file_contents', { owner, repo: ghCfg.repo, path });
+      const r = ghResource(res);
+      if (r) return r;
+      const txt = ((res && res.content) || []).filter(b => b && b.type === 'text' && !/^successfully downloaded/i.test(b.text || '')).map(b => b.text);
+      if (txt.length) return { text: txt.join('') };
+      throw { lutrin: 'Réponse de GitHub illisible pour ' + path + '.' };
+    } catch (e) {
+      if (e && e.code === 'tool_error') {
+        const t = ghErrText(e);
+        if (/repository info|resolve git reference/i.test(t)) throw repoMissing(owner);
+        if (/does not exist|does not point|404|not found/i.test(t)) return null;
+      }
+      throw e;
+    }
+  },
+  async read(owner, path) {
+    const r = await connector.get(owner, path);
+    if (!r) return null;
+    return typeof r.text === 'string' ? r.text : new TextDecoder().decode(b64ToBytes(r.blob));
+  },
+  async readBytes(owner, path) {
+    const r = await connector.get(owner, path);
+    if (!r) return null;
+    return typeof r.blob === 'string' ? b64ToBytes(r.blob) : new TextEncoder().encode(r.text);
+  },
+  async list(owner, dir) {
+    try {
+      const r = await ghCall('get_file_contents', { owner, repo: ghCfg.repo, path: dir });
+      return Array.isArray(r && r.payload) ? r.payload : [];
+    } catch (e) {
+      if (e && e.code === 'tool_error') {
+        const t = ghErrText(e);
+        if (/repository info|resolve git reference/i.test(t)) throw repoMissing(owner);
+        return [];
+      }
+      throw e;
+    }
+  },
+  async put(owner, files, message) {
+    try {
+      await ghCall('push_files', { owner, repo: ghCfg.repo, branch: ghCfg.branch || 'main', message, files });
+    } catch (e) {
+      const t = ghErrText(e);
+      if (e && e.code === 'tool_error' && /reference|branch|empty/i.test(t) && !/403/.test(t)) {
+        throw { lutrin: 'Impossible d’écrire dans la branche « ' + (ghCfg.branch || 'main') + ' ». Le dépôt doit contenir au moins un fichier (cochez « Add a README » à la création).' };
+      }
+      throw e;
+    }
+  },
+  async del(owner, path, message) {
+    try { await ghCall('delete_file', { owner, repo: ghCfg.repo, branch: ghCfg.branch || 'main', path, message }); }
+    catch (e) { if (!(e && e.code === 'tool_error')) throw e; }
+  }
+};
+
+/* ---- backend 2: GitHub API with a personal token (installed app) ---- */
+const encPath = p => p.split('/').map(encodeURIComponent).join('/');
+async function ghFetch(url, opts) {
+  if (!ghCfg.token) throw { lutrin: 'Collez d’abord votre token GitHub ci-dessus.' };
+  let r;
+  try {
+    r = await fetch('https://api.github.com' + url, {
+      method: (opts && opts.method) || 'GET',
+      headers: Object.assign({ Authorization: 'Bearer ' + ghCfg.token, Accept: (opts && opts.accept) || 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' }, opts && opts.body ? { 'Content-Type': 'application/json' } : {}),
+      body: opts && opts.body ? JSON.stringify(opts.body) : undefined,
+      cache: 'no-store'
+    });
+  } catch (e) { throw { code: 'network', message: String(e && e.message || e) }; }
+  if (r.status === 401) throw { lutrin: 'Token GitHub refusé (expiré ou mal copié). Créez-en un nouveau et collez-le.' };
+  return r;
+}
+async function ghFail(r) {
+  let m = '';
+  try { m = (await r.json()).message || ''; } catch (e) { /* ignore */ }
+  if (r.status === 403 || r.status === 404) return { message: r.status + ' ' + m };
+  if (r.status === 409 && /empty/i.test(m)) return { lutrin: 'Le dépôt est vide : ajoutez-y un README sur github.com, puis relancez.' };
+  return { message: (r.status >= 500 ? 'erreur serveur ' : '') + r.status + ' ' + m };
+}
+const contentsUrl = (owner, path) => '/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(ghCfg.repo) + '/contents/' + encPath(path);
+let repoChecked = '';
+const tokenApi = {
+  async me() {
+    const r = await ghFetch('/user');
+    if (!r.ok) throw await ghFail(r);
+    return (await r.json()).login;
+  },
+  async checkRepo(owner) {
+    const key = owner + '/' + ghCfg.repo;
+    if (repoChecked === key) return;
+    const r = await ghFetch('/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(ghCfg.repo));
+    if (r.status === 404) throw repoMissing(owner);
+    if (!r.ok) throw await ghFail(r);
+    const j = await r.json();
+    if (j.default_branch) ghCfg.branch = j.default_branch;
+    repoChecked = key;
+  },
+  async raw(owner, path) {
+    await tokenApi.checkRepo(owner);
+    const r = await ghFetch(contentsUrl(owner, path) + '?ref=' + encodeURIComponent(ghCfg.branch), { accept: 'application/vnd.github.raw' });
+    if (r.status === 404) return null;
+    if (!r.ok) throw await ghFail(r);
+    return r;
+  },
+  async read(owner, path) { const r = await tokenApi.raw(owner, path); return r ? r.text() : null; },
+  async readBytes(owner, path) { const r = await tokenApi.raw(owner, path); return r ? new Uint8Array(await r.arrayBuffer()) : null; },
+  async sha(owner, path) {
+    const r = await ghFetch(contentsUrl(owner, path) + '?ref=' + encodeURIComponent(ghCfg.branch), { accept: 'application/vnd.github.object' });
+    if (r.status === 404) return null;
+    if (!r.ok) throw await ghFail(r);
+    return (await r.json()).sha || null;
+  },
+  async list(owner, dir) {
+    await tokenApi.checkRepo(owner);
+    const r = await ghFetch(contentsUrl(owner, dir) + '?ref=' + encodeURIComponent(ghCfg.branch));
+    if (r.status === 404) return [];
+    if (!r.ok) throw await ghFail(r);
+    const j = await r.json();
+    return Array.isArray(j) ? j : [];
+  },
+  async put(owner, files, message) {
+    await tokenApi.checkRepo(owner);
+    for (const f of files) {
+      const sha = await tokenApi.sha(owner, f.path);
+      const r = await ghFetch(contentsUrl(owner, f.path), { method: 'PUT', body: { message, branch: ghCfg.branch, content: bytesToB64(new TextEncoder().encode(f.content)), ...(sha ? { sha } : {}) } });
+      if (!r.ok) throw await ghFail(r);
+    }
+  },
+  async del(owner, path, message) {
+    const sha = await tokenApi.sha(owner, path);
+    if (!sha) return;
+    const r = await ghFetch(contentsUrl(owner, path), { method: 'DELETE', body: { message, branch: ghCfg.branch, sha } });
+    if (!r.ok && r.status !== 404) throw await ghFail(r);
+  }
+};
+const ghApi = () => IN_CLAUDE ? connector : tokenApi;
+
+async function ghOwner() {
+  if (ghCfg.owner && (IN_CLAUDE || ghCfg.ownerTok === ghCfg.token.slice(-6))) return ghCfg.owner;
+  const login = await ghApi().me();
+  if (!login) throw { lutrin: 'Impossible de connaître votre compte GitHub.' };
+  ghCfg.owner = String(login); ghCfg.ownerTok = IN_CLAUDE ? '' : ghCfg.token.slice(-6); saveGh();
+  return ghCfg.owner;
+}
+
+const ghPart = (id, i) => 'livres/' + id + '/part-' + String(i).padStart(3, '0') + '.b64';
+const ghPaths = ids => ids.map(id => pathOf(id).map(c => c.name)).filter(p => p.length);
+const isBookName = n => /\.(pdf|x?html?)$/i.test(n || '');
+
+async function ghUploadBook(owner, b, step) {
+  const rec = await store.get('files', b.id);
+  if (!rec || !rec.blob || !rec.blob.size) return null;
+  const b64 = await blobToB64(rec.blob);
+  const n = Math.max(1, Math.ceil(b64.length / GH_PART));
+  for (let i = 0; i < n; i++) {
+    step(i, n);
+    await ghApi().put(owner, [{ path: ghPart(b.id, i), content: b64.slice(i * GH_PART, (i + 1) * GH_PART) }],
+      'Lutrin : ' + b.title.slice(0, 80) + (n > 1 ? ' (' + (i + 1) + '/' + n + ')' : ''));
+  }
+  return { parts: n, size: rec.blob.size, name: dlName(b, rec) };
+}
+function ghMergeNotes(loc, rem) {
+  const del = { ...((rem && rem.del) || {}) };
+  for (const [k, v] of Object.entries((loc && loc.del) || {})) del[k] = Math.max(del[k] || 0, v);
+  const items = [], seen = new Set();
+  for (const a of [...((loc && loc.items) || []), ...((rem && rem.items) || [])]) {
+    if (!a || !a.id || seen.has(a.id) || del[a.id]) continue;
+    seen.add(a.id); items.push(a);
+  }
+  return { items, del };
+}
+function ghDropCat(c) {
+  S.books.forEach(b => { if (b.cats.includes(c.id)) { b.cats = b.cats.filter(x => x !== c.id); saveBook(b); } });
+  S.cats.forEach(x => { if (x.parent === c.id) x.parent = c.parent || null; });
+  S.cats = S.cats.filter(x => x.id !== c.id);
+  if (S.filterCat === c.id) S.filterCat = c.parent || 'all';
+}
+
+let ghBusy = false;
+async function ghSync(log) {
+  if (ghBusy) return null;
+  ghBusy = true;
+  const out = { up: 0, big: 0, gone: 0, other: 0, remoteOnly: 0 };
+  try {
+    if (R) throw { lutrin: 'Fermez le livre ouvert avant de synchroniser.' };
+    log('Connexion à GitHub…');
+    const owner = await ghOwner();
+    log('Lecture de la bibliothèque sur GitHub…');
+    const txt = await ghApi().read(owner, 'lutrin.json');
+    let rem = { books: [], cats: [], notes: {}, removed: {}, catRemoved: {}, imported: {} };
+    if (txt != null) {
+      try { rem = { ...rem, ...JSON.parse(txt) }; } catch (e) { throw { lutrin: 'Le fichier lutrin.json du dépôt est abîmé.' }; }
+      if (rem.app !== 'lutrin') throw { lutrin: 'Le fichier lutrin.json de ce dépôt n’appartient pas à Lutrin.' };
+    }
+    const now = Date.now();
+
+    /* categories: newest edit wins, deletions travel as tombstones */
+    const catRemoved = { ...(rem.catRemoved || {}) };
+    for (const [k, v] of Object.entries(ghCfg.catTomb || {})) catRemoved[k] = Math.max(catRemoved[k] || 0, v);
+    for (const rc of rem.cats || []) {
+      if (!rc || !rc.id || (catRemoved[rc.id] && catRemoved[rc.id] >= (rc.mt || 0))) continue;
+      const c = S.cats.find(x => x.id === rc.id);
+      const nm = String(rc.name || 'Sans nom');
+      if (!c) S.cats.push({ id: rc.id, name: nm, parent: rc.parent || null, mt: rc.mt || 0, _sig: nm + '\u0001' + (rc.parent || '') });
+      else if ((rc.mt || 0) > (c.mt || 0)) { c.name = nm; c.parent = rc.parent || null; c.mt = rc.mt; c._sig = c.name + '\u0001' + (c.parent || ''); }
+    }
+    for (const [id, t] of Object.entries(catRemoved)) {
+      const c = S.cats.find(x => x.id === id);
+      if (c && (c.mt || 0) <= t) ghDropCat(c);
+    }
+    const known = new Set(S.cats.map(c => c.id));
+    S.cats.forEach(c => { if (c.parent && (!known.has(c.parent) || c.parent === c.id)) c.parent = null; });
+    catIdsSeen = new Set(S.cats.map(c => c.id));
+    saveCats();
+
+    /* books removed from GitHub (excluded on some device) */
+    const removed = { ...(rem.removed || {}) };
+    const remMap = new Map((rem.books || []).filter(x => x && x.id).map(x => [x.id, x]));
+    for (const b of S.books) {
+      if (b.nosync) { if ((b.nosyncAt || 0) > 1 && remMap.has(b.id)) removed[b.id] = Math.max(removed[b.id] || 0, b.nosyncAt); continue; }
+      if (removed[b.id]) {
+        if ((b.syncOnAt || 0) > removed[b.id]) delete removed[b.id];
+        else { b.nosync = true; b.nosyncAt = removed[b.id]; saveBook(b); out.other++; }
+      }
+    }
+
+    /* book data: newest side wins */
+    for (const rb of remMap.values()) {
+      if (removed[rb.id]) continue;
+      const lb = S.books.find(x => x.id === rb.id);
+      if (lb) {
+        if ((rb.mt || 0) > (lb.mt || 0)) {
+          if (rb.title) lb.title = String(rb.title);
+          lb.cats = (rb.cats || []).filter(id => known.has(id));
+          if (!!rb.reading !== !!lb.reading) { lb.reading = !!rb.reading; if (lb.reading) lb.readingAt = now; }
+          lb.mt = rb.mt; lb._sig = metaSig(lb);
+        }
+        if ((rb.opened || 0) > (lb.opened || 0) && rb.pos) { lb.pos = rb.pos; lb.zoom = rb.zoom || lb.zoom; lb.opened = rb.opened; }
+        saveBook(lb);
+      } else {
+        await store.put('pending', { id: rb.id, title: rb.title, categories: ghPaths((rb.cats || []).filter(id => known.has(id))), reading: !!rb.reading, pos: rb.pos, zoom: rb.zoom, opened: rb.opened });
+      }
+    }
+
+    /* annotations: union, minus the deleted ones */
+    const ids = new Set([...remMap.keys(), ...S.books.filter(b => !b.nosync).map(b => b.id)]);
+    const notesOut = {};
+    for (const id of ids) {
+      if (removed[id]) continue;
+      const loc = await store.get('notes', id).catch(() => null);
+      const m = ghMergeNotes(loc, (rem.notes || {})[id]);
+      if (m.items.length || Object.keys(m.del).length) {
+        await store.put('notes', { id, items: m.items, del: m.del });
+        notesOut[id] = m;
+      }
+    }
+    renderLibrary();
+
+    /* files dropped on github.com in the import folder */
+    log('Recherche de nouveaux fichiers sur GitHub…');
+    const imported = { ...(rem.imported || {}) };
+    for (const [k, v] of Object.entries(ghCfg.imported || {})) imported[k] = v;
+    const drop = (await ghApi().list(owner, GH_IMPORT)).filter(f => f && f.type === 'file' && isBookName(f.name));
+    ghCfg.importList = drop.map(f => ({ path: f.path || GH_IMPORT + '/' + f.name, name: f.name, size: f.size || 0, sha: f.sha || '' }));
+    for (const k of Object.keys(imported)) if (!drop.some(f => (f.path || GH_IMPORT + '/' + f.name) === k)) delete imported[k];
+
+    /* files: send what GitHub does not have yet */
+    const fileInfo = {};
+    const todo = [];
+    for (const b of S.books) {
+      if (b.nosync) continue;
+      const rb = remMap.get(b.id);
+      if (rb && rb.file && rb.file.size === b.size) { fileInfo[b.id] = rb.file; continue; }
+      if ((b.size || 0) > GH_MAX) { out.big++; continue; }
+      todo.push(b);
+    }
+    for (let k = 0; k < todo.length; k++) {
+      const b = todo[k];
+      const f = await ghUploadBook(owner, b, (i, n) => log('Envoi du livre ' + (k + 1) + '/' + todo.length + ' : ' + b.title + (n > 1 ? ' (morceau ' + (i + 1) + '/' + n + ')' : '')));
+      if (f) { fileInfo[b.id] = f; out.up++; }
+    }
+
+    /* the configuration file */
+    log('Enregistrement de la bibliothèque sur GitHub…');
+    const books = [];
+    for (const b of S.books) {
+      if (b.nosync) continue;
+      books.push({
+        id: b.id, kind: b.kind || 'pdf', title: b.title, categories: ghPaths(b.cats), cats: b.cats.slice(),
+        reading: !!b.reading, pages: b.pages, pos: b.pos, zoom: b.zoom, opened: b.opened || 0, added: b.added || 0,
+        mt: b.mt || 0, fname: b.fname || (fileInfo[b.id] && fileInfo[b.id].name) || '', size: b.size || 0, file: fileInfo[b.id] || null
+      });
+    }
+    for (const rb of remMap.values()) {
+      if (removed[rb.id] || S.books.some(b => b.id === rb.id)) continue;
+      books.push(rb); out.remoteOnly++;
+    }
+    const conf = {
+      app: 'lutrin', version: 3, updated: new Date(now).toISOString(),
+      info: 'Bibliothèque Lutrin. Les livres sont dans livres/<id>/ découpés en morceaux base64. Les catégories de chaque livre sont dans « categories ». Déposez un PDF ou un HTML dans ' + GH_IMPORT + '/ pour le récupérer dans Lutrin.',
+      categories: S.cats.map(c => pathOf(c.id).map(x => x.name)),
+      cats: S.cats.map(c => ({ id: c.id, name: c.name, parent: c.parent || null, mt: c.mt || 0 })),
+      catRemoved, removed, imported, books,
+      notes: Object.fromEntries(books.filter(b => notesOut[b.id]).map(b => [b.id, notesOut[b.id]]))
+    };
+    await ghApi().put(owner, [{ path: 'lutrin.json', content: JSON.stringify(conf, null, 1) }], 'Lutrin : synchronisation');
+
+    /* remove the files of books excluded from GitHub */
+    for (const id of Object.keys(removed)) {
+      const rb = remMap.get(id);
+      if (!rb || !rb.file || !rb.file.parts) continue;
+      log('Retrait de GitHub : ' + (rb.title || id));
+      for (let i = 0; i < rb.file.parts; i++) await ghApi().del(owner, ghPart(id, i), 'Lutrin : retrait de ' + String(rb.title || id).slice(0, 80));
+      out.gone++;
+    }
+    ghCfg.remote = conf; ghCfg.last = Date.now(); ghCfg.catTomb = {}; ghCfg.imported = {};
+    saveGh();
+    return out;
+  } finally { ghBusy = false; }
+}
+
+async function ghAddBytes(bytes, name, kind) {
+  const file = new File([bytes], name, { type: kind === 'html' ? 'text/html' : 'application/pdf' });
+  const before = new Set(S.books.map(b => b.id));
+  const r = await addOne(file);
+  const nb = S.books.find(b => !before.has(b.id));
+  return { r, book: nb || null };
+}
+async function ghFetchBook(rb, log) {
+  const owner = await ghOwner();
+  const parts = [];
+  for (let i = 0; i < rb.file.parts; i++) {
+    log('Téléchargement : ' + rb.title + (rb.file.parts > 1 ? ' (morceau ' + (i + 1) + '/' + rb.file.parts + ')' : ''));
+    const t = await ghApi().read(owner, ghPart(rb.id, i));
+    if (t == null) throw { lutrin: 'Un morceau du livre « ' + rb.title + ' » manque sur GitHub.' };
+    parts.push(t.trim());
+  }
+  const known = new Set(S.cats.map(c => c.id));
+  await store.put('pending', { id: rb.id, title: rb.title, categories: ghPaths((rb.cats || []).filter(id => known.has(id))), reading: !!rb.reading, pos: rb.pos, zoom: rb.zoom, opened: rb.opened });
+  const isH = rb.kind === 'html';
+  const { r } = await ghAddBytes(b64ToBytes(parts.join('')), rb.file.name || rb.fname || (isH ? 'livre.html' : 'livre.pdf'), rb.kind);
+  const b = S.books.find(x => x.id === rb.id);
+  if (b) { b.mt = rb.mt || 0; b._sig = metaSig(b); b.nosync = false; b.syncOnAt = Date.now(); saveBook(b); }
+  else if (r !== 'dup') throw { lutrin: 'Le fichier récupéré ne correspond pas au livre « ' + rb.title + ' ».' };
+  renderLibrary();
+}
+async function ghFetchImport(f, log) {
+  const owner = await ghOwner();
+  log('Téléchargement : ' + f.name);
+  const bytes = await ghApi().readBytes(owner, f.path);
+  if (!bytes) throw { lutrin: '« ' + f.name + ' » n’est plus sur GitHub.' };
+  const { r, book } = await ghAddBytes(bytes, f.name, /\.pdf$/i.test(f.name) ? 'pdf' : 'html');
+  if (book) { book.nosync = false; book.syncOnAt = Date.now(); saveBook(book); }
+  ghCfg.imported[f.path] = { sha: f.sha, id: book ? book.id : '', at: Date.now() };
+  saveGh();
+  renderLibrary();
+  return r;
+}
+function ghWaiting() {
+  const conf = ghCfg.remote || {};
+  const books = (conf.books || []).filter(rb => rb.file && !S.books.some(b => b.id === rb.id)).map(rb => ({ kind: 'book', rb, title: rb.title, size: rb.size || rb.file.size || 0 }));
+  const done = { ...(conf.imported || {}), ...(ghCfg.imported || {}) };
+  const files = (ghCfg.importList || []).filter(f => !(done[f.path] && done[f.path].sha === f.sha)).map(f => ({ kind: 'import', f, title: f.name + ' (déposé sur GitHub)', size: f.size }));
+  return [...books, ...files];
+}
+
+function ghSection() {
+  const status = h('p', { class: 'fine' });
+  const prog = h('p', { class: 'fine', 'aria-live': 'polite' });
+  const repoIn = h('input', { class: 'inp', type: 'text', value: ghCfg.repo, 'aria-label': 'Nom du dépôt GitHub', autocomplete: 'off', spellcheck: false });
+  repoIn.addEventListener('change', () => {
+    const v = repoIn.value.trim().replace(/^.*\//, '').replace(/[^A-Za-z0-9._-]/g, '-');
+    if (v && v !== ghCfg.repo) { ghCfg.repo = v; ghCfg.remote = null; ghCfg.last = 0; ghCfg.importList = []; repoChecked = ''; saveGh(); draw(); }
+    repoIn.value = ghCfg.repo;
+  });
+  let tokRow = null;
+  if (!IN_CLAUDE) {
+    const tokIn = h('input', { class: 'inp', type: 'password', value: ghCfg.token, placeholder: 'github_pat_…', 'aria-label': 'Token GitHub', autocomplete: 'off', spellcheck: false });
+    tokIn.addEventListener('change', () => { ghCfg.token = tokIn.value.trim(); ghCfg.owner = ''; repoChecked = ''; saveGh(); draw(); });
+    tokRow = h('div', {}, h('span', { class: 'lbl', text: 'Token GitHub (gardé sur cet appareil seulement)' }), tokIn,
+      h('p', { class: 'fine', text: 'Sur github.com : Settings › Developer settings › Fine-grained tokens › Generate new token. Accès au seul dépôt de sauvegarde, permission « Contents : Read and write ».' }));
+  }
+  const autoBox = h('input', { type: 'checkbox', checked: ghCfg.autoNew !== false });
+  autoBox.addEventListener('change', () => { ghCfg.autoNew = autoBox.checked; saveGh(); });
+  const goBtn = h('button', { class: 'btn primary', type: 'button' }, ic('save', 18), 'Synchroniser maintenant');
+  const remoteBox = h('div', { class: 'form' });
+  const log = t => { prog.textContent = t; };
+  function draw() {
+    status.textContent = (ghCfg.owner ? 'Dépôt : ' + ghCfg.owner + '/' + ghCfg.repo : 'Dépôt : ' + ghCfg.repo) + ' · '
+      + (ghCfg.last ? 'dernière synchronisation le ' + fmtDate(ghCfg.last) : 'jamais synchronisé depuis cet appareil');
+    const wait = ghWaiting();
+    if (!wait.length) { remoteBox.replaceChildren(); return; }
+    const all = h('button', { class: 'btn', type: 'button', text: 'Tout récupérer (' + wait.length + ')' });
+    const rows = wait.map(w => {
+      const get = h('button', { class: 'btn sm', type: 'button', text: 'Récupérer' });
+      get.addEventListener('click', () => fetchSome([w]));
+      return h('div', { class: 'catrow' }, h('span', { class: 'ghname', text: w.title + ' · ' + fmtSize(w.size) }), get);
+    });
+    all.addEventListener('click', () => fetchSome(wait));
+    remoteBox.replaceChildren(h('span', { class: 'lbl', text: 'Sur GitHub, pas sur cet appareil' }), ...rows, h('div', { class: 'row' }, all));
+  }
+  async function fetchSome(list) {
+    if (ghBusy) return;
+    ghBusy = true; goBtn.disabled = true;
+    let ok = 0;
+    try {
+      for (const w of list) { if (w.kind === 'book') await ghFetchBook(w.rb, log); else await ghFetchImport(w.f, log); ok++; }
+      log((ok > 1 ? ok + ' livres récupérés.' : 'Livre récupéré.') + ' Synchronisez pour enregistrer le tout sur GitHub.');
+    } catch (e) { console.error(e); log(ghErr(e)); }
+    finally { ghBusy = false; goBtn.disabled = false; draw(); }
+  }
+  goBtn.addEventListener('click', async () => {
+    goBtn.disabled = true;
+    try {
+      const r = await ghSync(log);
+      if (r) {
+        const bits = ['Synchronisation terminée'];
+        if (r.up) bits.push(r.up + (r.up > 1 ? ' livres envoyés' : ' livre envoyé'));
+        if (r.gone) bits.push(r.gone + ' retiré' + (r.gone > 1 ? 's' : '') + ' de GitHub');
+        if (r.other) bits.push(r.other + ' exclu' + (r.other > 1 ? 's' : '') + ' depuis un autre appareil');
+        if (r.big) bits.push(r.big + ' trop lourd' + (r.big > 1 ? 's' : '') + ' (données seulement)');
+        const w = ghWaiting().length;
+        if (w) bits.push(w + ' à récupérer ci-dessous');
+        log(bits.join(' · ') + '.');
+      }
+    } catch (e) { console.error(e); log(ghErr(e)); }
+    finally { goBtn.disabled = false; draw(); }
+  });
+  draw();
+  return h('div', { class: 'form ghsec' },
+    h('span', { class: 'lbl', text: 'Synchronisation GitHub' }),
+    h('p', { class: 'fine', text: 'Dans les deux sens, et seulement ce que vous choisissez. Vers GitHub : vos livres, catégories, positions et annotations (excluez un livre depuis ses options, ou plusieurs avec « Sélectionner »). Depuis GitHub : les livres des autres appareils et les PDF ou HTML que vous déposez dans le dossier « ' + GH_IMPORT + ' » du dépôt apparaissent ci-dessous ; récupérez ceux que vous voulez.' + (IN_CLAUDE ? ' Ici, la connexion GitHub de votre compte Claude est utilisée : aucun token à saisir.' : '') }),
+    tokRow,
+    h('div', {}, h('span', { class: 'lbl', text: 'Nom du dépôt (privé)' }), repoIn),
+    h('label', { class: 'chk' }, autoBox, h('span', { text: 'Envoyer automatiquement les livres que j’ajoute' })),
+    h('div', { class: 'row' }, goBtn), prog, status, remoteBox);
+}
+
+/* ================= backup ================= */
+async function exportData() {
+  const notesAll = await store.all('notes');
+  const data = {
+    app: 'lutrin', version: 2, exported: new Date().toISOString(),
+    categories: S.cats.map(c => pathOf(c.id).map(x => x.name)),
+    books: S.books.map(b => ({ id: b.id, kind: b.kind || 'pdf', title: b.title, categories: b.cats.map(id => pathOf(id).map(x => x.name)), reading: !!b.reading, pages: b.pages, pos: b.pos, zoom: b.zoom, opened: b.opened })),
+    notes: Object.fromEntries(notesAll.filter(n => n.items && n.items.length).map(n => [n.id, n.items]))
+  };
+  const day = new Date().toISOString().slice(0, 10);
+  const ok = await saveFile('lutrin-sauvegarde-' + day + '.json', JSON.stringify(data, null, 1));
+  if (ok) toast('Sauvegarde enregistrée.');
+}
+async function importData(file) {
+  const d = JSON.parse(await file.text());
+  if (!d || d.app !== 'lutrin' || !Array.isArray(d.books)) throw new Error('Ce fichier n’est pas une sauvegarde Lutrin.');
+  const toPath = p => Array.isArray(p) ? p.map(String) : [String(p)];
+  (d.categories || []).forEach(p => ensurePath(toPath(p)));
+  for (const b of d.books) {
+    const paths = (b.categories || (b.category ? [b.category] : [])).map(toPath);
+    const catIds = paths.map(p => (ensurePath(p) || {}).id).filter(Boolean);
+    const local = S.books.find(x => x.id === b.id);
+    if (local) {
+      catIds.forEach(id => { if (!local.cats.includes(id)) local.cats.push(id); });
+      if (b.reading && !local.reading) { local.reading = true; local.readingAt = Date.now(); }
+      if ((b.opened || 0) > (local.opened || 0) && b.pos) { local.pos = b.pos; local.zoom = b.zoom || local.zoom; local.opened = b.opened; }
+      await saveBook(local);
+    } else {
+      await store.put('pending', { id: b.id, title: b.title, categories: paths, reading: !!b.reading, pos: b.pos, zoom: b.zoom, opened: b.opened });
+    }
+  }
+  for (const [id, items] of Object.entries(d.notes || {})) {
+    const cur = (await store.get('notes', id)) || { id, items: [] };
+    const have = new Set(cur.items.map(a => a.id));
+    items.forEach(a => { if (a && a.id && !have.has(a.id)) cur.items.push(a); });
+    await store.put('notes', cur);
+  }
+  renderLibrary();
+}
+async function openBackup() {
+  const usage = h('p', { class: 'fine', text: 'Calcul de l’espace utilisé…' });
+  openSheet('Sauvegarde et GitHub',
+    h('div', { class: 'form' },
+      h('p', { class: 'fine', text: 'Vos livres sont gardés dans ce navigateur, sur cet appareil. La sauvegarde contient vos catégories, vos pages lues et vos annotations. Les fichiers PDF et HTML n’y sont pas : gardez vos originaux. En les ajoutant de nouveau, tout se rattache automatiquement.' }),
+      h('div', { class: 'row' },
+        h('button', { class: 'btn primary', type: 'button', onclick: exportData }, ic('save', 18), 'Exporter'),
+        h('button', { class: 'btn', type: 'button', onclick: () => $('#importIn').click(), text: 'Importer' })),
+      usage, ghSection()));
+  try {
+    const est = navigator.storage && navigator.storage.estimate ? await navigator.storage.estimate() : null;
+    const persisted = navigator.storage && navigator.storage.persisted ? await navigator.storage.persisted() : null;
+    usage.textContent = (est && est.usage != null ? 'Espace utilisé : ' + fmtSize(est.usage) + (est.quota ? ' sur ' + fmtSize(est.quota) + ' disponibles' : '') + '. ' : '')
+      + (persisted === true ? 'Le navigateur a promis de conserver ces données.' : persisted === false ? 'Le navigateur peut effacer ces données s’il manque de place.' : '');
+  } catch (e) { usage.textContent = ''; }
+}
+$('#backupBtn').addEventListener('click', openBackup);
+$('#importIn').addEventListener('change', async e => {
+  const f = e.target.files && e.target.files[0];
+  e.target.value = '';
+  if (!f) return;
+  try { await importData(f); closeSheet(); toast('Sauvegarde importée.'); }
+  catch (err) { console.error(err); toast(err.message || 'Import impossible.'); }
+});
+
+/* ================= library wiring ================= */
+const fileIn = $('#fileIn');
+$('#addBtn').addEventListener('click', () => fileIn.click());
+$('#addBtn2').addEventListener('click', () => fileIn.click());
+fileIn.addEventListener('change', () => { const fl = [...fileIn.files]; fileIn.value = ''; addFiles(fl); });
+$('#catMgr').addEventListener('click', openCatManager);
+$('#libQ').addEventListener('input', e => { S.q = e.target.value; renderLibrary(); scheduleLibSearch(); });
+$('#sort').addEventListener('change', e => { S.sort = e.target.value; saveSettings(); renderLibrary(); });
+
+let dragDepth = 0;
+const hasFiles = e => e.dataTransfer && [...e.dataTransfer.types].includes('Files');
+window.addEventListener('dragenter', e => { if (hasFiles(e)) { dragDepth++; $('#drop').hidden = false; } });
+window.addEventListener('dragleave', e => { if (hasFiles(e)) { dragDepth = Math.max(0, dragDepth - 1); if (!dragDepth) $('#drop').hidden = true; } });
+window.addEventListener('dragover', e => { if (hasFiles(e)) e.preventDefault(); });
+window.addEventListener('drop', e => {
+  if (!hasFiles(e)) return;
+  e.preventDefault();
+  dragDepth = 0; $('#drop').hidden = true;
+  addFiles([...e.dataTransfer.files]);
+});
+
+/* ================= shelves and reading list ================= */
+let booted = false;
+
+function renderShelves(el, list) {
+  const W = el.clientWidth || 340;
+  const GAP = 14, MINW = 104, PADX = 12;
+  const cols = Math.max(2, Math.floor((W - PADX * 2 + GAP) / (MINW + GAP)));
+  el.style.setProperty('--cols', String(cols));
+  const rows = [];
+  for (let i = 0; i < list.length; i += cols) rows.push(list.slice(i, i + cols));
+  el.replaceChildren(...rows.map(r => h('div', { class: 'shelf' }, h('div', { class: 'books' }, r.map(cardFor)))));
+}
+
+function renderReading(show) {
+  const sec = $('#readingSec');
+  sec.hidden = !show;
+  if (!show) return;
+  const list = S.books.filter(b => b.reading)
+    .sort((a, b) => (b.opened || b.readingAt || 0) - (a.opened || a.readingAt || 0));
+  $('#readCount').textContent = list.length ? list.length + (list.length > 1 ? ' livres' : ' livre') : '';
+  const el = $('#reading');
+  if (!list.length) {
+    el.replaceChildren(h('div', { class: 'shelf vacant' },
+      h('p', { class: 'empty-shelf', text: 'Aucun livre en cours. Touchez le marque-page d’un livre pour le poser ici.' })));
+    return;
+  }
+  renderShelves(el, list);
+}
+
+function toggleReading(b, silent) {
+  b.reading = !b.reading;
+  if (b.reading) b.readingAt = Date.now();
+  saveBook(b);
+  renderLibrary();
+  if (R && R.book === b) updateMark(b);
+  if (!silent) toast(b.reading ? 'Ajouté à « En cours de lecture ».' : 'Retiré de « En cours de lecture ».');
+}
+function updateMark(b) {
+  const m = $('#rMark');
+  const on = !!(b && b.reading);
+  m.setAttribute('aria-pressed', String(on));
+  m.setAttribute('aria-label', on ? 'Retirer de En cours de lecture' : 'Mettre en cours de lecture');
+}
+$('#rMark').addEventListener('click', () => { if (R) toggleReading(R.book); });
+
+if (typeof ResizeObserver === 'function') {
+  let lastW = 0;
+  new ResizeObserver(() => {
+    if (!booted) return;
+    const w = Math.round($('main').clientWidth);
+    if (w !== lastW) { lastW = w; renderLibrary(); }
+  }).observe($('main'));
+}
+
+/* back to the reading position after opening a book from a search hit */
+function showResume() {
+  if (!R || !R.returnPos) return;
+  $('#resumeTxt').textContent = R.kind === 'html' ? 'Votre position : ' + Math.round(clamp(R.returnPos.off || 0, 0, 1) * 100) + ' %' : 'Votre page : ' + (R.returnPos.page + 1);
+  $('#resume').hidden = false;
+}
+$('#resumeGo').addEventListener('click', () => {
+  if (!R || !R.returnPos) return;
+  const rp = R.returnPos;
+  R.returnPos = null;
+  $('#resume').hidden = true;
+  if (R.kind === 'html') scrollToPosHtml(rp); else scrollToPage(rp.page, rp.off);
+  scheduleSave();
+});
+$('#resumeStay').addEventListener('click', () => {
+  if (!R) return;
+  R.returnPos = null;
+  $('#resume').hidden = true;
+  scheduleSave();
+});
+
+/* ================= full-text index ================= */
+const IDX = { queue: [], running: false, done: 0, total: 0, cur: null };
+const unapos = s => s.replace(/[’‘´`]/g, '\'');
+
+/* normalised copy of s with exactly the same length, so offsets carry over */
+function normSame(s) {
+  const n = unapos(norm(s));
+  if (n.length === s.length) return n;
+  let out = '';
+  for (let i = 0; i < s.length; i++) {
+    const c = unapos(s[i].normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase());
+    out += c.length === 1 ? c : (c[0] || s[i]);
+  }
+  return out;
+}
+
+/* page text with blank lines between paragraphs (guessed from vertical gaps) */
+function extractText(items) {
+  const lines = [];
+  let cur = null;
+  for (const it of items) {
+    if (typeof it.str !== 'string') continue;
+    if (!it.str && !it.hasEOL) continue;
+    const tr = it.transform || [0, 0, 0, 0, 0, 0];
+    const y = tr[5];
+    const hgt = Math.abs(it.height) || Math.abs(tr[3]) || 10;
+    if (!cur || Math.abs(y - cur.y) > hgt * 0.55) { cur = { y, h: hgt, s: '' }; lines.push(cur); }
+    cur.s += it.str;
+    if (it.hasEOL) cur = null;
+  }
+  const paras = [];
+  let p = '', prev = null;
+  for (const L of lines) {
+    const s = L.s.replace(/\s+/g, ' ').trim();
+    if (!s) continue;
+    const newPara = prev && Math.abs(prev.y - L.y) > Math.max(prev.h, L.h) * 1.75;
+    if (!p) p = s;
+    else if (newPara) { paras.push(p); p = s; }
+    else if (/[-­]$/.test(p) && /^[a-zà-ÿ]/.test(s)) p = p.slice(0, -1) + s;
+    else p += ' ' + s;
+    prev = L;
+  }
+  if (p) paras.push(p);
+  return paras.join('\n\n');
+}
+
+function renderIdxBanner() {
+  const el = $('#idxBanner');
+  if (!IDX.running) { el.hidden = true; return; }
+  const c = IDX.cur;
+  el.hidden = false;
+  el.textContent = 'Indexation du texte pour la recherche dans les livres : ' + Math.min(IDX.done + 1, IDX.total) + ' / ' + IDX.total +
+    (c ? ' · « ' + c.title + ' », page ' + c.i + ' sur ' + c.n : '');
+}
+
+async function indexBook(b) {
+  if (b.kind === 'html') return indexHtmlBook(b);
+  const lib = ensurePdfJs();
+  const rec = await store.get('files', b.id);
+  if (!rec) return;
+  const doc = await lib.getDocument({ data: new Uint8Array(await rec.blob.arrayBuffer()), isEvalSupported: false }).promise;
+  const pages = [], npages = [];
+  let size = 0;
+  try {
+    const n = doc.numPages;
+    for (let i = 1; i <= n; i++) {
+      const page = await doc.getPage(i);
+      const tc = await page.getTextContent();
+      const t = extractText(tc.items);
+      pages.push(t); npages.push(normSame(t)); size += t.length;
+      page.cleanup();
+      if (i % 8 === 0 || i === n) { IDX.cur = { title: b.title, i, n }; renderIdxBanner(); await tick(); }
+    }
+  } finally { try { doc.destroy(); } catch (e) { /* ignore */ } }
+  if (!S.books.includes(b)) return;
+  await store.put('texts', { id: b.id, pages, npages, size });
+  dropTexts(b.id);
+  b.idx = true;
+  b.noText = size < 20;
+  await saveBook(b);
+}
+
+function queueIndex(id) {
+  if (IDX.queue.includes(id)) return;
+  IDX.queue.push(id);
+  IDX.total++;
+  if (!IDX.running) runIndexer();
+}
+async function runIndexer() {
+  IDX.running = true;
+  renderIdxBanner();
+  while (IDX.queue.length) {
+    const id = IDX.queue.shift();
+    const b = S.books.find(x => x.id === id);
+    if (b && !b.idx) {
+      try { await indexBook(b); }
+      catch (e) {
+        console.warn('index', e);
+        if (e && e.name === 'QuotaExceededError') toast('Espace insuffisant pour indexer le texte.');
+      }
+    }
+    IDX.done++;
+    renderIdxBanner();
+    await tick();
+  }
+  IDX.running = false; IDX.done = 0; IDX.total = 0; IDX.cur = null;
+  renderIdxBanner();
+  if (S.q.trim().length >= 2) scheduleLibSearch(100);
+}
+
+/* ================= search inside every book ================= */
+const textCache = new Map();
+let cacheChars = 0;
+async function getTexts(id) {
+  if (textCache.has(id)) { const v = textCache.get(id); textCache.delete(id); textCache.set(id, v); return v; }
+  const rec = await store.get('texts', id);
+  if (!rec) return null;
+  textCache.set(id, rec);
+  cacheChars += rec.size || 0;
+  while (cacheChars > 12e6 && textCache.size > 1) {
+    const [k, v] = textCache.entries().next().value;
+    textCache.delete(k); cacheChars -= v.size || 0;
+  }
+  return rec;
+}
+function dropTexts(id) {
+  const v = textCache.get(id);
+  if (v) { cacheChars -= v.size || 0; textCache.delete(id); }
+}
+
+let libSearchId = 0, libSearchT = 0, lastScope = null;
+function scheduleLibSearch(ms) {
+  clearTimeout(libSearchT);
+  libSearchT = setTimeout(runLibSearch, ms == null ? 450 : ms);
+}
+function syncSearchScope() {
+  const searching = S.q.trim().length >= 2;
+  $('#sres').hidden = !searching;
+  if (!searching) { libSearchId++; lastScope = null; clearTimeout(libSearchT); return; }
+  if (lastScope !== S.filterCat) { lastScope = S.filterCat; scheduleLibSearch(60); }
+}
+function scopePredicate() {
+  if (S.filterCat === 'all') return () => true;
+  if (S.filterCat === 'none') return b => !b.cats.length;
+  const set = new Set(descendants(S.filterCat));
+  return b => b.cats.some(x => set.has(x));
+}
+
+/* a paragraph window of ~380 characters around the first match */
+function paraWindow(p, pos, nlen) {
+  if (p.length <= 380) return p;
+  let s = Math.max(0, pos - 150), e = Math.min(p.length, pos + nlen + 220);
+  if (s > 0) { const sp = p.indexOf(' ', s); if (sp >= 0 && sp < pos) s = sp + 1; }
+  if (e < p.length) { const sp = p.lastIndexOf(' ', e); if (sp > pos + nlen) e = sp; }
+  return (s > 0 ? '… ' : '') + p.slice(s, e) + (e < p.length ? ' …' : '');
+}
+function markNodes(text, needles) {
+  const nt = normSame(text);
+  const spans = [];
+  for (const w of needles) {
+    let from = 0;
+    for (;;) { const j = nt.indexOf(w, from); if (j < 0) break; spans.push([j, j + w.length]); from = j + w.length; }
+  }
+  spans.sort((a, b) => a[0] - b[0]);
+  const out = [];
+  let pos = 0;
+  for (const [a, b] of spans) {
+    if (b <= pos) continue;
+    const s = Math.max(a, pos);
+    if (s > pos) out.push(text.slice(pos, s));
+    out.push(h('mark', { text: text.slice(s, b) }));
+    pos = b;
+  }
+  if (pos < text.length) out.push(text.slice(pos));
+  return out;
+}
+
+/* a paragraph matches when it holds every word; the exact phrase ranks first */
+function searchBook(b, rec, needles, phrase) {
+  const hits = [];
+  let total = 0;
+  const longest = needles.slice().sort((x, y) => y.length - x.length)[0];
+  for (let i = 0; i < rec.npages.length; i++) {
+    const nt = rec.npages[i];
+    if (!nt || !needles.every(w => nt.includes(w))) continue;
+    let off = 0, pi = -1;
+    for (const np of nt.split('\n\n')) {
+      pi++;
+      if (needles.every(w => np.includes(w))) {
+        total++;
+        if (hits.length < 80) {
+          const exact = needles.length === 1 || np.indexOf(phrase) >= 0;
+          const pos = needles.length > 1 && exact ? np.indexOf(phrase) : np.indexOf(needles[0]);
+          hits.push({
+            page: i, score: exact ? 2 : 1, focus: exact ? phrase : longest,
+            at: rec.pstarts && rec.pstarts[i] ? rec.pstarts[i][pi] : null,
+            label: rec.plabels && rec.plabels[i] ? rec.plabels[i][pi] || '' : null,
+            text: paraWindow(rec.pages[i].slice(off, off + np.length), Math.max(0, pos), (exact ? phrase : needles[0]).length)
+          });
+        }
+      }
+      off += np.length + 2;
+    }
+  }
+  if (!total) return null;
+  hits.sort((x, y) => y.score - x.score || x.page - y.page);
+  return { b, total, hits, score: hits[0].score, needles };
+}
+
+function groupNode(g) {
+  const url = coverURLs[g.b.id];
+  const names = (g.b.cats || []).map(catLabel).filter(Boolean).join(', ');
+  const list = h('div', { class: 'passages' });
+  const more = h('button', { class: 'btn sm', type: 'button' });
+  let n = 3;
+  const draw = () => {
+    list.replaceChildren(...g.hits.slice(0, n).map(hit => h('button', {
+      class: 'pass', type: 'button', onclick: () => openBook(g.b.id, { page: hit.page, query: hit.focus, at: hit.at })
+    }, h('b', { text: g.b.kind === 'html' ? (hit.label || 'Dans le texte') : 'Page ' + (hit.page + 1) }), h('span', {}, markNodes(hit.text, g.needles)))));
+    more.hidden = n >= g.hits.length;
+    more.textContent = 'Afficher les ' + Math.min(g.hits.length - n, 10) + ' suivants';
+  };
+  more.addEventListener('click', () => { n += 10; draw(); });
+  draw();
+  return h('article', { class: 'rgroup' },
+    h('div', { class: 'rhead' },
+      url ? h('img', { class: 'rthumb', src: url, alt: '' })
+          : h('div', { class: 'rthumb ph', style: 'background:hsl(' + hueOf(g.b.id) + ' 38% 36%)', text: (g.b.title.trim()[0] || '•').toUpperCase() }),
+      h('div', { class: 'rinfo' },
+        h('strong', { text: g.b.title }),
+        h('span', { class: 'fine', text: g.total + (g.total > 1 ? ' passages' : ' passage') + (names ? ' · ' + names : '') })),
+      h('button', { class: 'btn sm', type: 'button', text: 'Ouvrir', onclick: () => openBook(g.b.id) })),
+    list, more);
+}
+
+async function runLibSearch() {
+  const raw = S.q.trim();
+  const my = ++libSearchId;
+  const list = $('#sresList'), stat = $('#sresStat');
+  list.replaceChildren();
+  stat.textContent = '';
+  const phrase = unapos(norm(raw)).replace(/\s+/g, ' ');
+  const needles = [...new Set(phrase.split(' ').filter(w => w.length >= 2))];
+  if (phrase.length < 2 || !needles.length) return;
+  const inScope = scopePredicate();
+  const scope = S.books.filter(inScope);
+  const groups = [];
+  let waiting = 0, scans = 0, total = 0;
+  for (let k = 0; k < scope.length; k++) {
+    if (my !== libSearchId) return;
+    const b = scope[k];
+    if (b.noText) { scans++; continue; }
+    if (!b.idx) { waiting++; continue; }
+    const rec = await getTexts(b.id);
+    if (my !== libSearchId) return;
+    if (rec) {
+      const g = searchBook(b, rec, needles, phrase);
+      if (g) { groups.push(g); total += g.total; list.append(groupNode(g)); }
+    }
+    stat.textContent = 'Recherche… ' + (k + 1) + ' / ' + scope.length + ' livres';
+    if (k % 3 === 2) await tick();
+  }
+  if (my !== libSearchId) return;
+  groups.sort((a, b) => b.score - a.score || b.total - a.total);
+  list.replaceChildren(...groups.map(groupNode));
+  const notes = [];
+  if (waiting) notes.push(waiting + (waiting > 1 ? ' livres pas encore indexés' : ' livre pas encore indexé'));
+  if (scans) notes.push(scans + (scans > 1 ? ' scans sans texte ignorés' : ' scan sans texte ignoré'));
+  const where = S.filterCat === 'all' ? '' : ' dans cette catégorie';
+  stat.textContent = (groups.length
+    ? total + (total > 1 ? ' passages' : ' passage') + ' dans ' + groups.length + (groups.length > 1 ? ' livres' : ' livre') + where
+    : 'Aucun passage trouvé' + where) + (notes.length ? ' · ' + notes.join(' · ') : '');
+}
+
+/* ================= HTML documents ================= */
+const isHtmlFile = f => /\.(x?html?)$/i.test(f.name || '') || /^(text\/html|application\/xhtml\+xml)$/.test(f.type || '');
+
+function decodeHtml(buf) {
+  const u8 = new Uint8Array(buf);
+  let enc = '';
+  if (u8[0] === 0xEF && u8[1] === 0xBB && u8[2] === 0xBF) enc = 'utf-8';
+  else if (u8[0] === 0xFF && u8[1] === 0xFE) enc = 'utf-16le';
+  else if (u8[0] === 0xFE && u8[1] === 0xFF) enc = 'utf-16be';
+  else {
+    const head = new TextDecoder('latin1').decode(u8.subarray(0, 4096));
+    const m = head.match(/<meta[^>]+charset\s*=\s*["']?\s*([\w:.-]+)/i);
+    if (m) enc = m[1].toLowerCase();
+  }
+  if (enc) { try { return new TextDecoder(enc).decode(u8); } catch (e) { /* unknown label */ } }
+  try { return new TextDecoder('utf-8', { fatal: true }).decode(u8); }
+  catch (e) { return new TextDecoder('windows-1252').decode(u8); }
+}
+
+async function hashBuf(buf) {
+  try {
+    const d = await crypto.subtle.digest('SHA-1', buf);
+    return [...new Uint8Array(d)].slice(0, 10).map(x => x.toString(16).padStart(2, '0')).join('');
+  } catch (e) {
+    const u8 = new Uint8Array(buf);
+    let a = 0x811c9dc5, b = 0x1234567;
+    for (let i = 0; i < u8.length; i++) { a = Math.imul(a ^ u8[i], 16777619); b = (Math.imul(b + u8[i], 2246822519) ^ (b >>> 13)) | 0; }
+    return (a >>> 0).toString(16).padStart(8, '0') + (b >>> 0).toString(16).padStart(8, '0');
+  }
+}
+
+/* text of a document as an ordered list of text nodes (shared by indexing, reading, search and highlights) */
+const HTML_SKIP = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE', 'HEAD', 'TITLE', 'META', 'LINK', 'SVG', 'CANVAS', 'IFRAME', 'OBJECT', 'SELECT', 'TEXTAREA']);
+const HTML_BLOCK = new Set(['ADDRESS', 'ARTICLE', 'ASIDE', 'BLOCKQUOTE', 'BODY', 'CAPTION', 'DD', 'DETAILS', 'DIV', 'DL', 'DT', 'FIELDSET', 'FIGCAPTION', 'FIGURE', 'FOOTER', 'FORM', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'HEADER', 'HR', 'LI', 'MAIN', 'NAV', 'OL', 'P', 'PRE', 'SECTION', 'SUMMARY', 'TABLE', 'TBODY', 'TD', 'TFOOT', 'TH', 'THEAD', 'TR', 'UL']);
+function blockOf(n, root) {
+  for (let e = n.parentElement; e && e !== root; e = e.parentElement) if (HTML_BLOCK.has(e.nodeName)) return e;
+  return root;
+}
+function textSegments(doc) {
+  const root = doc.body || doc.documentElement;
+  const segs = [], segOf = new Map();
+  let T = '', last = null;
+  if (!root) return { T, segs, segOf };
+  const tw = doc.createTreeWalker(root, 4, {
+    acceptNode(n) {
+      if (!n.nodeValue) return 2;
+      for (let e = n.parentElement; e; e = e.parentElement) {
+        if (HTML_SKIP.has(String(e.nodeName).toUpperCase()) || e.hidden === true || (e.style && e.style.display === 'none')) return 2;
+      }
+      return 1;
+    }
+  });
+  for (let n; (n = tw.nextNode());) {
+    const b = blockOf(n, root);
+    const brk = last !== null && (b !== last || (n.previousSibling && n.previousSibling.nodeName === 'BR'));
+    if (brk) T += '\u0001';
+    const sg = { node: n, start: T.length, len: n.nodeValue.length, tag: b.nodeName };
+    segs.push(sg); segOf.set(n, sg);
+    T += n.nodeValue; last = b;
+  }
+  return { T, segs, segOf };
+}
+
+/* whitespace collapsed, paragraphs [start,end) in the collapsed text, and map back to offsets in T */
+function collapseText(T) {
+  const out = [], map = new Int32Array(T.length + 1), pr = [];
+  let n = 0, sp = true, ps = 0;
+  const endPara = i => {
+    if (n > ps && out[n - 1] === ' ') { out.pop(); n--; }
+    if (n > ps) { pr.push([ps, n]); out.push('\n'); map[n++] = i; ps = n; }
+    sp = true;
+  };
+  for (let i = 0; i < T.length; i++) {
+    const c = T.charCodeAt(i);
+    if (c === 1) { endPara(i); continue; }
+    if (c === 0xAD || c === 0x200B || c === 0xFEFF) continue;
+    if (c <= 32 || c === 0xA0 || (c >= 0x2000 && c <= 0x200A) || c === 0x202F || c === 0x3000) {
+      if (!sp) { out.push(' '); map[n++] = i; sp = true; }
+      continue;
+    }
+    out.push(T[i]); map[n++] = i; sp = false;
+  }
+  endPara(T.length);
+  return { co: out.join(''), map, pr };
+}
+function segIndexAt(segs, off) {
+  let lo = 0, hi = segs.length - 1;
+  while (lo < hi) { const mid = (lo + hi + 1) >> 1; if (segs[mid].start <= off) lo = mid; else hi = mid - 1; }
+  return lo;
+}
+
+async function indexHtmlBook(b) {
+  const rec = await store.get('files', b.id);
+  if (!rec) return;
+  const doc = new DOMParser().parseFromString(decodeHtml(await rec.blob.arrayBuffer()), 'text/html');
+  await tick();
+  const ts = textSegments(doc);
+  const { co, map, pr } = collapseText(ts.T);
+  const pages = [], npages = [], pstarts = [], plabels = [];
+  let cp = [], cs = [], cl = [], len = 0, size = 0, label = '';
+  const flush = () => {
+    if (!cp.length) return;
+    const t = cp.join('\n\n');
+    pages.push(t); npages.push(normSame(t)); pstarts.push(cs); plabels.push(cl);
+    cp = []; cs = []; cl = []; len = 0;
+  };
+  for (const [a, e] of pr) {
+    const text = co.slice(a, e), at = map[a];
+    const sg = ts.segs[segIndexAt(ts.segs, at)];
+    if (sg && /^H[1-4]$/.test(sg.tag)) label = text.slice(0, 90);
+    cp.push(text); cs.push(at); cl.push(label);
+    len += text.length; size += text.length;
+    if (len >= 2500) flush();
+  }
+  flush();
+  if (!S.books.includes(b)) return;
+  await store.put('texts', { id: b.id, pages, npages, size, pstarts, plabels });
+  dropTexts(b.id);
+  b.idx = true;
+  b.noText = size < 20;
+  await saveBook(b);
+}
+
+/* adding */
+function wrapLines(x, text, maxW, maxLines) {
+  const words = text.split(/\s+/).filter(Boolean), lines = [];
+  let cur = '', cut = false;
+  for (let w of words) {
+    while (x.measureText(w).width > maxW) {
+      let k = w.length;
+      while (k > 1 && x.measureText(w.slice(0, k)).width > maxW) k--;
+      if (cur) { lines.push(cur); cur = ''; }
+      lines.push(w.slice(0, k)); w = w.slice(k);
+      if (lines.length >= maxLines) { cut = true; break; }
+    }
+    if (cut) break;
+    const t = cur ? cur + ' ' + w : w;
+    if (cur && x.measureText(t).width > maxW) { lines.push(cur); cur = w; } else cur = t;
+    if (lines.length >= maxLines) { cut = true; cur = ''; break; }
+  }
+  if (!cut && cur) lines.push(cur);
+  if (lines.length > maxLines) { lines.length = maxLines; cut = true; }
+  if (cut && lines.length) {
+    let l = lines[lines.length - 1];
+    while (l.length > 1 && x.measureText(l + '…').width > maxW) l = l.slice(0, -1);
+    lines[lines.length - 1] = l.replace(/[\s,;:.-]+$/, '') + '…';
+  }
+  return { lines, cut };
+}
+async function makeHtmlCover(title, excerpt, id) {
+  try { await Promise.all([document.fonts.load('700 40px "Bricolage Grotesque"'), document.fonts.load('400 18px "Instrument Sans"')]); } catch (e) { /* fonts optional */ }
+  const W = 440, H = 600, hue = hueOf(id), pad = 46;
+  const c = document.createElement('canvas');
+  c.width = W; c.height = H;
+  const x = c.getContext('2d', { alpha: false });
+  const g = x.createLinearGradient(0, 0, W, H);
+  g.addColorStop(0, 'hsl(' + hue + ' 38% 34%)'); g.addColorStop(1, 'hsl(' + ((hue + 28) % 360) + ' 42% 17%)');
+  x.fillStyle = g; x.fillRect(0, 0, W, H);
+  x.strokeStyle = 'rgba(255,255,255,.2)'; x.lineWidth = 2; x.strokeRect(22, 22, W - 44, H - 44);
+  const sans = '"Instrument Sans", system-ui, sans-serif', disp = '"Bricolage Grotesque", "Instrument Sans", system-ui, sans-serif';
+  x.font = '700 14px ' + sans;
+  const bw = x.measureText('PAGE WEB').width + 26;
+  x.fillStyle = 'rgba(0,0,0,.34)';
+  x.beginPath(); if (x.roundRect) x.roundRect(pad, 50, bw, 28, 8); else x.rect(pad, 50, bw, 28); x.fill();
+  x.fillStyle = 'rgba(255,255,255,.9)'; x.textBaseline = 'middle'; x.fillText('PAGE WEB', pad + 13, 65);
+  x.textBaseline = 'alphabetic';
+  let size = 44, tl = null;
+  for (const sz of [44, 36, 30, 26]) {
+    size = sz; x.font = '700 ' + sz + 'px ' + disp;
+    tl = wrapLines(x, title, W - pad * 2, 6);
+    if (!tl.cut) break;
+  }
+  x.fillStyle = '#fff';
+  let y = 128;
+  for (const l of tl.lines) { x.fillText(l, pad, y); y += Math.round(size * 1.16); }
+  y += 8;
+  x.fillStyle = 'rgba(255,255,255,.35)'; x.fillRect(pad, y, 56, 3);
+  y += 36;
+  x.font = '400 17px ' + sans; x.fillStyle = 'rgba(255,255,255,.72)';
+  const room = Math.max(0, Math.floor((H - 60 - y) / 25));
+  if (room > 0 && excerpt) for (const l of wrapLines(x, excerpt, W - pad * 2, Math.min(9, room)).lines) { x.fillText(l, pad, y); y += 25; }
+  const blob = await new Promise(r => c.toBlob(r, 'image/jpeg', 0.88));
+  c.width = c.height = 0;
+  return blob;
+}
+
+async function addOneHtml(file) {
+  const buf = await file.arrayBuffer();
+  const id = 'h' + (await hashBuf(buf)) + '-' + file.size;
+  if (S.books.some(b => b.id === id)) return 'dup';
+  const doc = new DOMParser().parseFromString(decodeHtml(buf), 'text/html');
+  const col = collapseText(textSegments(doc).T);
+  if (!col.co.length && !doc.querySelector('img,svg,canvas,video')) throw new Error('Ce fichier HTML est vide.');
+  let title = (doc.title || '').replace(/\s+/g, ' ').trim();
+  if (title.length < 3) { const h1 = doc.querySelector('h1'); title = h1 ? h1.textContent.replace(/\s+/g, ' ').trim() : ''; }
+  if (!title) title = file.name.replace(/\.(x?html?)$/i, '').replace(/_+/g, ' ').trim() || 'Sans titre';
+  title = title.slice(0, 160);
+  let cover = null;
+  try { cover = await makeHtmlCover(title, col.co.slice(0, 900).replace(/\n+/g, ' '), id); } catch (e) { console.warn('cover', e); }
+  await store.put('files', { id, blob: file });
+  if (cover) await store.put('covers', { id, blob: cover });
+  const book = {
+    id, kind: 'html', title, cats: (S.filterCat !== 'all' && S.filterCat !== 'none') ? [S.filterCat] : [],
+    pages: 1, added: Date.now(), opened: 0, pos: { page: 0, off: 0 }, zoom: 1, size: file.size,
+    fname: file.name, fmod: file.lastModified || 0, fdir: (file.webkitRelativePath || '').replace(/[^/]*$/, '')
+  };
+  await registerBook(book, cover);
+  return 'ok';
+}
+
+/* reader: the document scrolls inside a viewport-sized iframe, like in a browser */
+const HL_RGB = { yellow: '255,226,92', green: '120,220,140', blue: '120,180,255', pink: '255,140,190' };
+function htmlPrepare(src) {
+  let css = 'html{background:#fff;color:#1b1b1b;touch-action:pan-x pan-y}body{overflow-wrap:break-word}img,video{max-width:100%;height:auto}';
+  for (const [c, rgb] of Object.entries(HL_RGB)) css += '::highlight(lh-' + c + '){background-color:rgba(' + rgb + ',.62)}\n';
+  css += '::highlight(lh-note){text-decoration:underline dotted;text-decoration-thickness:2px}\n';
+  css += '::highlight(lh-hit){background-color:rgba(255,190,0,.6)}\n::highlight(lh-cur){background-color:rgba(255,120,0,.8)}\n::highlight(lh-flash){background-color:rgba(255,120,0,.85)}\n';
+  const base = '<style id="lutrin-base">' + css + '</style>';
+  src = src.replace(/<meta[^>]+http-equiv\s*=\s*["']?refresh[^>]*>/gi, '');
+  if (/<head[\s>]/i.test(src)) return src.replace(/<head(\s[^>]*)?>/i, m => m + base);
+  if (/<html[\s>]/i.test(src)) return src.replace(/<html(\s[^>]*)?>/i, m => m + '<head>' + base + '</head>');
+  const dt = src.match(/^\s*<!doctype[^>]*>/i);
+  return dt ? dt[0] + base + src.slice(dt[0].length) : base + src;
+}
+
+async function openHtml(book, opts, tk) {
+  const rec = await store.get('files', book.id);
+  if (!rec) throw new Error('Le fichier de ce livre est introuvable. Supprimez-le de la bibliothèque puis ajoutez-le de nouveau.');
+  const src = decodeHtml(await rec.blob.arrayBuffer());
+  const noteRec = await store.get('notes', book.id);
+  if (tk !== openSeq) return;
+  R = {
+    kind: 'html', book, doc: null, n: 1, sizes: [[360, 600]], notes: (noteRec && noteRec.items) || [], noteDel: (noteRec && noteRec.del) || {}, nids: new Set(((noteRec && noteRec.items) || []).map(a => a.id)), pages: [], tops: [0],
+    zoom: clamp(book.zoom || 1, 0.4, 3), fit: 1, k: 1, visible: new Set(), queue: new Set(), active: 0, text: [], ntext: [],
+    results: [], shown: 0, cur: -1, nq: '', query: '', searchId: 0, panelTab: 'ann', panelOpen: false, pinMode: false,
+    zooming: false, io: null, sel: null, outline: null, curPage: 0, raf: 0, saveT: 0, zoomT: 0,
+    frame: null, fdoc: null, ts: null, sc: null, segOf: null, hitPos: [], zAt: null, cw: 0, ch: 0, cont: null, touched: false, reapply: null,
+    scripts: !!book.scripts, dirty: false, mo: null
+  };
+  rd.root.classList.add('is-html');
+  rd.pageIn.hidden = true;
+  rd.pageTot.textContent = '0 %';
+  const fr = h('iframe', { class: 'hframe', title: book.title, referrerpolicy: 'no-referrer' });
+  fr.setAttribute('sandbox', book.scripts ? 'allow-same-origin allow-scripts allow-forms allow-modals allow-popups allow-downloads' : 'allow-same-origin');
+  const cv = h('div', { class: 'layer layer-cv' }, fr);
+  const el = h('div', { class: 'page hpage ready', 'data-i': '0', 'data-n': '1' }, cv);
+  R.pages = [{ el, cv, ann: h('div'), tl: h('div'), pins: h('div'), hits: null, k: null, token: 0, task: null, after: null }];
+  R.frame = fr;
+  rd.pages.replaceChildren(el);
+  htmlFit();
+  await new Promise(res => {
+    let done = false;
+    const fin = () => { if (done) return; done = true; clearTimeout(to); res(); };
+    const to = setTimeout(fin, 8000);
+    fr.addEventListener('load', fin, { once: true });
+    fr.srcdoc = htmlPrepare(src);
+  });
+  if (tk !== openSeq || !R || R.book !== book) return;
+  const fdoc = fr.contentDocument;
+  if (!fdoc || !fdoc.body) throw new Error('Ce fichier HTML ne peut pas être affiché ici.');
+  R.fdoc = fdoc;
+  htmlIndexDoc();
+  for (const a of R.notes) if (a.type === 'hl' && Number.isFinite(a.s) && !Number.isFinite(a.pos)) a.pos = +(a.s / Math.max(1, R.ts.T.length)).toFixed(4);
+  htmlWireDoc();
+  if (R.scripts && typeof MutationObserver === 'function') {
+    R.mo = new MutationObserver(() => { if (R) R.dirty = true; });
+    R.mo.observe(fdoc.documentElement, { childList: true, characterData: true, subtree: true });
+  }
+  rd.zlab.textContent = Math.round(R.zoom * 100) + '%';
+  paintHtml();
+  const hitMode = !!(opts && opts.query);
+  const bp = book.pos || {};
+  if (hitMode) {
+    if (book.opened > 0 && (bp.off || 0) > 0.02) R.returnPos = { page: 0, off: bp.off || 0, at: Number.isFinite(bp.at) ? bp.at : null };
+    rd.q.value = opts.query;
+    await runSearchHtml(opts.query);
+    if (!R || R.book !== book) return;
+    if (R.hitPos.length) {
+      const want = Number.isFinite(opts.at) ? opts.at : 0;
+      let idx = R.hitPos.findIndex(j => R.sc.map[j] >= want);
+      if (idx < 0) idx = 0;
+      R.cur = idx;
+      R.reapply = () => gotoHitHtml(idx);
+      R.reapply();
+      updateHitbar();
+    }
+    if (R.returnPos) showResume();
+  } else {
+    R.reapply = () => scrollToPosHtml(bp);
+    R.reapply();
+  }
+  // layout can still move for a moment (fonts, images): keep the reading point until the reader touches the page
+  R.progTop = curCont().scrollTop;
+  [250, 800, 1800].forEach(ms => setTimeout(() => {
+    if (!R || R.book !== book || R.touched || !R.reapply) return;
+    if (Math.abs(curCont().scrollTop - R.progTop) > 3) return;
+    R.reapply();
+    R.progTop = curCont().scrollTop;
+  }, ms));
+  R.scRO = typeof ResizeObserver === 'function' ? new ResizeObserver(() => {
+    if (!R || R.kind !== 'html' || (rd.scroller.clientWidth === R.cw && rd.scroller.clientHeight === R.ch)) return;
+    clearTimeout(R.refitT); R.refitT = setTimeout(htmlRefit, 160);
+  }) : null;
+  if (R.scRO) R.scRO.observe(rd.scroller);
+  htmlWarnExternal(book);
+  htmlScriptBar(book);
+  updateIndicator();
+  rd.load.hidden = true;
+  book.opened = Date.now();
+  saveBook(book);
+}
+
+/* resources that cannot load inside the sandbox */
+function htmlWarnExternal(book) {
+  const d = R.fdoc;
+  const w = d.defaultView;
+  if (!(w.CSS && w.CSS.highlights && w.Highlight)) toast('Ce navigateur ne sait pas surligner dans une page HTML : le texte reste lisible, mais sans surlignage.');
+  if (book.extWarned) return;
+  const ext = d.querySelectorAll('link[rel~="stylesheet"][href]:not([href^="data:"]), img[src]:not([src^="data:"]):not([src^="blob:"])').length;
+  if (!ext) return;
+  book.extWarned = true;
+  saveBook(book);
+  toast('Cette page appelle des styles ou des images externes, qui ne s’affichent pas ici. Enregistrez la page « en un seul fichier » pour tout conserver.');
+  clearTimeout(toastT);
+  toastT = setTimeout(() => { $('#toast').hidden = true; }, 8000);
+}
+
+/* scripts: off by default, allowed one book at a time after an explicit confirmation */
+function htmlHasScripts(d) {
+  const sc = [...d.querySelectorAll('script')].filter(x => !/json|template|importmap/i.test(x.type || '') && (x.src || x.textContent.trim()));
+  return sc.length > 0 || !!d.querySelector('[onclick],[onchange],[oninput],[onsubmit],[onload],[onmouseover]');
+}
+function htmlScriptBar(book) {
+  const bar = $('#scriptBar');
+  bar.hidden = true;
+  if (book.scripts || book.noScriptAsk || !htmlHasScripts(R.fdoc)) return;
+  bar.hidden = false;
+  clearTimeout(R.barT);
+  R.barT = setTimeout(() => { bar.hidden = true; }, 14000);
+}
+function askEnableScripts(book) {
+  const go = confirmBtn('Autoriser les scripts', 'Je fais confiance à ce fichier : autoriser', async () => {
+    book.scripts = true;
+    await saveBook(book);
+    closeSheet();
+    const id = book.id, wasOpen = R && R.book === book;
+    if (wasOpen) closeReader();
+    renderLibrary();
+    if (wasOpen) openBook(id);
+    else toast('Scripts autorisés pour ce livre.');
+  }, 'primary');
+  openSheet('Autoriser les scripts ?', h('div', { class: 'form' },
+    h('p', { text: 'Les scripts d’une page HTML (boutons, calculs, animations) peuvent faire tout ce que fait un site web.' }),
+    h('p', { class: 'fine', text: 'Ils partagent l’espace de Lutrin : un script malveillant pourrait lire ou effacer votre bibliothèque. N’autorisez que des fichiers que vous avez créés ou dont vous êtes certain. Les connexions vers Internet restent bloquées par l’application, donc une page qui a besoin d’un service en ligne ne marchera pas entièrement.' }),
+    h('div', { class: 'row' }, go, h('button', { class: 'btn', type: 'button', text: 'Annuler', onclick: closeSheet }))));
+}
+$('#scriptOn').addEventListener('click', () => { if (R && R.kind === 'html') { $('#scriptBar').hidden = true; askEnableScripts(R.book); } });
+$('#scriptX').addEventListener('click', () => { $('#scriptBar').hidden = true; if (R && R.kind === 'html') { R.book.noScriptAsk = true; saveBook(R.book); } });
+
+function htmlTeardown() {
+  clearTimeout(R.barT); clearTimeout(R.zoomT); clearTimeout(R.refitT); clearTimeout(R.atT);
+  try { if (R.scRO) R.scRO.disconnect(); if (R.mo) R.mo.disconnect(); } catch (e) { /* ignore */ }
+  try { if (R.frame) { R.frame.srcdoc = ''; R.frame.remove(); } } catch (e) { /* ignore */ }
+}
+
+function ensureIdx() {
+  if (R && R.dirty) { R.dirty = false; htmlIndexDoc(); }
+}
+function htmlIndexDoc() {
+  R.ts = textSegments(R.fdoc);
+  R.segOf = R.ts.segs.length ? R.ts.segOf : new Map();
+  const c = collapseText(R.ts.T);
+  R.sc = { co: c.co, ct: normSame(c.co), map: c.map };
+}
+
+/* the iframe is laid out at (size / zoom) and scaled up, like a browser zoom */
+function htmlFit() {
+  const cw = rd.scroller.clientWidth, ch = rd.scroller.clientHeight, z = R.zoom;
+  const sw = Math.min(cw, 1100), fr = R.frame;
+  fr.style.width = Math.max(120, Math.round(sw / z)) + 'px';
+  fr.style.height = Math.max(120, Math.round(ch / z)) + 'px';
+  fr.style.left = Math.max(0, Math.round((cw - sw) / 2)) + 'px';
+  fr.style.transform = 'scale(' + z + ')';
+  R.k = z; R.cw = cw; R.ch = ch;
+}
+function htmlRefit() {
+  if (!R || R.kind !== 'html' || !R.fdoc) return;
+  if (rd.scroller.clientWidth === R.cw && rd.scroller.clientHeight === R.ch) return;
+  const at = anchorAt();
+  htmlFit();
+  if (at != null) scrollToAt(at, 0.25);
+  paintHtml();
+}
+
+/* zoom */
+function setZoomHtml(z) {
+  z = clamp(z, 0.4, 3);
+  if (Math.abs(z - R.zoom) < 0.001) return;
+  if (R.zAt == null) R.zAt = anchorAt();
+  R.zoom = z; R.k = z;
+  R.frame.style.transform = 'scale(' + z + ')';
+  rd.zlab.textContent = Math.round(z * 100) + '%';
+  clearTimeout(R.zoomT);
+  R.zoomT = setTimeout(settleZoomHtml, 260);
+  scheduleSave();
+}
+function settleZoomHtml() {
+  if (!R || R.kind !== 'html') return;
+  const at = R.zAt;
+  R.zAt = null;
+  htmlFit();
+  if (at != null) scrollToAt(at, 0.25);
+  paintHtml();
+}
+
+/* positions: offsets in the text of the document (R.ts.T) */
+function caretAt(x, y) {
+  const d = R.fdoc;
+  try {
+    if (d.caretPositionFromPoint) { const p = d.caretPositionFromPoint(x, y); return p ? { node: p.offsetNode, off: p.offset } : null; }
+    if (d.caretRangeFromPoint) { const r = d.caretRangeFromPoint(x, y); return r ? { node: r.startContainer, off: r.startOffset } : null; }
+  } catch (e) { /* ignore */ }
+  return null;
+}
+function offsetOf(node, off) {
+  const segs = R.ts.segs;
+  if (node.nodeType === 3) { const sg = R.segOf.get(node); if (sg) return sg.start + Math.min(off, sg.len); }
+  const r = R.fdoc.createRange();
+  try { r.setStart(node, off); r.collapse(true); } catch (e) { return null; }
+  let lo = 0, hi = segs.length;
+  while (lo < hi) {
+    const mid = (lo + hi) >> 1;
+    let c = 1;
+    try { c = r.comparePoint(segs[mid].node, 0); } catch (e) { c = 1; }
+    if (c < 0) lo = mid + 1; else hi = mid;
+  }
+  return lo < segs.length ? segs[lo].start : R.ts.T.length;
+}
+function posToNode(off, isEnd) {
+  const segs = R.ts.segs;
+  if (!segs.length) return null;
+  const i = segIndexAt(segs, off), sg = segs[i];
+  if (off <= sg.start + sg.len) return { node: sg.node, off: Math.max(0, off - sg.start) };
+  if (isEnd || i + 1 >= segs.length) return { node: sg.node, off: sg.len };
+  return { node: segs[i + 1].node, off: 0 };
+}
+function rangeFor(s, e) {
+  const A = posToNode(s, false), B = posToNode(e, true);
+  if (!A || !B) return null;
+  const r = R.fdoc.createRange();
+  try { r.setStart(A.node, A.off); r.setEnd(B.node, B.off); } catch (err) { return null; }
+  return r;
+}
+/* the reading point is a little under the top of the screen */
+function anchorAt() {
+  if (!R || !R.fdoc || !R.ts) return null;
+  ensureIdx();
+  if (!R.ts.segs.length) return null;
+  const w = R.fdoc.defaultView, W = w.innerWidth, H = w.innerHeight;
+  for (const dy of [0, 16, -16, 36, -36, 70]) {
+    for (const fx of [0.5, 0.3, 0.7, 0.15, 0.85]) {
+      const c = caretAt(W * fx, clamp(H * 0.25 + dy, 1, H - 1));
+      if (c && c.node) { const at = offsetOf(c.node, c.off); if (at != null) return at; }
+    }
+  }
+  return null;
+}
+/* the element that scrolls: the page itself, or an inner container (app-style pages) */
+function scrollContOf(node) {
+  const d = R.fdoc, w = d.defaultView, se = d.scrollingElement || d.documentElement;
+  const htmlOverflow = w.getComputedStyle(d.documentElement).overflowY;
+  for (let e = node && (node.nodeType === 1 ? node : node.parentElement); e && e !== d.documentElement; e = e.parentElement) {
+    if (e === d.body && htmlOverflow === 'visible') break;
+    if (e.scrollHeight > e.clientHeight + 1) { const oy = w.getComputedStyle(e).overflowY; if (oy === 'auto' || oy === 'scroll') return e; }
+  }
+  return se;
+}
+function curCont() { return R.cont && R.cont.isConnected ? R.cont : (R.fdoc.scrollingElement || R.fdoc.documentElement); }
+function scrollNodeTo(node, top, frac) {
+  const cont = scrollContOf(node), se = R.fdoc.scrollingElement || R.fdoc.documentElement;
+  const base = cont === se ? 0 : cont.getBoundingClientRect().top;
+  cont.scrollTop += top - base - (frac ? R.fdoc.defaultView.innerHeight * frac : 8);
+  R.cont = cont;
+}
+function scrollToAt(at, frac) {
+  ensureIdx();
+  const A = posToNode(at, false);
+  if (!A) return false;
+  let rc = null;
+  try {
+    const r = R.fdoc.createRange();
+    r.setStart(A.node, A.off);
+    r.setEnd(A.node, Math.min(A.node.nodeValue.length, A.off + 1));
+    rc = r.getBoundingClientRect();
+    if (!rc || (!rc.width && !rc.height)) { const el = A.node.parentElement; rc = el ? el.getBoundingClientRect() : null; }
+  } catch (e) { return false; }
+  if (!rc) return false;
+  scrollNodeTo(A.node, rc.top, frac == null ? 0.25 : frac);
+  return true;
+}
+function scrollToPosHtml(p) {
+  if (p && Number.isFinite(p.at) && scrollToAt(p.at, 0.25)) return;
+  const c = curCont();
+  c.scrollTop = clamp((p && p.off) || 0, 0, 1) * Math.max(0, c.scrollHeight - c.clientHeight);
+}
+function htmlProgress() {
+  const c = curCont(), max = c.scrollHeight - c.clientHeight;
+  return max > 1 ? clamp(c.scrollTop / max, 0, 1) : 0;
+}
+function savePosHtml() {
+  const b = R.book;
+  b.pos = { page: 0, off: +htmlProgress().toFixed(4), at: anchorAt() };
+  b.zoom = +R.zoom.toFixed(3);
+  b.opened = Date.now();
+  saveBook(b);
+}
+function updateIndicatorHtml() {
+  rd.pageTot.textContent = Math.round(htmlProgress() * 100) + ' %';
+  R.curPage = 0;
+}
+const annWhere = a => R.kind === 'html' ? Math.round(clamp(annY(a), 0, 1) * 100) + ' % du document' : 'Page ' + (a.page + 1);
+
+/* highlights are painted by the browser (CSS Custom Highlight API): nothing is added to the document */
+function paintHtml() {
+  if (!R || R.kind !== 'html' || !R.fdoc || !R.ts) return;
+  ensureIdx();
+  const w = R.fdoc.defaultView, reg = w.CSS && w.CSS.highlights;
+  if (!reg || !w.Highlight) return;
+  const byColor = {}, noted = [];
+  for (const a of R.notes) {
+    if (a.type !== 'hl' || !Number.isFinite(a.s)) continue;
+    const rg = rangeFor(a.s, a.e);
+    if (!rg) continue;
+    (byColor[a.color] = byColor[a.color] || []).push(rg);
+    if (a.note) noted.push(rg);
+  }
+  const put = (name, ranges) => { if (ranges.length) reg.set(name, new w.Highlight(...ranges)); else reg.delete(name); };
+  for (const c of COLORS) put('lh-' + c, byColor[c] || []);
+  put('lh-note', noted);
+  const hits = [], cur = [];
+  if (R.nq && R.hitPos.length && R.sc) {
+    const nl = R.nq.length;
+    R.hitPos.forEach((j, n) => {
+      const rg = rangeFor(R.sc.map[j], R.sc.map[j + nl - 1] + 1);
+      if (rg) (n === R.cur ? cur : hits).push(rg);
+    });
+  }
+  put('lh-hit', hits); put('lh-cur', cur);
+}
+function flashHtml(a) {
+  const w = R.fdoc.defaultView, reg = w.CSS && w.CSS.highlights;
+  const rg = rangeFor(a.s, a.e);
+  if (!reg || !w.Highlight || !rg) return;
+  reg.set('lh-flash', new w.Highlight(rg));
+  setTimeout(() => { try { reg.delete('lh-flash'); } catch (e) { /* ignore */ } }, 1300);
+}
+
+/* events from inside the document */
+const sdist = t => Math.hypot(t[0].screenX - t[1].screenX, t[0].screenY - t[1].screenY);
+function htmlWireDoc() {
+  const d = R.fdoc;
+  const touch = () => { if (R) R.touched = true; };
+  d.addEventListener('selectionchange', () => { if (!R) return; clearTimeout(selT); selT = setTimeout(onSel, 140); });
+  d.addEventListener('click', htmlClick);
+  d.addEventListener('keydown', e => { touch(); onKeydown(e); });
+  ['wheel', 'touchstart', 'pointerdown'].forEach(t => d.addEventListener(t, touch, { passive: true, capture: true }));
+  d.addEventListener('scroll', e => {
+    if (!R || R.kind !== 'html' || R.raf) return;
+    const t = e.target;
+    if (t && t.nodeType === 1 && t !== d.documentElement && t !== d.body && t.scrollHeight > t.clientHeight * 1.2) R.cont = t;
+    else if (t === d || t === d.documentElement || t === d.body) R.cont = d.scrollingElement || d.documentElement;
+    R.raf = requestAnimationFrame(() => { if (!R) return; R.raf = 0; updateIndicator(); scheduleSave(); });
+  }, true);
+  d.addEventListener('wheel', e => {
+    if (!R || !(e.ctrlKey || e.metaKey)) return;
+    e.preventDefault();
+    setZoom(R.zoom * (e.deltaY < 0 ? 1.1 : 1 / 1.1));
+  }, { passive: false });
+  d.addEventListener('touchstart', e => { if (R && e.touches.length === 2) R.pinch = { d: sdist(e.touches) || 1, z: R.zoom }; }, { passive: true });
+  d.addEventListener('touchmove', e => {
+    if (!R || !R.pinch || e.touches.length !== 2) return;
+    e.preventDefault();
+    setZoom(R.pinch.z * sdist(e.touches) / R.pinch.d);
+  }, { passive: false });
+  d.addEventListener('touchend', e => { if (R && e.touches.length < 2) R.pinch = null; }, { passive: true });
+}
+function htmlLink(a) {
+  const raw = a.getAttribute('href') || '';
+  if (raw.startsWith('#')) {
+    let id = raw.slice(1);
+    try { id = decodeURIComponent(id); } catch (e) { /* keep raw */ }
+    if (!id) { if (!R.scripts) curCont().scrollTop = 0; return; }
+    if (id === 'top' && !R.fdoc.getElementById('top')) { curCont().scrollTop = 0; return; }
+    const t = R.fdoc.getElementById(id) || R.fdoc.getElementsByName(id)[0];
+    if (t) scrollNodeTo(t, t.getBoundingClientRect().top, 0);
+    return;
+  }
+  if (/^(https?:|mailto:|tel:)/i.test(raw)) {
+    let w = null;
+    try { w = window.open(a.href, '_blank', 'noopener'); } catch (e) { w = null; }
+    if (!w) toast('Lien externe : ' + raw.slice(0, 140));
+    return;
+  }
+  toast('Ce lien mène vers un autre fichier, introuvable ici.');
+}
+function htmlClick(e) {
+  if (!R) return;
+  if (e.defaultPrevented) return;
+  const a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+  if (a) {
+    if (R.scripts && /^\s*javascript:/i.test(a.getAttribute('href') || '')) return;
+    e.preventDefault(); htmlLink(a); return;
+  }
+  const sel = R.fdoc.defaultView.getSelection();
+  if (sel && !sel.isCollapsed) return;
+  ensureIdx();
+  const c = caretAt(e.clientX, e.clientY);
+  if (!c || !c.node) return;
+  const at = offsetOf(c.node, c.off);
+  if (at == null) return;
+  const hit = R.notes.find(n => n.type === 'hl' && Number.isFinite(n.s) && at >= n.s && at <= n.e);
+  if (hit) openAnnEditor(hit);
+}
+function onSelHtml() {
+  if (!R || !R.fdoc || !R.ts) return;
+  ensureIdx();
+  const sel = R.fdoc.defaultView.getSelection();
+  if (!sel || sel.isCollapsed || !sel.rangeCount) {
+    clearTimeout(selHideT);
+    selHideT = setTimeout(() => { if (R) hideSelBar(); }, 450);
+    return;
+  }
+  const rg = sel.getRangeAt(0);
+  let s = offsetOf(rg.startContainer, rg.startOffset), e = offsetOf(rg.endContainer, rg.endOffset);
+  if (s == null || e == null) return;
+  if (e < s) [s, e] = [e, s];
+  const text = sel.toString().replace(/\s+/g, ' ').trim().slice(0, 2000);
+  if (e - s < 1 || !text) return;
+  clearTimeout(selHideT);
+  R.sel = { page: 0, html: true, s, e, text, rects: [], pos: +(s / Math.max(1, R.ts.T.length)).toFixed(4) };
+  rd.selbar.hidden = false;
+}
+
+/* table of contents (h1 to h4) */
+async function loadOutlineHtml() {
+  const RR = R;
+  if (!R.outline) {
+    const hs = [...R.fdoc.querySelectorAll('h1,h2,h3,h4')].filter(el => el.textContent.trim() && el.getClientRects().length);
+    const base = Math.min(9, ...hs.map(el => +el.tagName[1]));
+    R.outline = hs.slice(0, 400).map(el => ({ title: el.textContent.replace(/\s+/g, ' ').trim().slice(0, 140), depth: +el.tagName[1] - base, el }));
+  }
+  if (R !== RR) return;
+  if (!R.outline.length) { rd.tocList.replaceChildren(h('p', { class: 'fine', text: 'Cette page n’a pas de titres (h1 à h4). Utilisez la recherche.' })); return; }
+  rd.tocList.replaceChildren(...R.outline.map(it => h('button', {
+    class: 'toc', type: 'button', style: 'padding-left:' + (6 + Math.min(it.depth, 4) * 16) + 'px', text: it.title,
+    onclick: () => {
+      if (!R) return;
+      scrollNodeTo(it.el, it.el.getBoundingClientRect().top, 0);
+      if (!wide() && R.panelOpen) closePanel();
+    }
+  })));
+}
+
+/* search in the document */
+async function runSearchHtml(raw) {
+  if (!R) return;
+  ensureIdx();
+  const my = ++R.searchId;
+  const q = raw.trim();
+  R.results = []; R.shown = 0; R.cur = -1; R.query = q; R.hitPos = [];
+  rd.sList.replaceChildren();
+  const nq = unapos(norm(q)).replace(/\s+/g, ' ');
+  R.nq = nq.length >= 2 ? nq : '';
+  clearHits(); updateHitbar();
+  if (nq.length < 2) { rd.sStat.textContent = q ? 'Saisissez au moins 2 caractères.' : ''; return; }
+  const { co, ct } = R.sc;
+  if (ct.length < 2) { rd.sStat.textContent = 'Cette page ne contient pas de texte.'; return; }
+  let from = 0, total = 0;
+  for (;;) {
+    const j = ct.indexOf(nq, from);
+    if (j < 0) break;
+    total++;
+    if (R.hitPos.length < 400) {
+      R.hitPos.push(j);
+      R.results.push({ page: 0, occ: R.results.length, lbl: Math.round(j / ct.length * 100) + ' %', sn: snippet(co, ct, j, nq.length) });
+    }
+    from = j + nq.length;
+  }
+  if (my !== R.searchId) return;
+  rd.sStat.textContent = total
+    ? total + (total > 1 ? ' occurrences' : ' occurrence') + (total > 400 ? ' (les 400 premières sont listées)' : '') + '.'
+    : 'Aucun résultat pour « ' + q + ' ».';
+  appendResults(); updateHitbar(); paintHtml();
+}
+function gotoHitHtml(idx) {
+  R.cur = idx;
+  paintHtml();
+  scrollToAt(R.sc.map[R.hitPos[idx]], 0.3);
+}
+
+/* ================= multi-select ================= */
+function startSelect(id) { S.sel = new Set(id ? [id] : []); updateSelUI(); }
+function exitSelect() { S.sel = null; updateSelUI(); }
+function toggleSel(id) {
+  if (!S.sel) return;
+  if (S.sel.has(id)) S.sel.delete(id); else S.sel.add(id);
+  updateSelUI();
+}
+function updateSelUI() {
+  document.querySelectorAll('#grid .card').forEach(el => el.classList.toggle('sel', !!S.sel && S.sel.has(el.dataset.id)));
+  renderActBar();
+}
+function renderActBar() {
+  document.body.classList.toggle('selmode', !!S.sel);
+  $('#actbar').hidden = !S.sel;
+  $('#selBtn').setAttribute('aria-pressed', String(!!S.sel));
+  if (!S.sel) return;
+  const n = S.sel.size;
+  $('#actCount').textContent = n ? n + (n > 1 ? ' livres sélectionnés' : ' livre sélectionné') : 'Touchez des livres';
+  $('#actCats').disabled = !n;
+}
+function openBulkCats() {
+  if (!S.sel || !S.sel.size) return;
+  const books = S.books.filter(b => S.sel.has(b.id));
+  const state = id => {
+    const n = books.filter(b => b.cats.includes(id)).length;
+    return n === 0 ? 'false' : n === books.length ? 'true' : 'mixed';
+  };
+  const tree = catTree(state, (id, st) => {
+    const add = st !== 'true';
+    books.forEach(b => {
+      const has = b.cats.includes(id);
+      if (add && !has) b.cats.push(id);
+      if (!add && has) b.cats = b.cats.filter(x => x !== id);
+      saveBook(b);
+    });
+    renderLibrary();
+  });
+  const newRow = newCatRow(c => {
+    books.forEach(b => { if (!b.cats.includes(c.id)) b.cats.push(c.id); saveBook(b); });
+    renderLibrary(); tree.redraw();
+  });
+  const clear = confirmBtn('Retirer de toutes les catégories', 'Confirmer', () => {
+    books.forEach(b => { b.cats = []; saveBook(b); });
+    renderLibrary(); tree.redraw();
+  }, 'danger sm');
+  openSheet(books.length + (books.length > 1 ? ' livres' : ' livre'),
+    h('div', { class: 'form' },
+      h('p', { class: 'fine', text: 'Touchez une catégorie pour l’ajouter à tous ces livres, ou pour la retirer. Une case à moitié remplie veut dire que seuls certains livres l’ont.' }),
+      (() => {
+        const allR = books.every(b => b.reading);
+        return h('button', {
+          class: 'btn', type: 'button', text: allR ? 'Retirer de « En cours de lecture »' : 'Mettre en cours de lecture',
+          onclick: () => {
+            books.forEach(b => { b.reading = !allR; if (b.reading) b.readingAt = Date.now(); saveBook(b); });
+            renderLibrary(); closeSheet(); exitSelect();
+            toast(allR ? 'Retirés de « En cours de lecture ».' : 'Ajoutés à « En cours de lecture ».');
+          }
+        });
+      })(),
+      (() => {
+        const allOn = books.every(b => !b.nosync);
+        return h('button', {
+          class: 'btn', type: 'button', text: allOn ? 'Exclure de GitHub' : 'Synchroniser sur GitHub',
+          onclick: () => {
+            const t = Date.now();
+            books.forEach(b => { b.nosync = allOn; if (allOn) b.nosyncAt = t; else b.syncOnAt = t; saveBook(b); });
+            renderLibrary(); closeSheet(); exitSelect();
+            toast(allOn ? 'Exclus de GitHub à la prochaine synchronisation.' : 'Seront envoyés à la prochaine synchronisation.');
+          }
+        });
+      })(),
+      tree,
+      h('div', {}, h('span', { class: 'lbl', text: 'Nouvelle catégorie ou sous-catégorie' }), newRow),
+      h('div', { class: 'row' },
+        h('button', { class: 'btn primary', type: 'button', text: 'Terminé', onclick: () => { closeSheet(); exitSelect(); } }),
+        clear)));
+}
+$('#selBtn').addEventListener('click', () => { if (S.sel) exitSelect(); else startSelect(); });
+$('#actCancel').addEventListener('click', exitSelect);
+$('#actCats').addEventListener('click', openBulkCats);
+$('#actAll').addEventListener('click', () => {
+  if (!S.sel) return;
+  const vis = listBooks();
+  const all = vis.length > 0 && vis.every(b => S.sel.has(b.id));
+  vis.forEach(b => { if (all) S.sel.delete(b.id); else S.sel.add(b.id); });
+  updateSelUI();
+});
+
+/* ================= boot ================= */
+(async function boot() {
+  idb = await openDB();
+  if (!idb) $('#memBanner').hidden = false;
+  try {
+    const [books, covers, cats, settings] = await Promise.all([
+      store.all('books'), store.all('covers'), store.get('meta', 'cats'), store.get('meta', 'settings')
+    ]);
+    S.cats = ((cats && cats.list) || []).map(c => ({ id: c.id, name: c.name, parent: c.parent || null, mt: c.mt || 0, _sig: c.name + '\u0001' + (c.parent || '') }));
+    catIdsSeen = new Set(S.cats.map(c => c.id));
+    try { const g = await store.get('meta', 'gh'); if (g) { Object.assign(ghCfg, g); delete ghCfg.id; } } catch (e) { /* ignore */ }
+    const known = new Set(S.cats.map(c => c.id));
+    S.cats.forEach(c => { if (c.parent && !known.has(c.parent)) c.parent = null; });
+    S.books = books.map(b => {
+      const nb = { pos: { page: 0, off: 0 }, zoom: 1, opened: 0, ...b };
+      if (!Array.isArray(nb.cats)) { nb.cats = nb.cat ? [nb.cat] : []; delete nb.cat; saveBook(nb); }
+      nb.cats = nb.cats.filter(id => known.has(id));
+      return nb;
+    });
+    covers.forEach(c => { if (c.blob) coverURLs[c.id] = URL.createObjectURL(c.blob); });
+    if (settings && settings.sort) S.sort = settings.sort;
+  } catch (e) { console.error(e); toast('Impossible de lire la bibliothèque enregistrée.'); }
+  $('#sort').value = S.sort;
+  booted = true;
+  renderLibrary();
+  S.books.filter(b => !b.idx).forEach(b => queueIndex(b.id));
+  try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch (e) { /* ignore */ }
+})();
+})();
+</script>
+<script>if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost') && !(window.claude&&window.claude.use)){addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}</script>

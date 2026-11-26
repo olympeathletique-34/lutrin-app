@@ -1,0 +1,24 @@
+{
+  "name": "Lutrin",
+  "short_name": "Lutrin",
+  "description": "Votre bibliothèque de PDF et de pages web",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F1F3F0",
+  "theme_color": "#0D6A58",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icons/maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
